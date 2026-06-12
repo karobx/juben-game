@@ -108,7 +108,7 @@ cd backend && source .venv/bin/activate && python -m pytest tests/test_image_ser
    或留空，用 repo 根目錄 `build.sh`。
 4. **Start command**：
    ```bash
-   cd backend && uvicorn main:app --host 0.0.0.0 --port $PORT
+   cd backend && uvicorn main:app --host 0.0.0.0 --port ${PORT:-8080}
    ```
    或留空，用 `start.sh`。
 5. 環境變數：`STORAGE_MODE=local`、`IMAGE_PROVIDER=auto`
