@@ -30,6 +30,4 @@ HostingGuru（方案 B，唔使信用卡）— 詳細步驟：
 Verify:
   ./scripts/verify-deployment.sh https://game.ange1a.com
 
-（備選 Render 要信用卡：render.yaml + dashboard.render.com）
-
 EOF

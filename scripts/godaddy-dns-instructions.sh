@@ -10,7 +10,7 @@ cat <<EOF
 GoDaddy DNS setup for game.ange1a.com
 =====================================
 
-1. Hosting platform (Render / HostingGuru) → Custom Domains
+1. HostingGuru → your service → Domains / Custom Domains
    → Add: game.ange1a.com
    → Copy the CNAME target (e.g. ${CNAME_TARGET})
 
