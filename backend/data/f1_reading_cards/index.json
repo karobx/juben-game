@@ -1,0 +1,290 @@
+{
+  "source": "https://chistory.kanhan.com/tc/f1-reading-card",
+  "periods": [
+    {
+      "id": "pre_qin",
+      "title": "史前至夏商周",
+      "subtitle": "中華民族起源、西周封建與春秋戰國變局",
+      "sourceUrl": "https://chistory.kanhan.com/tc/f1-reading-card",
+      "chapterCount": 8,
+      "chapters": [
+        {
+          "title": "第一章：中國多元一體文化的起源",
+          "filename": "F1P1T1CH1_中國多元一體文化的起源2.pdf",
+          "url": "https://chistory.kanhan.com/sites/default/files/course_pdf/f1/f1p1/F1P1T1CH1_中國多元一體文化的起源2.pdf",
+          "summary": "【第一章：中國多元一體文化的起源】公元前5000 年至公元前3000 年，出現於黃河流域，遺蹟於1921 年在河南仰韶村發現，因此命名仰韶文化。",
+          "textLength": 2982
+        },
+        {
+          "title": "第二章：中華民族的演進歷程",
+          "filename": "F1P1T1CH2中華民族的演進歷程2.pdf",
+          "url": "https://chistory.kanhan.com/sites/default/files/course_pdf/f1/f1p1/F1P1T1CH2中華民族的演進歷程2.pdf",
+          "summary": "【第二章：中華民族的演進歷程】口耳相傳，未有文字紀錄證明的時代，被稱為傳疑時代。",
+          "textLength": 823
+        },
+        {
+          "title": "第三章：夏、商、周三代的興替概況",
+          "filename": "F1P1T1CH3夏、商、周三代的興替概況2.pdf",
+          "url": "https://chistory.kanhan.com/sites/default/files/course_pdf/f1/f1p1/F1P1T1CH3夏、商、周三代的興替概況2.pdf",
+          "summary": "【第三章：夏、商、周三代的興替概況】夏朝是中國第一個世襲王朝，由禹的兒子「啟」建立。",
+          "textLength": 3979
+        },
+        {
+          "title": "第一章：西周的封建",
+          "filename": "F1P1T2CH1西周的封建.pdf",
+          "url": "https://chistory.kanhan.com/sites/default/files/course_pdf/f1/f1p1/F1P1T2CH1西周的封建.pdf",
+          "summary": "【第一章：西周的封建】周初實行了兩次大規模封建，詳細請參看課題一：中華民族與早期國家的起源之第三章：夏、商、周三代的興替概況之第三節。",
+          "textLength": 1510
+        },
+        {
+          "title": "第一章：春秋戰國時期的兼併戰爭",
+          "filename": "F1P1T3CH1春秋戰國時期的兼併戰爭.pdf",
+          "url": "https://chistory.kanhan.com/sites/default/files/course_pdf/f1/f1p1/F1P1T3CH1春秋戰國時期的兼併戰爭.pdf",
+          "summary": "【第一章：春秋戰國時期的兼併戰爭】幽王寵愛褒姒，廢申后及太子宜臼，改立褒姒為后，其子伯服為太子。",
+          "textLength": 5104
+        },
+        {
+          "title": "第二章：戰國時期的厲行變法",
+          "filename": "F1P1T3CH2戰國時期的厲行變法.pdf",
+          "url": "https://chistory.kanhan.com/sites/default/files/course_pdf/f1/f1p1/F1P1T3CH2戰國時期的厲行變法.pdf",
+          "summary": "【第二章：戰國時期的厲行變法】兼併時代，列國紛紛求變，以富國強兵為目標，魏國最先變法，而秦國變法最徹底。",
+          "textLength": 1139
+        },
+        {
+          "title": "第三章：百家爭鳴",
+          "filename": "F1P1T3CH3百家爭鳴.pdf",
+          "url": "https://chistory.kanhan.com/sites/default/files/course_pdf/f1/f1p1/F1P1T3CH3百家爭鳴.pdf",
+          "summary": "【第三章：百家爭鳴】春秋戰國時代，不同學術思想出現，學者紛紛講學著書。",
+          "textLength": 1808
+        },
+        {
+          "title": "第四章：人物個案研習",
+          "filename": "F1P1T3CH4_人物個案研習_延伸部分.pdf",
+          "url": "https://chistory.kanhan.com/sites/default/files/course_pdf/f1/f1p1/F1P1T3CH4_人物個案研習_延伸部分.pdf",
+          "summary": "【第四章：人物個案研習】儒家代表人物包括春秋末魯國的孔子，戰國中期鄒人的孟子，戰國末趙人的荀子。",
+          "textLength": 235
+        }
+      ],
+      "fullTextLength": 17775
+    },
+    {
+      "id": "qin_han",
+      "title": "秦漢",
+      "subtitle": "大一統帝國的建立、發展與中外文化交流",
+      "sourceUrl": "https://chistory.kanhan.com/tc/f1-reading-card",
+      "chapterCount": 8,
+      "chapters": [
+        {
+          "title": "秦朝的統一及其統治措施與影響",
+          "filename": "F1P2T1CH1秦朝的統一及其統治措施與影響.pdf",
+          "url": "https://chistory.kanhan.com/sites/default/files/course_pdf/f1/f1p2/F1P2T1CH1秦朝的統一及其統治措施與影響.pdf",
+          "summary": "【秦朝的統一及其統治措施與影響】公元前237 年，秦王政採納李斯建議，決定進行併滅六國之策。",
+          "textLength": 4570
+        },
+        {
+          "title": "秦朝滅亡與楚漢相爭",
+          "filename": "F1P2T1CH2秦朝滅亡與楚漢相爭.pdf",
+          "url": "https://chistory.kanhan.com/sites/default/files/course_pdf/f1/f1p2/F1P2T1CH2秦朝滅亡與楚漢相爭.pdf",
+          "summary": "【秦朝滅亡與楚漢相爭】戰國中後期，諸侯間連年戰爭，有時一年竟進行幾次大戰，有的大戰持續數年之久。",
+          "textLength": 2365
+        },
+        {
+          "title": "西漢的建立",
+          "filename": "F1P2T2CH1西漢的建立.pdf",
+          "url": "https://chistory.kanhan.com/sites/default/files/course_pdf/f1/f1p2/F1P2T2CH1西漢的建立.pdf",
+          "summary": "【西漢的建立】劉邦戰勝項羽，統一天下，建立漢朝，是為漢高祖。",
+          "textLength": 940
+        },
+        {
+          "title": "漢武帝的文治與武功",
+          "filename": "F1P2T2CH2漢武帝的文治與武功.pdf",
+          "url": "https://chistory.kanhan.com/sites/default/files/course_pdf/f1/f1p2/F1P2T2CH2漢武帝的文治與武功.pdf",
+          "summary": "【漢武帝的文治與武功】自高祖以來七十餘年，休養生息，漢朝國力日盛。",
+          "textLength": 2264
+        },
+        {
+          "title": "昭宣以後戚宦政治與漢朝的衰亡",
+          "filename": "F1P2T2CH3昭宣以後戚宦政治與漢朝的衰亡.pdf",
+          "url": "https://chistory.kanhan.com/sites/default/files/course_pdf/f1/f1p2/F1P2T2CH3昭宣以後戚宦政治與漢朝的衰亡.pdf",
+          "summary": "【昭宣以後戚宦政治與漢朝的衰亡】漢武帝本人好大喜功，經常對外用兵，大建宮室，大事遊幸，晚年時國力漸衰。",
+          "textLength": 3476
+        },
+        {
+          "title": "兩漢通西域與中外文化交流",
+          "filename": "F1P2T2CH4兩漢通西域與中外文化交流.pdf",
+          "url": "https://chistory.kanhan.com/sites/default/files/course_pdf/f1/f1p2/F1P2T2CH4兩漢通西域與中外文化交流.pdf",
+          "summary": "【兩漢通西域與中外文化交流】位於現今武威一帶的大月氏被匈奴攻擊，因而西遷。",
+          "textLength": 1258
+        },
+        {
+          "title": "道教的形成（延伸）",
+          "filename": "F1P2T2CH5道教的形成_延伸部分.pdf",
+          "url": "https://chistory.kanhan.com/sites/default/files/course_pdf/f1/f1p2/F1P2T2CH5道教的形成_延伸部分.pdf",
+          "summary": "【道教的形成（延伸）】東漢末社會動盪，張陵的五斗米道和張角的太平道兩派，皆以符水咒語治病，並結合黃老思想來傳教，形成道教。",
+          "textLength": 647
+        },
+        {
+          "title": "科技發明（延伸）",
+          "filename": "F1P2T2CH6科技發明_延伸部分_造紙術、天文儀器的發明_ver.2.pdf",
+          "url": "https://chistory.kanhan.com/sites/default/files/course_pdf/f1/f1p2/F1P2T2CH6科技發明_延伸部分_造紙術、天文儀器的發明_ver.2.pdf",
+          "summary": "【科技發明（延伸）】古代文字多刻在龜甲、青銅上，後來演變成在竹、帛上書寫。",
+          "textLength": 1808
+        }
+      ],
+      "fullTextLength": 17502
+    },
+    {
+      "id": "three_kingdoms",
+      "title": "三國兩晉南北朝",
+      "subtitle": "分裂政局、江南開發與社會文化發展",
+      "sourceUrl": "https://chistory.kanhan.com/tc/f1-reading-card",
+      "chapterCount": 7,
+      "chapters": [
+        {
+          "title": "第一章：三國鼎立局面的形成",
+          "filename": "F1P3T1CH1三國鼎立局面的形成.pdf",
+          "url": "https://chistory.kanhan.com/sites/default/files/course_pdf/f1/f1p3/F1P3T1CH1三國鼎立局面的形成.pdf",
+          "summary": "【第一章：三國鼎立局面的形成】黃巾之亂，雖被漢朝平定，但黃巾餘黨此起彼落。",
+          "textLength": 1320
+        },
+        {
+          "title": "第二章：兩晉南北朝政權的更替概況",
+          "filename": "F1P3T1CH2兩晉南北朝政權的更替概況.pdf",
+          "url": "https://chistory.kanhan.com/sites/default/files/course_pdf/f1/f1p3/F1P3T1CH2兩晉南北朝政權的更替概況.pdf",
+          "summary": "【第二章：兩晉南北朝政權的更替概況】三國以魏最強大，形勢上蜀漢與吳多合作抗魏。",
+          "textLength": 4872
+        },
+        {
+          "title": "第三章：武備的演進（延伸）",
+          "filename": "F1P3T1CH3武備的演進_延伸部分.pdf",
+          "url": "https://chistory.kanhan.com/sites/default/files/course_pdf/f1/f1p3/F1P3T1CH3武備的演進_延伸部分.pdf",
+          "summary": "【第三章：武備的演進（延伸）】魏晉南北朝時期，南方多江河湖泊，作戰重視水軍；北方多平原，軍隊擅長騎兵突擊。",
+          "textLength": 196
+        },
+        {
+          "title": "第一章：北方的政局與孝文帝漢化",
+          "filename": "F1P3T2CH1北方的政局與孝文帝漢化.pdf",
+          "url": "https://chistory.kanhan.com/sites/default/files/course_pdf/f1/f1p3/F1P3T2CH1北方的政局與孝文帝漢化.pdf",
+          "summary": "【第一章：北方的政局與孝文帝漢化】中原漢人把居住在長城以北的周邊民族統稱胡人。",
+          "textLength": 2216
+        },
+        {
+          "title": "第二章：江南地區的開發",
+          "filename": "F1P3T2CH2江南地區的開發.pdf",
+          "url": "https://chistory.kanhan.com/sites/default/files/course_pdf/f1/f1p3/F1P3T2CH2江南地區的開發.pdf",
+          "summary": "【第二章：江南地區的開發】古籍描述為瘴漫之地，象、犀牛等熱帶動物棲息其中。",
+          "textLength": 1059
+        },
+        {
+          "title": "第一章：士族的生活面貌",
+          "filename": "F1P3T3CH1士族的生活面貌.pdf",
+          "url": "https://chistory.kanhan.com/sites/default/files/course_pdf/f1/f1p3/F1P3T3CH1士族的生活面貌.pdf",
+          "summary": "【第一章：士族的生活面貌】西漢漢武帝獨尊儒術後，通曉儒家經典的士人可出任官員，形成士人政府。",
+          "textLength": 1413
+        },
+        {
+          "title": "第二章：石窟藝術與中外文化交流",
+          "filename": "F1P3T3CH2石窟藝術與中外文化交流.pdf",
+          "url": "https://chistory.kanhan.com/sites/default/files/course_pdf/f1/f1p3/F1P3T3CH2石窟藝術與中外文化交流.pdf",
+          "summary": "【第二章：石窟藝術與中外文化交流】石窟藝術的出現及藝術形式深受佛教的影響。",
+          "textLength": 1090
+        }
+      ],
+      "fullTextLength": 12344
+    },
+    {
+      "id": "sui_tang",
+      "title": "隋唐",
+      "subtitle": "盛世開創、安史之亂與開放的唐朝社會",
+      "sourceUrl": "https://chistory.kanhan.com/tc/f1-reading-card",
+      "chapterCount": 12,
+      "chapters": [
+        {
+          "title": "第一章：隋朝的統一",
+          "filename": "F1P4T1CH1隋朝的統一.pdf",
+          "url": "https://chistory.kanhan.com/sites/default/files/course_pdf/f1/f1p4/F1P4T1CH1隋朝的統一.pdf",
+          "summary": "【第一章：隋朝的統一】楊堅父親楊忠為北周開國功臣，女兒為周宣帝皇后。",
+          "textLength": 572
+        },
+        {
+          "title": "第二章：開皇之治的措施與影響",
+          "filename": "F1P4T1CH2開皇之治的措施與影響.pdf",
+          "url": "https://chistory.kanhan.com/sites/default/files/course_pdf/f1/f1p4/F1P4T1CH2開皇之治的措施與影響.pdf",
+          "summary": "【第二章：開皇之治的措施與影響】「開皇之治」是後人尊稱隋文帝在位期間勵精圖治，所帶來國泰民安的盛世。",
+          "textLength": 792
+        },
+        {
+          "title": "第一章：隋代大運河的開通與作用",
+          "filename": "F1P4T2CH1隋代大運河的開通與作用.pdf",
+          "url": "https://chistory.kanhan.com/sites/default/files/course_pdf/f1/f1p4/F1P4T2CH1隋代大運河的開通與作用.pdf",
+          "summary": "【第一章：隋代大運河的開通與作用】以洛陽為中心，北起涿郡，南到餘杭，全長兩千多公里。",
+          "textLength": 702
+        },
+        {
+          "title": "第一章：唐的建國",
+          "filename": "F1P4T3CH1唐的建國.pdf",
+          "url": "https://chistory.kanhan.com/sites/default/files/course_pdf/f1/f1p4/F1P4T3CH1唐的建國.pdf",
+          "summary": "【第一章：唐的建國】隋煬帝登位後，生活奢華，大興土木，輕啟戰端，濫用民力。",
+          "textLength": 912
+        },
+        {
+          "title": "第二章：貞觀之治的治績與影響",
+          "filename": "F1P4T3CH2貞觀之治的治績與影響.pdf",
+          "url": "https://chistory.kanhan.com/sites/default/files/course_pdf/f1/f1p4/F1P4T3CH2貞觀之治的治績與影響.pdf",
+          "summary": "【第二章：貞觀之治的治績與影響】唐太宗即位後勵精圖治，國泰民安，史家美譽為「貞觀之治」。",
+          "textLength": 1639
+        },
+        {
+          "title": "第三章：武后施政的特色（延伸）",
+          "filename": "F1P4T3CH3武后施政特色_延伸部分.pdf",
+          "url": "https://chistory.kanhan.com/sites/default/files/course_pdf/f1/f1p4/F1P4T3CH3武后施政特色_延伸部分.pdf",
+          "summary": "【第三章：武后施政的特色（延伸）】武則天協助唐高宗施政，被合稱「二聖」，武則天更稱帝，開創武周。",
+          "textLength": 234
+        },
+        {
+          "title": "第四章：開元之治的治績與影響（延伸）",
+          "filename": "F1P4T3CH4開元之治的治績與影響_延伸部分.pdf",
+          "url": "https://chistory.kanhan.com/sites/default/files/course_pdf/f1/f1p4/F1P4T3CH4開元之治的治績與影響_延伸部分.pdf",
+          "summary": "【第四章：開元之治的治績與影響（延伸）】武則天晚年病重，群臣發動政變，逼武氏退位，迎立唐中宗復位。",
+          "textLength": 1242
+        },
+        {
+          "title": "第一章：安史之亂的始末",
+          "filename": "F1P4T4CH1安史之亂的始末.pdf",
+          "url": "https://chistory.kanhan.com/sites/default/files/course_pdf/f1/f1p4/F1P4T4CH1安史之亂的始末.pdf",
+          "summary": "【第一章：安史之亂的始末】玄宗後期耽於逸樂，怠誤政事，引發安史之亂。",
+          "textLength": 1371
+        },
+        {
+          "title": "第二章：唐中葉後的政局與衰亡",
+          "filename": "F1P4T4CH2唐中葉後的政局與衰亡.pdf",
+          "url": "https://chistory.kanhan.com/sites/default/files/course_pdf/f1/f1p4/F1P4T4CH2唐中葉後的政局與衰亡.pdf",
+          "summary": "【第二章：唐中葉後的政局與衰亡】安史之亂長達八年，唐朝國勢由盛轉衰。",
+          "textLength": 202
+        },
+        {
+          "title": "第一章：婦女的生活面貌與地位",
+          "filename": "F1P4T5CH1婦女的生活面貌與地位.pdf",
+          "url": "https://chistory.kanhan.com/sites/default/files/course_pdf/f1/f1p4/F1P4T5CH1婦女的生活面貌與地位.pdf",
+          "summary": "【第一章：婦女的生活面貌與地位】夏朝史料缺乏，因而未能確知其時婦女生活面貌與地位。",
+          "textLength": 2108
+        },
+        {
+          "title": "第二章：玄奘西行與中印文化交流",
+          "filename": "F1P4T5CH2玄奘西行與中印文化交流.pdf",
+          "url": "https://chistory.kanhan.com/sites/default/files/course_pdf/f1/f1p4/F1P4T5CH2玄奘西行與中印文化交流.pdf",
+          "summary": "【第二章：玄奘西行與中印文化交流】玄奘感佛教各派學說莫衷一是，於是決心到天竺取佛經原文。",
+          "textLength": 697
+        },
+        {
+          "title": "第三章：唐代海路交通及對外關係",
+          "filename": "F1P4T5CH3唐代海路交通及對外關係.pdf",
+          "url": "https://chistory.kanhan.com/sites/default/files/course_pdf/f1/f1p4/F1P4T5CH3唐代海路交通及對外關係.pdf",
+          "summary": "【第三章：唐代海路交通及對外關係】中外海路交通早於秦代已開展，當時與倭國（現今日本）、南海諸國（現今東南亞）已有聯繫。",
+          "textLength": 2974
+        }
+      ],
+      "fullTextLength": 13751
+    }
+  ]
+}

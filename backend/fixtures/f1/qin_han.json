@@ -1,0 +1,1893 @@
+{
+  "analysis": {
+    "title": "中一中國歷史：秦漢",
+    "characters": [
+      {
+        "name": "漢武帝",
+        "mentions": 82
+      },
+      {
+        "name": "秦始皇",
+        "mentions": 52
+      },
+      {
+        "name": "張騫",
+        "mentions": 40
+      },
+      {
+        "name": "劉邦",
+        "mentions": 38
+      },
+      {
+        "name": "項羽",
+        "mentions": 32
+      },
+      {
+        "name": "李斯",
+        "mentions": 10
+      },
+      {
+        "name": "趙高",
+        "mentions": 10
+      },
+      {
+        "name": "中央",
+        "mentions": 8
+      }
+    ],
+    "plotBeats": [
+      {
+        "order": 1,
+        "summary": "=== 秦朝的統一及其統治措施與影響 ==="
+      },
+      {
+        "order": 2,
+        "summary": "中一級"
+      },
+      {
+        "order": 3,
+        "summary": "歷史時期：秦漢"
+      },
+      {
+        "order": 4,
+        "summary": "課題一：秦朝的統一、統治措施及衰亡"
+      },
+      {
+        "order": 5,
+        "summary": "第一章：秦朝的統一及其統治措施與影響"
+      },
+      {
+        "order": 6,
+        "summary": "考前筆記"
+      },
+      {
+        "order": 7,
+        "summary": "一、秦滅六國經過"
+      },
+      {
+        "order": 8,
+        "summary": "- 公元前237 年，秦王政採納李斯建議，決定進行併滅六國之策。"
+      }
+    ],
+    "settings": [
+      "西域",
+      "咸陽",
+      "長安",
+      "洛陽",
+      "絲綢之路",
+      "三秦佔領關"
+    ],
+    "rawTextLength": 17111,
+    "engine": "chistory",
+    "structure": {
+      "dialogueCount": 7,
+      "narrationLength": 16796,
+      "paragraphCount": 643
+    },
+    "svoPatterns": [],
+    "imagePrompts": [
+      {
+        "prompt": "場景：西域、咸陽，=== 秦朝的統一及其統治措施與影響 ===",
+        "expandedPrompt": "場景：西域、咸陽，=== 秦朝的統一及其統治措施與影響 ===。風格：古風、歷史繪卷、細膩場景",
+        "moodKeywords": [
+          "古風",
+          "歷史繪卷",
+          "細膩場景"
+        ]
+      },
+      {
+        "prompt": "場景：西域、咸陽，中一級",
+        "expandedPrompt": "場景：西域、咸陽，中一級。風格：古風、歷史繪卷、細膩場景",
+        "moodKeywords": [
+          "古風",
+          "歷史繪卷",
+          "細膩場景"
+        ]
+      },
+      {
+        "prompt": "場景：西域、咸陽，歷史時期：秦漢",
+        "expandedPrompt": "場景：西域、咸陽，歷史時期：秦漢。風格：古風、歷史繪卷、細膩場景",
+        "moodKeywords": [
+          "古風",
+          "歷史繪卷",
+          "細膩場景"
+        ]
+      }
+    ],
+    "sourceUrl": "https://chistory.kanhan.com/tc/f1-reading-card",
+    "periodId": "qin_han"
+  },
+  "storyGraph": {
+    "title": "中一中國歷史：秦漢",
+    "startSceneId": "scene_1",
+    "scenes": {
+      "scene_1": {
+        "id": "scene_1",
+        "route": "mainline",
+        "narrative": "【秦朝的統一及其統治措施與影響】公元前237 年，秦王政採納李斯建議，決定進行併滅六國之策。",
+        "narrativeFirstPerson": "以{playerName}的視角，公元前237年，你站在咸陽宮中。秦王政剛採納李斯建議，準備併滅六國。殿上議論紛紛——統一之後，文字、車軌、度量該不該立刻劃一？",
+        "decisionPrompt": "始皇帝等你獻策——",
+        "requiredClueCount": 3,
+        "explorationTask": {
+          "type": "categorize",
+          "title": "三項統一對照",
+          "prompt": "把線索放入書同文、車同軌、度量衡三個政策欄，每欄至少一條。",
+          "minPerCategory": 1,
+          "categories": [
+            {
+              "id": "wenzi",
+              "label": "書同文",
+              "description": "全國文字劃一，政令文書先可以互通",
+              "acceptedClueIds": [
+                "scene_1_clue_lisi_memorial",
+                "scene_1_clue_post_station",
+                "scene_1_clue_secret_addendum"
+              ]
+            },
+            {
+              "id": "chegui",
+              "label": "車同軌",
+              "description": "車輪軌距一致，馳道運輸先會順暢",
+              "acceptedClueIds": [
+                "scene_1_clue_corvee",
+                "scene_1_replay_carriage"
+              ]
+            },
+            {
+              "id": "duliang",
+              "label": "度量衡",
+              "description": "重量長度標準一致，賦稅交易先會公平",
+              "acceptedClueIds": [
+                "scene_1_clue_unity_map"
+              ]
+            }
+          ]
+        },
+        "hotspots": [
+          {
+            "id": "scene_1_clue_lisi_memorial",
+            "label": "展閱李斯奏章",
+            "x": 52,
+            "y": 42,
+            "clue": {
+              "title": "李斯奏章",
+              "content": "「書同文、車同軌、統一度量衡，政令方能從咸陽直達天下。」",
+              "speaker": "李斯"
+            }
+          },
+          {
+            "id": "scene_1_clue_unity_map",
+            "label": "查看六國輿圖",
+            "x": 68,
+            "y": 55,
+            "clue": {
+              "title": "六國輿圖",
+              "content": "新繪天下全圖標示郡縣，舊六國界線以虛線保留——方便監察，也提醒仍未完全同化。"
+            }
+          },
+          {
+            "id": "scene_1_clue_post_station",
+            "label": "調閱驛站傳令錄",
+            "x": 28,
+            "y": 48,
+            "clue": {
+              "title": "驛站傳令錄",
+              "content": "關中驛卒稟報：若各郡文字不同，轉抄文書常誤解軍令，延誤數日。",
+              "speaker": "驛丞"
+            }
+          },
+          {
+            "id": "scene_1_clue_corvee",
+            "label": "聽取民夫口述",
+            "x": 38,
+            "y": 72,
+            "clue": {
+              "title": "民夫口述",
+              "content": "「修馳道、建長城，車軌不一則轉運困難；若度量不同，糧餉分配常起爭端。」",
+              "speaker": "民夫代表"
+            }
+          },
+          {
+            "id": "scene_1_clue_secret_addendum",
+            "label": "發現密奏補遺",
+            "x": 78,
+            "y": 38,
+            "hidden": true,
+            "requiresClueIds": [
+              "scene_1_clue_lisi_memorial"
+            ],
+            "clue": {
+              "title": "李斯密奏補遺",
+              "content": "密奏末段：「統一之後，當命太史令記錄制度沿革，使後世知一統之由。」",
+              "speaker": "李斯"
+            }
+          },
+          {
+            "id": "scene_1_replay_scholar",
+            "label": "重訪 · 老吏回憶",
+            "x": 12,
+            "y": 62,
+            "replayOnly": true,
+            "clue": {
+              "title": "老吏回憶",
+              "content": "「第二次入殿時，我才注意到柱上刻的統一年表——原來改革早已有完整時程。」",
+              "speaker": "老吏"
+            }
+          },
+          {
+            "id": "scene_1_replay_carriage",
+            "label": "重訪 · 車軌標記",
+            "x": 85,
+            "y": 68,
+            "replayOnly": true,
+            "clue": {
+              "title": "車軌標記",
+              "content": "殿外馳道新刻標準軌距。再玩時才發現，這與奏章所述完全對應。"
+            }
+          }
+        ],
+        "choices": [
+          {
+            "id": "scene_1_historical",
+            "label": "我奏請：當即推行書同文、車同軌、統一度量衡",
+            "type": "historical",
+            "nextSceneId": "scene_2",
+            "reveal": {
+              "verdict": "historical",
+              "historyNote": "史書載：秦始皇確實推行書同文、車同軌、統一度量衡。",
+              "consequence": "你做出了與始皇帝相同的抉擇，正史繼續向前。"
+            }
+          },
+          {
+            "id": "scene_1_divergent_a",
+            "label": "我建議暫緩改革，先安撫六國舊臣",
+            "type": "divergent",
+            "nextSceneId": "deviation_1",
+            "reveal": {
+              "verdict": "divergent",
+              "historyNote": "秦能速統六國，正在於雷厲風行的制度統一；暫緩改革並無史載。",
+              "consequence": "你選擇了史書未載之路——歷史在此拐彎。"
+            }
+          },
+          {
+            "id": "scene_1_divergent_b",
+            "label": "我提議只統一貨幣，文字車軌各郡自定",
+            "type": "divergent",
+            "nextSceneId": "deviation_1",
+            "reveal": {
+              "verdict": "divergent",
+              "historyNote": "若各郡仍用舊制，驛站傳令必常誤，「大一統」只剩地圖輪廓。",
+              "consequence": "你選擇了史書未載之路——歷史在此拐彎。"
+            }
+          },
+          {
+            "id": "scene_1_secret_taishi",
+            "label": "我請求將今日議論交付太史令留檔，以傳後世",
+            "type": "historical",
+            "nextSceneId": "scene_2",
+            "requiresMinCodexCards": 14,
+            "reveal": {
+              "verdict": "historical",
+              "historyNote": "太史令掌記載詔令與制度變遷，使「一統」不止於地圖，也留於簡牘。",
+              "consequence": "你獲得太史令記錄，圖鑑接近完卷。"
+            }
+          }
+        ],
+        "imagePrompt": {
+          "prompt": "公元前237年，秦王政採納李斯建議，準備併滅六國。殿上議論紛紛——統一之後，文字、車軌、度量該不該立刻劃一",
+          "expandedPrompt": "公元前237年，秦王政採納李斯建議，準備併滅六國。殿上議論紛紛——統一之後，文字、車軌、度量該不該立刻劃一。風格：古風、歷史繪卷、朝堂內景",
+          "moodKeywords": [
+            "古風",
+            "歷史繪卷",
+            "朝堂內景"
+          ]
+        },
+        "perspectiveEra": "qin",
+        "narrativeAsReader": "你翻開課本，來到【秦朝的統一及其統治措施與影響】。公元前237年，秦王政採納李斯建議，準備併滅六國。殿上議論紛紛——統一之後，文字、車軌、度量該不該立刻劃一？",
+        "decisionPromptAsReader": "研讀史料後，試想：若你在咸陽殿上，會如何獻策？"
+      },
+      "deviation_1": {
+        "id": "deviation_1",
+        "route": "deviation",
+        "narrative": "你對「秦朝的統一及其統治措施與影響」的理解偏離了課程記載的史實。歷史在此拐了彎——仍可選擇重返正史主線。",
+        "narrativeFirstPerson": "以{playerName}的視角，你看到各郡仍用舊制。驛站傳令常誤，邊吏各行其是——你當初的選擇正把帝国拖向分裂。",
+        "decisionPrompt": "你還來得及修正——",
+        "requiredClueCount": 1,
+        "hotspots": [
+          {
+            "id": "deviation_1_clue_mixed_signs",
+            "label": "查看混亂路牌",
+            "x": 52,
+            "y": 42,
+            "clue": {
+              "title": "混亂路牌",
+              "content": "東郡與舊楚境內，同一路口竟有三種文字的路牌，商旅常走錯方向。"
+            }
+          },
+          {
+            "id": "deviation_1_clue_delay_edict",
+            "label": "閱讀延宕詔書",
+            "x": 28,
+            "y": 48,
+            "clue": {
+              "title": "延宕詔書",
+              "content": "邊吏稟報：因暫緩改革，各郡仍用舊制，中央詔書難以即時執行。",
+              "speaker": "邊吏"
+            }
+          }
+        ],
+        "resumeMainlineSceneId": "scene_2",
+        "choices": [
+          {
+            "id": "deviation_1_return",
+            "label": "我重新翻閱課本，修正理解",
+            "type": "return_to_history",
+            "nextSceneId": "scene_2",
+            "reveal": {
+              "verdict": "return",
+              "historyNote": "史書載：秦始皇確實推行書同文、車同軌、統一度量衡。",
+              "consequence": "你重返正史主線。"
+            }
+          },
+          {
+            "id": "deviation_1_persist",
+            "label": "我堅持錯誤理解，繼續偏離",
+            "type": "continue_divergence",
+            "nextSceneId": "failed",
+            "reveal": {
+              "verdict": "persist",
+              "historyNote": "若長期偏離「秦朝的統一及其統治措施與影響」的史實，秦漢敘事將無從延續。",
+              "consequence": "偏離太遠，已無法返回原故事。"
+            }
+          }
+        ],
+        "imagePrompt": {
+          "prompt": "你發現各郡仍用舊制，驛站傳令常誤——這與大一統的史實方向不符",
+          "expandedPrompt": "你發現各郡仍用舊制，驛站傳令常誤——這與大一統的史實方向不符。風格：暗色調、戲劇性、偏離史實",
+          "moodKeywords": [
+            "暗色調",
+            "戲劇性",
+            "偏離史實"
+          ]
+        },
+        "perspectiveEra": "qin",
+        "narrativeAsReader": "你翻開課本，你發現各郡仍用舊制，驛站傳令常誤——這與大一統的史實方向不符。",
+        "decisionPromptAsReader": "翻閱課本後，你還來得及修正理解——"
+      },
+      "scene_2": {
+        "id": "scene_2",
+        "route": "mainline",
+        "narrative": "【秦朝滅亡與楚漢相爭】戰國中後期，諸侯間連年戰爭，有時一年竟進行幾次大戰，有的大戰持續數年之久。",
+        "narrativeFirstPerson": "以{playerName}的視角，長城與阿房宮動員無數民夫，焚書坑儒令天下噤聲。陳勝、吳廣揭竿，項羽、劉邦逐鹿中原——你必須說出對秦亡的看法。",
+        "decisionPrompt": "同僚轉頭看你：秦亡，究竟誰之過？",
+        "requiredClueCount": 3,
+        "hotspots": [
+          {
+            "id": "scene_2_clue_corvee_notice",
+            "label": "查看徭役告示",
+            "x": 52,
+            "y": 42,
+            "clue": {
+              "title": "徭役告示",
+              "content": "「發民夫三十萬修長城，逾期者斬。」民怨早已積累。"
+            }
+          },
+          {
+            "id": "scene_2_clue_fen_shu",
+            "label": "查閱焚書令",
+            "x": 28,
+            "y": 48,
+            "clue": {
+              "title": "焚書令",
+              "content": "「非秦記皆燒；詩、書百家語者黜。」思想控制與民怨並行。"
+            }
+          },
+          {
+            "id": "scene_2_clue_chensheng",
+            "label": "聽聞陳勝起事",
+            "x": 68,
+            "y": 55,
+            "clue": {
+              "title": "陳勝吳廣",
+              "content": "「王侯將相寧有種乎！」大澤鄉起事，天下響應。",
+              "speaker": "傳令兵"
+            }
+          },
+          {
+            "id": "scene_2_clue_xiangyu",
+            "label": "閱讀項羽戰報",
+            "x": 38,
+            "y": 72,
+            "clue": {
+              "title": "項羽破秦",
+              "content": "巨鹿之戰後，秦軍主力瓦解。楚漢相爭的棋局已開。"
+            }
+          },
+          {
+            "id": "scene_2_clue_secret_memorial",
+            "label": "發現史官密記",
+            "x": 78,
+            "y": 38,
+            "hidden": true,
+            "requiresClueIds": [
+              "scene_2_clue_corvee_notice"
+            ],
+            "clue": {
+              "title": "史官密記",
+              "content": "密記云：「始皇之過在於急政，非僅二世之失。」",
+              "speaker": "史官"
+            }
+          },
+          {
+            "id": "scene_2_replay_market",
+            "label": "重訪 · 街市流言",
+            "x": 12,
+            "y": 62,
+            "replayOnly": true,
+            "clue": {
+              "title": "街市流言",
+              "content": "再訪時才聽到：民夫談論阿房宮與長城，怨聲在始皇時已起。"
+            }
+          },
+          {
+            "id": "scene_2_replay_books",
+            "label": "重訪 · 禁書殘頁",
+            "x": 85,
+            "y": 68,
+            "replayOnly": true,
+            "clue": {
+              "title": "禁書殘頁",
+              "content": "第二次探索才在灰燼中發現未燒盡的詩書殘頁——焚書之禍的證物。"
+            }
+          }
+        ],
+        "choices": [
+          {
+            "id": "scene_2_historical",
+            "label": "我說：統一之功不可沒，暴政之過亦不可掩",
+            "type": "historical",
+            "nextSceneId": "scene_3",
+            "reveal": {
+              "verdict": "historical",
+              "historyNote": "史學共識：始皇有統一之大功，亦有苛法濫役、焚書坑儒之過。",
+              "consequence": "你的分析符合史實，進入楚漢相爭的變局。"
+            }
+          },
+          {
+            "id": "scene_2_divergent_a",
+            "label": "我認為：秦滅只因胡亥昏庸，與始皇無關",
+            "type": "divergent",
+            "nextSceneId": "deviation_2",
+            "reveal": {
+              "verdict": "divergent",
+              "historyNote": "陳勝、吳廣起事時民怨已積；苛法與濫役在始皇時期已耗盡民力。",
+              "consequence": "你選擇了史書未載之路——歷史在此拐彎。"
+            }
+          },
+          {
+            "id": "scene_2_divergent_b",
+            "label": "我堅持：始皇功績蓋過一切",
+            "type": "divergent",
+            "nextSceneId": "deviation_2",
+            "reveal": {
+              "verdict": "divergent",
+              "historyNote": "只讚功而不論過，無法解釋天下群起而攻之的史實。",
+              "consequence": "你選擇了史書未載之路——歷史在此拐彎。"
+            }
+          },
+          {
+            "id": "scene_2_secret_archive",
+            "label": "我請求史官將秦亡評論完整留檔，功過並論以傳後世",
+            "type": "historical",
+            "nextSceneId": "scene_3",
+            "requiresMinCodexCards": 14,
+            "reveal": {
+              "verdict": "historical",
+              "historyNote": "太史令掌綜合評述，功過並論方能解釋秦之興亡。",
+              "consequence": "你獲得太史令記錄，第二章圖鑑接近完卷。"
+            }
+          }
+        ],
+        "imagePrompt": {
+          "prompt": "秦始皇已於公元前210年崩逝，此後天下動盪。史書載：長城與阿房宮動員無數民夫，焚書坑儒令天下噤聲；陳勝、吳廣揭竿，項羽、劉邦逐鹿中原。你要理解：秦亡，究竟誰之過",
+          "expandedPrompt": "秦始皇已於公元前210年崩逝，此後天下動盪。史書載：長城與阿房宮動員無數民夫，焚書坑儒令天下噤聲；陳勝、吳廣揭竿，項羽、劉邦逐鹿中原。你要理解：秦亡，究竟誰之過。風格：古風、歷史繪卷、長城修築",
+          "moodKeywords": [
+            "古風",
+            "歷史繪卷",
+            "長城修築"
+          ]
+        },
+        "perspectiveEra": "chu_han",
+        "narrativeAsReader": "你翻開課本，來到【秦朝滅亡與楚漢相爭】。秦始皇已於公元前210年崩逝，此後天下動盪。史書載：長城與阿房宮動員無數民夫，焚書坑儒令天下噤聲；陳勝、吳廣揭竿，項羽、劉邦逐鹿中原。你要理解：秦亡，究竟誰之過？",
+        "decisionPromptAsReader": "研讀史料後，你會如何評價秦亡的原因？"
+      },
+      "deviation_2": {
+        "id": "deviation_2",
+        "route": "deviation",
+        "narrative": "你對「秦朝滅亡與楚漢相爭」的理解偏離了課程記載的史實。歷史在此拐了彎——仍可選擇重返正史主線。",
+        "narrativeFirstPerson": "以{playerName}的視角，你把所有過錯推給二世，卻無視苛法與濫役早已耗盡民力。街市老人搖頭：「暴政早從始皇時便開始了。」",
+        "decisionPrompt": "你還來得及修正——",
+        "requiredClueCount": 1,
+        "resumeMainlineSceneId": "scene_3",
+        "choices": [
+          {
+            "id": "deviation_2_return",
+            "label": "我重新翻閱課本，修正理解",
+            "type": "return_to_history",
+            "nextSceneId": "scene_3",
+            "reveal": {
+              "verdict": "return",
+              "historyNote": "史學共識：始皇有統一之大功，亦有苛法濫役、焚書坑儒之過。",
+              "consequence": "你重返正史主線。"
+            }
+          },
+          {
+            "id": "deviation_2_persist",
+            "label": "我堅持錯誤理解，繼續偏離",
+            "type": "continue_divergence",
+            "nextSceneId": "failed",
+            "reveal": {
+              "verdict": "persist",
+              "historyNote": "若長期偏離「秦朝滅亡與楚漢相爭」的史實，秦漢敘事將無從延續。",
+              "consequence": "偏離太遠，已無法返回原故事。"
+            }
+          }
+        ],
+        "imagePrompt": {
+          "prompt": "你把秦亡全歸咎於二世，卻忽略了始皇時期苛法與濫役早已耗盡民力",
+          "expandedPrompt": "你把秦亡全歸咎於二世，卻忽略了始皇時期苛法與濫役早已耗盡民力。風格：暗色調、戲劇性、偏離史實",
+          "moodKeywords": [
+            "暗色調",
+            "戲劇性",
+            "偏離史實"
+          ]
+        },
+        "hotspots": [
+          {
+            "id": "deviation_2_clue_blame_er_shi",
+            "label": "閱讀歸咎二世檔",
+            "x": 52,
+            "y": 42,
+            "clue": {
+              "title": "歸咎二世",
+              "content": "檔案只列二世過失，卻未載始皇苛法與濫役——解釋不完整。"
+            }
+          },
+          {
+            "id": "deviation_2_clue_praise_only",
+            "label": "查看頌功碑文",
+            "x": 28,
+            "y": 48,
+            "clue": {
+              "title": "頌功碑文",
+              "content": "碑文只頌統一之功，對民怨隻字不提——無法解釋天下群起。"
+            }
+          }
+        ],
+        "perspectiveEra": "chu_han",
+        "narrativeAsReader": "你翻開課本，你把秦亡全歸咎於二世，卻忽略了始皇時期苛法與濫役早已耗盡民力。",
+        "decisionPromptAsReader": "翻閱課本後，你還來得及修正理解——"
+      },
+      "scene_3": {
+        "id": "scene_3",
+        "route": "mainline",
+        "narrative": "【西漢的建立】劉邦戰勝項羽，統一天下，建立漢朝，是為漢高祖。",
+        "narrativeFirstPerson": "以{playerName}的視角，垓下之戰塵埃落定。你戰勝項羽，在長安稱帝，是為漢高祖。新朝初立，該用什麼治國之道？",
+        "decisionPrompt": "漢高祖問你：如何安天下？",
+        "requiredClueCount": 3,
+        "hotspots": [
+          {
+            "id": "scene_3_clue_three_rules",
+            "label": "細讀約法三章",
+            "x": 52,
+            "y": 42,
+            "clue": {
+              "title": "約法三章",
+              "content": "「殺人者死，傷人及盜抵罪，餘悉除去秦法。」",
+              "speaker": "劉邦"
+            }
+          },
+          {
+            "id": "scene_3_clue_chu_han",
+            "label": "查看楚漢戰圖",
+            "x": 28,
+            "y": 48,
+            "clue": {
+              "title": "楚漢戰圖",
+              "content": "垓下之戰後，項羽自刎烏江，劉邦統一天下。"
+            }
+          },
+          {
+            "id": "scene_3_clue_chang_an",
+            "label": "巡視長安城坊",
+            "x": 68,
+            "y": 55,
+            "clue": {
+              "title": "長安初建",
+              "content": "新都在關中，取「長久安寧」之意，為漢室定都。"
+            }
+          },
+          {
+            "id": "scene_3_clue_rest_policy",
+            "label": "閱讀休養詔令",
+            "x": 38,
+            "y": 72,
+            "clue": {
+              "title": "休養詔令",
+              "content": "「減徭役、放歸農桑。」戰後與民休息，恢復生產。"
+            }
+          },
+          {
+            "id": "scene_3_clue_secret_oath",
+            "label": "發現入關密誓",
+            "x": 78,
+            "y": 38,
+            "hidden": true,
+            "requiresClueIds": [
+              "scene_3_clue_three_rules"
+            ],
+            "clue": {
+              "title": "入關密誓",
+              "content": "密誓：「先入關者王之，約法三章以安民心。」",
+              "speaker": "劉邦"
+            }
+          },
+          {
+            "id": "scene_3_replay_gaixia",
+            "label": "重訪 · 垓下舊聞",
+            "x": 12,
+            "y": 62,
+            "replayOnly": true,
+            "clue": {
+              "title": "垓下舊聞",
+              "content": "重玩時老卒補述：項羽雖勇，失民心者終失天下。",
+              "speaker": "老卒"
+            }
+          },
+          {
+            "id": "scene_3_replay_commoners",
+            "label": "重訪 · 關中民戶",
+            "x": 85,
+            "y": 68,
+            "replayOnly": true,
+            "clue": {
+              "title": "關中民戶",
+              "content": "第二次才聽到農戶說：約法三章後，才敢開倉放糧。"
+            }
+          }
+        ],
+        "choices": [
+          {
+            "id": "scene_3_historical",
+            "label": "我贊成約法三章，廢除苛法，與民休息",
+            "type": "historical",
+            "nextSceneId": "scene_4",
+            "reveal": {
+              "verdict": "historical",
+              "historyNote": "史載：劉邦入關後約法三章，廢除秦苛法，贏得民心。",
+              "consequence": "你理解了漢初「與民休息」的開國之道。"
+            }
+          },
+          {
+            "id": "scene_3_divergent_a",
+            "label": "我建議沿用秦法，以嚴刑維持秩序",
+            "type": "divergent",
+            "nextSceneId": "deviation_3",
+            "reveal": {
+              "verdict": "divergent",
+              "historyNote": "劉邦若完全沿用秦法，難以贏得關中民心，漢朝基業恐不穩。",
+              "consequence": "你選擇了史書未載之路——歷史在此拐彎。"
+            }
+          },
+          {
+            "id": "scene_3_divergent_b",
+            "label": "我提議分封諸侯，恢復戰國格局",
+            "type": "divergent",
+            "nextSceneId": "deviation_3",
+            "reveal": {
+              "verdict": "divergent",
+              "historyNote": "劉邦雖有分封，但中央集權方向已定；完全恢復戰國格局並非史實。",
+              "consequence": "你選擇了史書未載之路——歷史在此拐彎。"
+            }
+          },
+          {
+            "id": "scene_3_secret_archive",
+            "label": "我請求將約法三章與開國方略交付太史令存檔",
+            "type": "historical",
+            "nextSceneId": "scene_4",
+            "requiresMinCodexCards": 14,
+            "reveal": {
+              "verdict": "historical",
+              "historyNote": "太史令記錄開國方略，使後世知漢初何以安天下。",
+              "consequence": "你獲得太史令記錄，第三章圖鑑接近完卷。"
+            }
+          }
+        ],
+        "imagePrompt": {
+          "prompt": "此時距秦始皇駕崩已逾數十年，秦制餘緒仍在。史書載：垓下之戰後，劉邦戰勝項羽，在長安稱帝，是為漢高祖。新朝初立，該用什麼治國之道",
+          "expandedPrompt": "此時距秦始皇駕崩已逾數十年，秦制餘緒仍在。史書載：垓下之戰後，劉邦戰勝項羽，在長安稱帝，是為漢高祖。新朝初立，該用什麼治國之道。風格：古風、歷史繪卷、西漢開國",
+          "moodKeywords": [
+            "古風",
+            "歷史繪卷",
+            "西漢開國"
+          ]
+        },
+        "perspectiveEra": "han_west",
+        "narrativeAsReader": "你翻開課本，來到【西漢的建立】。此時距秦始皇駕崩已逾數十年，秦制餘緒仍在。史書載：垓下之戰後，劉邦戰勝項羽，在長安稱帝，是為漢高祖。新朝初立，該用什麼治國之道？",
+        "decisionPromptAsReader": "試想：若你是漢初謀臣，開國該用什麼治國之道？"
+      },
+      "deviation_3": {
+        "id": "deviation_3",
+        "route": "deviation",
+        "narrative": "你對「西漢的建立」的理解偏離了課程記載的史實。歷史在此拐了彎——仍可選擇重返正史主線。",
+        "narrativeFirstPerson": "以{playerName}的視角，嚴刑與分封之議引發動盪。新朝根基動搖，你必須重新思考開國之道。",
+        "decisionPrompt": "你還來得及修正——",
+        "requiredClueCount": 1,
+        "resumeMainlineSceneId": "scene_4",
+        "choices": [
+          {
+            "id": "deviation_3_return",
+            "label": "我重新翻閱課本，修正理解",
+            "type": "return_to_history",
+            "nextSceneId": "scene_4",
+            "reveal": {
+              "verdict": "return",
+              "historyNote": "史載：劉邦入關後約法三章，廢除秦苛法，贏得民心。",
+              "consequence": "你重返正史主線。"
+            }
+          },
+          {
+            "id": "deviation_3_persist",
+            "label": "我堅持錯誤理解，繼續偏離",
+            "type": "continue_divergence",
+            "nextSceneId": "failed",
+            "reveal": {
+              "verdict": "persist",
+              "historyNote": "若長期偏離「西漢的建立」的史實，秦漢敘事將無從延續。",
+              "consequence": "偏離太遠，已無法返回原故事。"
+            }
+          }
+        ],
+        "imagePrompt": {
+          "prompt": "嚴刑與分封之議若處理不當，漢初根基將動搖——這與史實開國路線不符",
+          "expandedPrompt": "嚴刑與分封之議若處理不當，漢初根基將動搖——這與史實開國路線不符。風格：暗色調、戲劇性、偏離史實",
+          "moodKeywords": [
+            "暗色調",
+            "戲劇性",
+            "偏離史實"
+          ]
+        },
+        "hotspots": [
+          {
+            "id": "deviation_3_clue_harsh_law",
+            "label": "查看秦法舊制",
+            "x": 52,
+            "y": 42,
+            "clue": {
+              "title": "秦法舊制",
+              "content": "沿用連坐與重刑，關中百姓惶恐，與開國安民背道。"
+            }
+          },
+          {
+            "id": "deviation_3_clue_feudal_chaos",
+            "label": "閱讀分封爭議",
+            "x": 28,
+            "y": 48,
+            "clue": {
+              "title": "分封爭議",
+              "content": "恢復戰國分封將引發諸侯再爭，漢室基業難穩。"
+            }
+          }
+        ],
+        "perspectiveEra": "han_west",
+        "narrativeAsReader": "你翻開課本，嚴刑與分封之議若處理不當，漢初根基將動搖——這與史實開國路線不符。",
+        "decisionPromptAsReader": "翻閱課本後，你還來得及修正理解——"
+      },
+      "scene_4": {
+        "id": "scene_4",
+        "route": "mainline",
+        "narrative": "【漢武帝的文治與武功】自高祖以來七十餘年，休養生息，漢朝國力日盛。",
+        "narrativeFirstPerson": "以{playerName}的視角，休養生息七十餘年後，漢朝國力日盛。年輕的漢武帝即位，有人主張繼續守成，有人主張開疆拓土、罷黜百家。",
+        "decisionPrompt": "漢武帝等你陳述方略——",
+        "requiredClueCount": 3,
+        "hotspots": [
+          {
+            "id": "scene_4_clue_wudi_edict",
+            "label": "展閱推恩詔令草案",
+            "x": 52,
+            "y": 42,
+            "clue": {
+              "title": "推恩之制",
+              "content": "「令諸侯推恩，分封子弟為侯，實則削弱藩王。」"
+            }
+          },
+          {
+            "id": "scene_4_clue_ru_jia",
+            "label": "閱讀獨尊儒術詔",
+            "x": 28,
+            "y": 48,
+            "clue": {
+              "title": "獨尊儒術",
+              "content": "「罷黜百家，獨尊儒術。」為統治確立意識形態基礎。",
+              "speaker": "董仲舒"
+            }
+          },
+          {
+            "id": "scene_4_clue_xiongnu",
+            "label": "查看對匈軍報",
+            "x": 68,
+            "y": 55,
+            "clue": {
+              "title": "對匈用兵",
+              "content": "衛青、霍去病屢破匈奴，開拓邊疆，但也耗費國力。"
+            }
+          },
+          {
+            "id": "scene_4_clue_silk_road",
+            "label": "調閱通西域檔",
+            "x": 38,
+            "y": 72,
+            "clue": {
+              "title": "通西域",
+              "content": "張騫出使後，西域諸國與漢朝往來漸繁。"
+            }
+          },
+          {
+            "id": "scene_4_clue_secret_edict",
+            "label": "發現密詔補遺",
+            "x": 78,
+            "y": 38,
+            "hidden": true,
+            "requiresClueIds": [
+              "scene_4_clue_wudi_edict"
+            ],
+            "clue": {
+              "title": "密詔補遺",
+              "content": "密詔：推恩與削藩並行，不可偏廢。"
+            }
+          },
+          {
+            "id": "scene_4_replay_palace",
+            "label": "重訪 · 建章宮議",
+            "x": 12,
+            "y": 62,
+            "replayOnly": true,
+            "clue": {
+              "title": "建章宮議",
+              "content": "重玩時才聽到朝臣爭論：文治武功須並重。"
+            }
+          },
+          {
+            "id": "scene_4_replay_border",
+            "label": "重訪 · 邊關烽火",
+            "x": 85,
+            "y": 68,
+            "replayOnly": true,
+            "clue": {
+              "title": "邊關烽火",
+              "content": "第二次才見邊報：匈奴雖退，糧草消耗驚人。"
+            }
+          }
+        ],
+        "choices": [
+          {
+            "id": "scene_4_historical",
+            "label": "我支持推恩令、獨尊儒術，並準備對匈奴用兵",
+            "type": "historical",
+            "nextSceneId": "scene_5",
+            "reveal": {
+              "verdict": "historical",
+              "historyNote": "漢武帝確實推行推恩令、罷黜百家獨尊儒術，並對匈奴多次用兵。",
+              "consequence": "你把握了漢武帝文治武功的方向。"
+            }
+          },
+          {
+            "id": "scene_4_divergent_a",
+            "label": "我勸陛下繼續休養生息，勿動刀兵",
+            "type": "divergent",
+            "nextSceneId": "deviation_4",
+            "reveal": {
+              "verdict": "divergent",
+              "historyNote": "漢武帝時期對外擴張是重要史實；完全守成並非武帝路線。",
+              "consequence": "你選擇了史書未載之路——歷史在此拐彎。"
+            }
+          },
+          {
+            "id": "scene_4_divergent_b",
+            "label": "我主張恢復分封，削弱中央",
+            "type": "divergent",
+            "nextSceneId": "deviation_4",
+            "reveal": {
+              "verdict": "divergent",
+              "historyNote": "武帝方向是加強中央集權，而非削弱。",
+              "consequence": "你選擇了史書未載之路——歷史在此拐彎。"
+            }
+          },
+          {
+            "id": "scene_4_secret_archive",
+            "label": "我請求將推恩與對外用兵之議完整留檔",
+            "type": "historical",
+            "nextSceneId": "scene_5",
+            "requiresMinCodexCards": 14,
+            "reveal": {
+              "verdict": "historical",
+              "historyNote": "太史令存檔武帝文治武功，為後世理解漢室擴張留據。",
+              "consequence": "你獲得太史令記錄，第四章圖鑑接近完卷。"
+            }
+          }
+        ],
+        "imagePrompt": {
+          "prompt": "休養生息七十餘年後，漢朝國力日盛。年輕的漢武帝即位，有人主張繼續守成，有人主張開疆拓土、罷黜百家",
+          "expandedPrompt": "休養生息七十餘年後，漢朝國力日盛。年輕的漢武帝即位，有人主張繼續守成，有人主張開疆拓土、罷黜百家。風格：古風、歷史繪卷、武帝朝堂",
+          "moodKeywords": [
+            "古風",
+            "歷史繪卷",
+            "武帝朝堂"
+          ]
+        },
+        "perspectiveEra": "han_west",
+        "narrativeAsReader": "你翻開課本，來到【漢武帝的文治與武功】。休養生息七十餘年後，漢朝國力日盛。年輕的漢武帝即位，有人主張繼續守成，有人主張開疆拓土、罷黜百家。",
+        "decisionPromptAsReader": "研讀武帝朝史料，你會如何理解文治武功的方向？"
+      },
+      "deviation_4": {
+        "id": "deviation_4",
+        "route": "deviation",
+        "narrative": "你對「漢武帝的文治與武功」的理解偏離了課程記載的史實。歷史在此拐了彎——仍可選擇重返正史主線。",
+        "narrativeFirstPerson": "以{playerName}的視角，你的保守建議與時代潮流背離。藩王坐大、邊患未除——漢朝該往何處去？",
+        "decisionPrompt": "你還來得及修正——",
+        "requiredClueCount": 1,
+        "resumeMainlineSceneId": "scene_5",
+        "choices": [
+          {
+            "id": "deviation_4_return",
+            "label": "我重新翻閱課本，修正理解",
+            "type": "return_to_history",
+            "nextSceneId": "scene_5",
+            "reveal": {
+              "verdict": "return",
+              "historyNote": "漢武帝確實推行推恩令、罷黜百家獨尊儒術，並對匈奴多次用兵。",
+              "consequence": "你重返正史主線。"
+            }
+          },
+          {
+            "id": "deviation_4_persist",
+            "label": "我堅持錯誤理解，繼續偏離",
+            "type": "continue_divergence",
+            "nextSceneId": "failed",
+            "reveal": {
+              "verdict": "persist",
+              "historyNote": "若長期偏離「漢武帝的文治與武功」的史實，秦漢敘事將無從延續。",
+              "consequence": "偏離太遠，已無法返回原故事。"
+            }
+          }
+        ],
+        "imagePrompt": {
+          "prompt": "完全守成的路線難以解釋武帝朝的擴張與制度改革",
+          "expandedPrompt": "完全守成的路線難以解釋武帝朝的擴張與制度改革。風格：暗色調、戲劇性、偏離史實",
+          "moodKeywords": [
+            "暗色調",
+            "戲劇性",
+            "偏離史實"
+          ]
+        },
+        "hotspots": [
+          {
+            "id": "deviation_4_clue_peace_only",
+            "label": "閱讀守成奏章",
+            "x": 52,
+            "y": 42,
+            "clue": {
+              "title": "守成奏章",
+              "content": "只倡休養生息、不事邊功，與武帝時代擴張史實背離。"
+            }
+          },
+          {
+            "id": "deviation_4_clue_weak_center",
+            "label": "查看分封舊議",
+            "x": 28,
+            "y": 48,
+            "clue": {
+              "title": "分封舊議",
+              "content": "削弱中央、恢復分封，將重蹈諸侯之亂。"
+            }
+          }
+        ],
+        "perspectiveEra": "han_west",
+        "narrativeAsReader": "你翻開課本，完全守成的路線難以解釋武帝朝的擴張與制度改革。",
+        "decisionPromptAsReader": "翻閱課本後，你還來得及修正理解——"
+      },
+      "scene_5": {
+        "id": "scene_5",
+        "route": "mainline",
+        "narrative": "【昭宣以後戚宦政治與漢朝的衰亡】漢武帝本人好大喜功，經常對外用兵，大建宮室，大事遊幸，晚年時國力漸衰。",
+        "narrativeFirstPerson": "以{playerName}的視角，漢武帝好大喜功，晚年國力漸衰。其後外戚與宦官輪流專權，朝政日非——你必須說出漢朝衰亡的原因。",
+        "decisionPrompt": "史官問你：漢室何以中衰？",
+        "requiredClueCount": 3,
+        "hotspots": [
+          {
+            "id": "scene_5_clue_eunuch_power",
+            "label": "查閱宮廷記錄",
+            "x": 52,
+            "y": 42,
+            "clue": {
+              "title": "戚宦專權",
+              "content": "「外戚干政、宦官弄權，朝綱紊亂，民不堪命。」"
+            }
+          },
+          {
+            "id": "scene_5_clue_wudi_late",
+            "label": "閱讀武帝晚年詔",
+            "x": 28,
+            "y": 48,
+            "clue": {
+              "title": "武帝晚年",
+              "content": "輪台詔悔過，停止部分對外征伐，但國力已耗。"
+            }
+          },
+          {
+            "id": "scene_5_clue_yellow_turban",
+            "label": "聽聞黃巾流言",
+            "x": 68,
+            "y": 55,
+            "clue": {
+              "title": "黃巾前兆",
+              "content": "「蒼天已死，黃天當立。」民間動盪，預示漢室危機。"
+            }
+          },
+          {
+            "id": "scene_5_clue_tax_unrest",
+            "label": "查看賦稅檔案",
+            "x": 38,
+            "y": 72,
+            "clue": {
+              "title": "賦稅繁重",
+              "content": "地方稅役加重，流民增多，社會矛盾尖銳。"
+            }
+          },
+          {
+            "id": "scene_5_clue_secret_memorial",
+            "label": "發現史官密奏",
+            "x": 78,
+            "y": 38,
+            "hidden": true,
+            "requiresClueIds": [
+              "scene_5_clue_eunuch_power"
+            ],
+            "clue": {
+              "title": "史官密奏",
+              "content": "密奏：衰亡非一人之過，而在國力消耗與政治腐化並行。",
+              "speaker": "史官"
+            }
+          },
+          {
+            "id": "scene_5_replay_court",
+            "label": "重訪 · 後宮風波",
+            "x": 12,
+            "y": 62,
+            "replayOnly": true,
+            "clue": {
+              "title": "後宮風波",
+              "content": "重玩時才知：外戚與宦官輪替專權，始於昭宣以後。"
+            }
+          },
+          {
+            "id": "scene_5_replay_peasant",
+            "label": "重訪 · 鄉野訴苦",
+            "x": 85,
+            "y": 68,
+            "replayOnly": true,
+            "clue": {
+              "title": "鄉野訴苦",
+              "content": "第二次才聽到農民訴：稅吏比賊還兇。"
+            }
+          }
+        ],
+        "choices": [
+          {
+            "id": "scene_5_historical",
+            "label": "我指出：武帝耗竭國力，後來外戚宦官專權加速衰亡",
+            "type": "historical",
+            "nextSceneId": "scene_6",
+            "reveal": {
+              "verdict": "historical",
+              "historyNote": "史學認為：武帝晚年已耗國力，後來外戚與宦官政治加劇了漢朝衰亡。",
+              "consequence": "你理解了漢朝由盛轉衰的關鍵。"
+            }
+          },
+          {
+            "id": "scene_5_divergent_a",
+            "label": "我認為漢朝一直國力強盛，從未衰亡",
+            "type": "divergent",
+            "nextSceneId": "deviation_5",
+            "reveal": {
+              "verdict": "divergent",
+              "historyNote": "東漢末年黃巾起事、群雄割據，漢室衰亡是明確史實。",
+              "consequence": "你選擇了史書未載之路——歷史在此拐彎。"
+            }
+          },
+          {
+            "id": "scene_5_divergent_b",
+            "label": "我把衰亡全歸咎於單一外戚",
+            "type": "divergent",
+            "nextSceneId": "deviation_5",
+            "reveal": {
+              "verdict": "divergent",
+              "historyNote": "漢朝衰亡是多重因素，非一人之過。",
+              "consequence": "你選擇了史書未載之路——歷史在此拐彎。"
+            }
+          },
+          {
+            "id": "scene_5_secret_archive",
+            "label": "我請求史官記錄漢室衰亡的多重原因，勿歸一人",
+            "type": "historical",
+            "nextSceneId": "scene_6",
+            "requiresMinCodexCards": 14,
+            "reveal": {
+              "verdict": "historical",
+              "historyNote": "史官記錄衰亡多重因素，避免簡化歷史解釋。",
+              "consequence": "你獲得史官記錄，第五章圖鑑接近完卷。"
+            }
+          }
+        ],
+        "imagePrompt": {
+          "prompt": "漢武帝好大喜功，晚年國力漸衰。其後外戚與宦官輪流專權，朝政日非——你要理解漢朝衰亡的原因",
+          "expandedPrompt": "漢武帝好大喜功，晚年國力漸衰。其後外戚與宦官輪流專權，朝政日非——你要理解漢朝衰亡的原因。風格：古風、歷史繪卷、漢室中衰",
+          "moodKeywords": [
+            "古風",
+            "歷史繪卷",
+            "漢室中衰"
+          ]
+        },
+        "perspectiveEra": "han_west",
+        "narrativeAsReader": "你翻開課本，來到【昭宣以後戚宦政治與漢朝的衰亡】。漢武帝好大喜功，晚年國力漸衰。其後外戚與宦官輪流專權，朝政日非——你要理解漢朝衰亡的原因。",
+        "decisionPromptAsReader": "研讀漢末史料，你會如何解釋漢室中衰？"
+      },
+      "deviation_5": {
+        "id": "deviation_5",
+        "route": "deviation",
+        "narrative": "你對「昭宣以後戚宦政治與漢朝的衰亡」的理解偏離了課程記載的史實。歷史在此拐了彎——仍可選擇重返正史主線。",
+        "narrativeFirstPerson": "以{playerName}的視角，你對漢末局勢的判斷過於簡化。史實與你的理解漸行漸遠。",
+        "decisionPrompt": "你還來得及修正——",
+        "requiredClueCount": 1,
+        "resumeMainlineSceneId": "scene_6",
+        "choices": [
+          {
+            "id": "deviation_5_return",
+            "label": "我重新翻閱課本，修正理解",
+            "type": "return_to_history",
+            "nextSceneId": "scene_6",
+            "reveal": {
+              "verdict": "return",
+              "historyNote": "史學認為：武帝晚年已耗國力，後來外戚與宦官政治加劇了漢朝衰亡。",
+              "consequence": "你重返正史主線。"
+            }
+          },
+          {
+            "id": "deviation_5_persist",
+            "label": "我堅持錯誤理解，繼續偏離",
+            "type": "continue_divergence",
+            "nextSceneId": "failed",
+            "reveal": {
+              "verdict": "persist",
+              "historyNote": "若長期偏離「昭宣以後戚宦政治與漢朝的衰亡」的史實，秦漢敘事將無從延續。",
+              "consequence": "偏離太遠，已無法返回原故事。"
+            }
+          }
+        ],
+        "imagePrompt": {
+          "prompt": "把漢室衰亡歸因過於單一，難以解釋東漢末年的多重變局",
+          "expandedPrompt": "把漢室衰亡歸因過於單一，難以解釋東漢末年的多重變局。風格：暗色調、戲劇性、偏離史實",
+          "moodKeywords": [
+            "暗色調",
+            "戲劇性",
+            "偏離史實"
+          ]
+        },
+        "hotspots": [
+          {
+            "id": "deviation_5_clue_deny_decline",
+            "label": "查看頌漢碑文",
+            "x": 52,
+            "y": 42,
+            "clue": {
+              "title": "頌漢碑文",
+              "content": "只頌漢室強盛，否認衰亡——與東漢末年史實不符。"
+            }
+          },
+          {
+            "id": "deviation_5_clue_single_blame",
+            "label": "閱讀歸咎單人檔",
+            "x": 28,
+            "y": 48,
+            "clue": {
+              "title": "歸咎單人",
+              "content": "將衰亡全歸於某一外戚，忽略結構性問題。"
+            }
+          }
+        ],
+        "perspectiveEra": "han_west",
+        "narrativeAsReader": "你翻開課本，把漢室衰亡歸因過於單一，難以解釋東漢末年的多重變局。",
+        "decisionPromptAsReader": "翻閱課本後，你還來得及修正理解——"
+      },
+      "scene_6": {
+        "id": "scene_6",
+        "route": "mainline",
+        "narrative": "【兩漢通西域與中外文化交流】位於現今武威一帶的大月氏被匈奴攻擊，因而西遷。",
+        "narrativeFirstPerson": "以{playerName}的視角，大月氏西遷，匈奴屢犯邊境。漢朝該閉關自守，還是派使節通西域、聯絡大月氏共擊匈奴？",
+        "decisionPrompt": "朝堂議論通西域之策——",
+        "requiredClueCount": 3,
+        "hotspots": [
+          {
+            "id": "scene_6_clue_zhangqian",
+            "label": "閱讀張騫出使記",
+            "x": 52,
+            "y": 42,
+            "clue": {
+              "title": "張騫出使",
+              "content": "「鑿空西域，開絲綢之路，促進中外文化交流。」",
+              "speaker": "張騫"
+            }
+          },
+          {
+            "id": "scene_6_clue_dayuezhi",
+            "label": "查看大月氏情報",
+            "x": 28,
+            "y": 48,
+            "clue": {
+              "title": "大月氏",
+              "content": "大月氏西遷後，漢朝欲聯絡其共擊匈奴。"
+            }
+          },
+          {
+            "id": "scene_6_clue_silk_goods",
+            "label": "檢視絲綢貨物",
+            "x": 68,
+            "y": 55,
+            "clue": {
+              "title": "絲綢西傳",
+              "content": "長安絲綢經西域遠銷，換回良馬與寶石。"
+            }
+          },
+          {
+            "id": "scene_6_clue_ban_chao",
+            "label": "閱讀班超事略",
+            "x": 38,
+            "y": 72,
+            "clue": {
+              "title": "班超通西域",
+              "content": "「不入虎穴，焉得虎子。」班超以外交與軍事穩定西域。",
+              "speaker": "班超"
+            }
+          },
+          {
+            "id": "scene_6_clue_secret_map",
+            "label": "發現西域密圖",
+            "x": 78,
+            "y": 38,
+            "hidden": true,
+            "requiresClueIds": [
+              "scene_6_clue_zhangqian"
+            ],
+            "clue": {
+              "title": "西域密圖",
+              "content": "密圖標注未公開的绿洲與商道——出使路线的珍贵记录。"
+            }
+          },
+          {
+            "id": "scene_6_replay_camel",
+            "label": "重訪 · 駝隊歇腳",
+            "x": 12,
+            "y": 62,
+            "replayOnly": true,
+            "clue": {
+              "title": "駝隊歇腳",
+              "content": "重玩時才見胡商以漢語議價——交流已深入日常。"
+            }
+          },
+          {
+            "id": "scene_6_replay_envoy",
+            "label": "重訪 · 使節舊檔",
+            "x": 85,
+            "y": 68,
+            "replayOnly": true,
+            "clue": {
+              "title": "使節舊檔",
+              "content": "第二次才發現：張騫兩次出使，歷時十餘年。"
+            }
+          }
+        ],
+        "choices": [
+          {
+            "id": "scene_6_historical",
+            "label": "我支持派使節通西域，聯絡大月氏，開闢絲路",
+            "type": "historical",
+            "nextSceneId": "scene_7",
+            "reveal": {
+              "verdict": "historical",
+              "historyNote": "史載：漢武帝派張騫出使西域，開闢絲綢之路。",
+              "consequence": "你理解了兩漢通西域的歷史意義。"
+            }
+          },
+          {
+            "id": "scene_6_divergent_a",
+            "label": "我主張閉關自守，斷絕西域交通",
+            "type": "divergent",
+            "nextSceneId": "deviation_6",
+            "reveal": {
+              "verdict": "divergent",
+              "historyNote": "兩漢通西域是重要史實，絲路對中外交流影響深遠。",
+              "consequence": "你選擇了史書未載之路——歷史在此拐彎。"
+            }
+          },
+          {
+            "id": "scene_6_divergent_b",
+            "label": "我認為絲路純屬傳說，並無史據",
+            "type": "divergent",
+            "nextSceneId": "deviation_6",
+            "reveal": {
+              "verdict": "divergent",
+              "historyNote": "張騫出使與絲綢之路有充分文獻與考古證據。",
+              "consequence": "你選擇了史書未載之路——歷史在此拐彎。"
+            }
+          },
+          {
+            "id": "scene_6_secret_archive",
+            "label": "我請求將通西域的見聞編入邊務檔案以傳後世",
+            "type": "historical",
+            "nextSceneId": "scene_7",
+            "requiresMinCodexCards": 14,
+            "reveal": {
+              "verdict": "historical",
+              "historyNote": "邊務檔案記錄通西域始末，絲路由此載入正史。",
+              "consequence": "你獲得邊務檔案，第六章圖鑑接近完卷。"
+            }
+          }
+        ],
+        "imagePrompt": {
+          "prompt": "大月氏西遷，匈奴屢犯邊境。漢朝該閉關自守，還是派使節通西域、聯絡大月氏共擊匈奴",
+          "expandedPrompt": "大月氏西遷，匈奴屢犯邊境。漢朝該閉關自守，還是派使節通西域、聯絡大月氏共擊匈奴。風格：古風、歷史繪卷、絲路出使",
+          "moodKeywords": [
+            "古風",
+            "歷史繪卷",
+            "絲路出使"
+          ]
+        },
+        "perspectiveEra": "han_west",
+        "narrativeAsReader": "你翻開課本，來到【兩漢通西域與中外文化交流】。大月氏西遷，匈奴屢犯邊境。漢朝該閉關自守，還是派使節通西域、聯絡大月氏共擊匈奴？",
+        "decisionPromptAsReader": "研讀絲路史料，你會如何評價通西域的抉擇？"
+      },
+      "deviation_6": {
+        "id": "deviation_6",
+        "route": "deviation",
+        "narrative": "你對「兩漢通西域與中外文化交流」的理解偏離了課程記載的史實。歷史在此拐了彎——仍可選擇重返正史主線。",
+        "narrativeFirstPerson": "以{playerName}的視角，閉關政策使邊境更不安寧。西域諸國與中原隔絕，你錯過了歷史的轉折。",
+        "decisionPrompt": "你還來得及修正——",
+        "requiredClueCount": 1,
+        "resumeMainlineSceneId": "scene_7",
+        "choices": [
+          {
+            "id": "deviation_6_return",
+            "label": "我重新翻閱課本，修正理解",
+            "type": "return_to_history",
+            "nextSceneId": "scene_7",
+            "reveal": {
+              "verdict": "return",
+              "historyNote": "史載：漢武帝派張騫出使西域，開闢絲綢之路。",
+              "consequence": "你重返正史主線。"
+            }
+          },
+          {
+            "id": "deviation_6_persist",
+            "label": "我堅持錯誤理解，繼續偏離",
+            "type": "continue_divergence",
+            "nextSceneId": "failed",
+            "reveal": {
+              "verdict": "persist",
+              "historyNote": "若長期偏離「兩漢通西域與中外文化交流」的史實，秦漢敘事將無從延續。",
+              "consequence": "偏離太遠，已無法返回原故事。"
+            }
+          }
+        ],
+        "imagePrompt": {
+          "prompt": "閉關自守難以解釋兩漢通西域與絲路形成的史實",
+          "expandedPrompt": "閉關自守難以解釋兩漢通西域與絲路形成的史實。風格：暗色調、戲劇性、偏離史實",
+          "moodKeywords": [
+            "暗色調",
+            "戲劇性",
+            "偏離史實"
+          ]
+        },
+        "hotspots": [
+          {
+            "id": "deviation_6_clue_closed_border",
+            "label": "查看閉關令",
+            "x": 52,
+            "y": 42,
+            "clue": {
+              "title": "閉關令",
+              "content": "斷絕西域交通，邊患反而加劇——與史實相反。"
+            }
+          },
+          {
+            "id": "deviation_6_clue_deny_silk",
+            "label": "閱讀否認絲路檔",
+            "x": 28,
+            "y": 48,
+            "clue": {
+              "title": "否認絲路",
+              "content": "稱絲路純屬傳說，無視文獻與考古證據。"
+            }
+          }
+        ],
+        "perspectiveEra": "han_west",
+        "narrativeAsReader": "你翻開課本，閉關自守難以解釋兩漢通西域與絲路形成的史實。",
+        "decisionPromptAsReader": "翻閱課本後，你還來得及修正理解——"
+      },
+      "scene_7": {
+        "id": "scene_7",
+        "route": "mainline",
+        "narrative": "【道教的形成（延伸）】東漢末社會動盪，張陵的五斗米道和張角的太平道兩派，皆以符水咒語治病，並結合黃老思想來傳教，形成道教。",
+        "narrativeFirstPerson": "以{playerName}的視角，東漢末年社會動盪。張陵的五斗米道、張角的太平道以符水治病，結合黃老思想傳教——這與後來的道教有何關係？",
+        "decisionPrompt": "你該如何理解這股宗教潮流？",
+        "requiredClueCount": 3,
+        "hotspots": [
+          {
+            "id": "scene_7_clue_taiping",
+            "label": "翻閱太平道經文",
+            "x": 52,
+            "y": 42,
+            "clue": {
+              "title": "太平道",
+              "content": "「以符水咒語治病，結合黃老思想，為道教形成奠定基礎。」"
+            }
+          },
+          {
+            "id": "scene_7_clue_wudou",
+            "label": "了解五斗米道",
+            "x": 28,
+            "y": 48,
+            "clue": {
+              "title": "五斗米道",
+              "content": "張陵創五斗米道，以米五斗為入道信物，在巴蜀傳播。"
+            }
+          },
+          {
+            "id": "scene_7_clue_huanglao",
+            "label": "研讀黃老殘卷",
+            "x": 68,
+            "y": 55,
+            "clue": {
+              "title": "黃老思想",
+              "content": "「無為而治」與神仙方術結合，成為早期道門思想資源。"
+            }
+          },
+          {
+            "id": "scene_7_clue_fushui",
+            "label": "觀看符水儀式",
+            "x": 38,
+            "y": 72,
+            "clue": {
+              "title": "符水治病",
+              "content": "以符咒入水，為民治病，在亂世中吸引大量信眾。"
+            }
+          },
+          {
+            "id": "scene_7_clue_secret_scripture",
+            "label": "發現密藏經卷",
+            "x": 78,
+            "y": 38,
+            "hidden": true,
+            "requiresClueIds": [
+              "scene_7_clue_taiping"
+            ],
+            "clue": {
+              "title": "密藏經卷",
+              "content": "經卷注：太平道與五斗米道同源異流，皆為道教前身。"
+            }
+          },
+          {
+            "id": "scene_7_replay_shrine",
+            "label": "重訪 · 鄉間祠廟",
+            "x": 12,
+            "y": 62,
+            "replayOnly": true,
+            "clue": {
+              "title": "鄉間祠廟",
+              "content": "重玩時才見村民合祭黃老與地方神——民間信仰混融。"
+            }
+          },
+          {
+            "id": "scene_7_replay_healer",
+            "label": "重訪 · 方士口述",
+            "x": 85,
+            "y": 68,
+            "replayOnly": true,
+            "clue": {
+              "title": "方士口述",
+              "content": "第二次才聽方士說：符水之外，亦傳導引養生之術。",
+              "speaker": "方士"
+            }
+          }
+        ],
+        "choices": [
+          {
+            "id": "scene_7_historical",
+            "label": "我指出：五斗米道與太平道是道教形成的重要源流",
+            "type": "historical",
+            "nextSceneId": "scene_8",
+            "reveal": {
+              "verdict": "historical",
+              "historyNote": "史學認為：東漢末五斗米道、太平道等是道教形成的重要源流。",
+              "consequence": "你理解了道教與黃老思想的淵源。"
+            }
+          },
+          {
+            "id": "scene_7_divergent_a",
+            "label": "我認為道教與黃老思想毫無關係",
+            "type": "divergent",
+            "nextSceneId": "deviation_7",
+            "reveal": {
+              "verdict": "divergent",
+              "historyNote": "道教形成確實吸收了黃老思想與神仙方術。",
+              "consequence": "你選擇了史書未載之路——歷史在此拐彎。"
+            }
+          },
+          {
+            "id": "scene_7_divergent_b",
+            "label": "我把太平道等同於現代道教全貌",
+            "type": "divergent",
+            "nextSceneId": "deviation_7",
+            "reveal": {
+              "verdict": "divergent",
+              "historyNote": "太平道是源流之一，道教歷經長期演變才形成。",
+              "consequence": "你選擇了史書未載之路——歷史在此拐彎。"
+            }
+          },
+          {
+            "id": "scene_7_secret_archive",
+            "label": "我請求將五斗米道與太平道的源流記入宗教檔",
+            "type": "historical",
+            "nextSceneId": "scene_8",
+            "requiresMinCodexCards": 14,
+            "reveal": {
+              "verdict": "historical",
+              "historyNote": "宗教檔記錄道教源流，黃老與方術的結合由此可考。",
+              "consequence": "你獲得宗教檔，第七章圖鑑接近完卷。"
+            }
+          }
+        ],
+        "imagePrompt": {
+          "prompt": "東漢末年社會動盪。張陵的五斗米道、張角的太平道以符水治病，結合黃老思想傳教——這與後來的道教有何關係",
+          "expandedPrompt": "東漢末年社會動盪。張陵的五斗米道、張角的太平道以符水治病，結合黃老思想傳教——這與後來的道教有何關係。風格：古風、歷史繪卷、道教源流",
+          "moodKeywords": [
+            "古風",
+            "歷史繪卷",
+            "道教源流"
+          ]
+        },
+        "perspectiveEra": "han_east",
+        "narrativeAsReader": "你翻開課本，來到【道教的形成（延伸）】。東漢末年社會動盪。張陵的五斗米道、張角的太平道以符水治病，結合黃老思想傳教——這與後來的道教有何關係？",
+        "decisionPromptAsReader": "研讀宗教源流，你會如何把五斗米道、太平道與道教形成連結起來？"
+      },
+      "deviation_7": {
+        "id": "deviation_7",
+        "route": "deviation",
+        "narrative": "你對「道教的形成（延伸）」的理解偏離了課程記載的史實。歷史在此拐了彎——仍可選擇重返正史主線。",
+        "narrativeFirstPerson": "以{playerName}的視角，你對宗教源流的理解有偏差。課本記載的脈絡與你的說法對不上。",
+        "decisionPrompt": "你還來得及修正——",
+        "requiredClueCount": 1,
+        "resumeMainlineSceneId": "scene_8",
+        "choices": [
+          {
+            "id": "deviation_7_return",
+            "label": "我重新翻閱課本，修正理解",
+            "type": "return_to_history",
+            "nextSceneId": "scene_8",
+            "reveal": {
+              "verdict": "return",
+              "historyNote": "史學認為：東漢末五斗米道、太平道等是道教形成的重要源流。",
+              "consequence": "你重返正史主線。"
+            }
+          },
+          {
+            "id": "deviation_7_persist",
+            "label": "我堅持錯誤理解，繼續偏離",
+            "type": "continue_divergence",
+            "nextSceneId": "failed",
+            "reveal": {
+              "verdict": "persist",
+              "historyNote": "若長期偏離「道教的形成（延伸）」的史實，秦漢敘事將無從延續。",
+              "consequence": "偏離太遠，已無法返回原故事。"
+            }
+          }
+        ],
+        "imagePrompt": {
+          "prompt": "你對道教源流的理解與課本記載的脈絡對不上",
+          "expandedPrompt": "你對道教源流的理解與課本記載的脈絡對不上。風格：暗色調、戲劇性、偏離史實",
+          "moodKeywords": [
+            "暗色調",
+            "戲劇性",
+            "偏離史實"
+          ]
+        },
+        "hotspots": [
+          {
+            "id": "deviation_7_clue_deny_huanglao",
+            "label": "查看斷絕黃老說",
+            "x": 52,
+            "y": 42,
+            "clue": {
+              "title": "斷絕黃老",
+              "content": "認為道教與黃老無關——忽略思想源流。"
+            }
+          },
+          {
+            "id": "deviation_7_clue_conflate",
+            "label": "閱讀混同教派檔",
+            "x": 28,
+            "y": 48,
+            "clue": {
+              "title": "混同教派",
+              "content": "把太平道等同現代道教全貌——忽略長期演變。"
+            }
+          }
+        ],
+        "perspectiveEra": "han_east",
+        "narrativeAsReader": "你翻開課本，你對道教源流的理解與課本記載的脈絡對不上。",
+        "decisionPromptAsReader": "翻閱課本後，你還來得及修正理解——"
+      },
+      "scene_8": {
+        "id": "scene_8",
+        "route": "mainline",
+        "narrative": "【科技發明（延伸）】古代文字多刻在龜甲、青銅上，後來演變成在竹、帛上書寫。",
+        "narrativeFirstPerson": "以{playerName}的視角，古代文字曾刻在龜甲、青銅上，後來在竹帛書寫。東漢蔡倫改進造紙術，天文儀器也日新月異——這些發明如何改變文明？",
+        "decisionPrompt": "最後一問：兩漢科技成就的核心是什麼？",
+        "requiredClueCount": 3,
+        "hotspots": [
+          {
+            "id": "scene_8_clue_paper",
+            "label": "觀摩造紙工序",
+            "x": 52,
+            "y": 42,
+            "clue": {
+              "title": "造紙術",
+              "content": "「蔡倫用樹皮、麻頭造紙，成本大降，知識傳播加速。」"
+            }
+          },
+          {
+            "id": "scene_8_clue_astrolabe",
+            "label": "參觀渾天儀",
+            "x": 28,
+            "y": 48,
+            "clue": {
+              "title": "渾天儀",
+              "content": "張衡改進渾天儀，測量天象，反映兩漢天文成就。"
+            }
+          },
+          {
+            "id": "scene_8_clue_bamboo",
+            "label": "對比竹簡與紙",
+            "x": 68,
+            "y": 55,
+            "clue": {
+              "title": "竹帛到紙",
+              "content": "文字載體從甲骨、青銅到竹帛，紙的出現是革命性變化。"
+            }
+          },
+          {
+            "id": "scene_8_clue_calendar",
+            "label": "查閱太初曆",
+            "x": 38,
+            "y": 72,
+            "clue": {
+              "title": "太初曆",
+              "content": "漢朝修訂曆法，指導農時，與天文觀測互為表裡。"
+            }
+          },
+          {
+            "id": "scene_8_clue_secret_formula",
+            "label": "發現造紙秘方",
+            "x": 78,
+            "y": 38,
+            "hidden": true,
+            "requiresClueIds": [
+              "scene_8_clue_paper"
+            ],
+            "clue": {
+              "title": "造紙秘方",
+              "content": "秘方注：除樹皮麻頭外，亦可加入舊漁網——成本更低。"
+            }
+          },
+          {
+            "id": "scene_8_replay_workshop",
+            "label": "重訪 · 工匠作坊",
+            "x": 12,
+            "y": 62,
+            "replayOnly": true,
+            "clue": {
+              "title": "工匠作坊",
+              "content": "重玩時工匠補述：造紙術非一人之功，歷經多人改進。",
+              "speaker": "工匠"
+            }
+          },
+          {
+            "id": "scene_8_replay_stargazer",
+            "label": "重訪 · 觀星台",
+            "x": 85,
+            "y": 68,
+            "replayOnly": true,
+            "clue": {
+              "title": "觀星台",
+              "content": "第二次夜訪觀星台，才知曆法與農事緊密相連。"
+            }
+          }
+        ],
+        "choices": [
+          {
+            "id": "scene_8_historical",
+            "label": "我指出：造紙術與天文儀器是兩漢重要科技成就",
+            "type": "historical",
+            "nextSceneId": "scene_8_end",
+            "reveal": {
+              "verdict": "historical",
+              "historyNote": "史載：蔡倫改進造紙術；渾天儀等天文儀器在兩漢有重要發展。",
+              "consequence": "你完成了秦漢時期的歷史之旅！"
+            }
+          },
+          {
+            "id": "scene_8_divergent_a",
+            "label": "我認為兩漢沒有任何重要發明",
+            "type": "divergent",
+            "nextSceneId": "deviation_8",
+            "reveal": {
+              "verdict": "divergent",
+              "historyNote": "造紙術與天文儀器是公認的兩漢科技成就。",
+              "consequence": "你選擇了史書未載之路——歷史在此拐彎。"
+            }
+          },
+          {
+            "id": "scene_8_divergent_b",
+            "label": "我把所有發明都歸功於一人",
+            "type": "divergent",
+            "nextSceneId": "deviation_8",
+            "reveal": {
+              "verdict": "divergent",
+              "historyNote": "科技成就是多人、多代積累的結果。",
+              "consequence": "你選擇了史書未載之路——歷史在此拐彎。"
+            }
+          },
+          {
+            "id": "scene_8_secret_archive",
+            "label": "我請求將造紙與天文成就編入科技檔以傳後世",
+            "type": "historical",
+            "nextSceneId": "scene_8_end",
+            "requiresMinCodexCards": 14,
+            "reveal": {
+              "verdict": "historical",
+              "historyNote": "科技檔記錄兩漢發明，紙與星象改變文明進程。",
+              "consequence": "你獲得科技檔，第八章圖鑑接近完卷。"
+            }
+          }
+        ],
+        "imagePrompt": {
+          "prompt": "古代文字曾刻在龜甲、青銅上，後來在竹帛書寫。東漢蔡倫改進造紙術，天文儀器也日新月異——這些發明如何改變文明",
+          "expandedPrompt": "古代文字曾刻在龜甲、青銅上，後來在竹帛書寫。東漢蔡倫改進造紙術，天文儀器也日新月異——這些發明如何改變文明。風格：古風、歷史繪卷、夏商周",
+          "moodKeywords": [
+            "古風",
+            "歷史繪卷",
+            "夏商周"
+          ]
+        },
+        "perspectiveEra": "han_east",
+        "narrativeAsReader": "你翻開課本，來到【科技發明（延伸）】。古代文字曾刻在龜甲、青銅上，後來在竹帛書寫。東漢蔡倫改進造紙術，天文儀器也日新月異——這些發明如何改變文明？",
+        "decisionPromptAsReader": "研讀科技史，你會如何概括兩漢的重要發明成就？"
+      },
+      "deviation_8": {
+        "id": "deviation_8",
+        "route": "deviation",
+        "narrative": "你對「科技發明（延伸）」的理解偏離了課程記載的史實。歷史在此拐了彎——仍可選擇重返正史主線。",
+        "narrativeFirstPerson": "以{playerName}的視角，你低估了兩漢科技對後世的影響。還有機會修正理解，完成這段旅程。",
+        "decisionPrompt": "你還來得及修正——",
+        "requiredClueCount": 1,
+        "resumeMainlineSceneId": "scene_8_end",
+        "choices": [
+          {
+            "id": "deviation_8_return",
+            "label": "我重新翻閱課本，修正理解",
+            "type": "return_to_history",
+            "nextSceneId": "scene_8_end",
+            "reveal": {
+              "verdict": "return",
+              "historyNote": "史載：蔡倫改進造紙術；渾天儀等天文儀器在兩漢有重要發展。",
+              "consequence": "你重返正史主線。"
+            }
+          },
+          {
+            "id": "deviation_8_persist",
+            "label": "我堅持錯誤理解，繼續偏離",
+            "type": "continue_divergence",
+            "nextSceneId": "failed",
+            "reveal": {
+              "verdict": "persist",
+              "historyNote": "若長期偏離「科技發明（延伸）」的史實，秦漢敘事將無從延續。",
+              "consequence": "偏離太遠，已無法返回原故事。"
+            }
+          }
+        ],
+        "imagePrompt": {
+          "prompt": "否定兩漢科技成就，難以解釋造紙術等對後世的深遠影響",
+          "expandedPrompt": "否定兩漢科技成就，難以解釋造紙術等對後世的深遠影響。風格：暗色調、戲劇性、偏離史實",
+          "moodKeywords": [
+            "暗色調",
+            "戲劇性",
+            "偏離史實"
+          ]
+        },
+        "hotspots": [
+          {
+            "id": "deviation_8_clue_deny_invention",
+            "label": "查看虛無檔案",
+            "x": 52,
+            "y": 42,
+            "clue": {
+              "title": "虛無檔案",
+              "content": "否認兩漢重要發明——與科技史公認成就相悖。"
+            }
+          },
+          {
+            "id": "deviation_8_clue_one_hero",
+            "label": "閱讀獨功檔",
+            "x": 28,
+            "y": 48,
+            "clue": {
+              "title": "獨功檔",
+              "content": "把所有發明歸於一人——忽略多人多代積累。"
+            }
+          }
+        ],
+        "perspectiveEra": "han_east",
+        "narrativeAsReader": "你翻開課本，否定兩漢科技成就，難以解釋造紙術等對後世的深遠影響。",
+        "decisionPromptAsReader": "翻閱課本後，你還來得及修正理解——"
+      },
+      "scene_8_end": {
+        "id": "scene_8_end",
+        "route": "mainline",
+        "narrative": "你已完成「秦漢」沉浸式歷史之旅，沿正史主線走完了八個章節。",
+        "narrativeFirstPerson": "以{playerName}的視角，你完成了這段歷史之旅。每一章都是不同年代的故事——你透過課本把它們串連起來。",
+        "choices": [],
+        "imagePrompt": {
+          "prompt": "你合上課本，回望這段歷史旅程。從史料到抉擇，史書上的名字此刻有了溫度",
+          "expandedPrompt": "你合上課本，回望這段歷史旅程。從史料到抉擇，史書上的名字此刻有了溫度。風格：古風、歷史繪卷、史卷回顧",
+          "moodKeywords": [
+            "古風",
+            "歷史繪卷",
+            "史卷回顧"
+          ]
+        },
+        "narrativeAsReader": "你合上課本，回望這段歷史旅程。從史料到抉擇，史書上的名字此刻有了溫度。"
+      }
+    },
+    "periodId": "qin_han",
+    "sourceUrl": "https://chistory.kanhan.com/tc/f1-reading-card"
+  }
+}

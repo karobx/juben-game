@@ -1,0 +1,469 @@
+{
+  "title": "秦漢大一統：從始皇到光武",
+  "startSceneId": "scene_1_qin_unify",
+  "scenes": {
+    "scene_1_qin_unify": {
+      "id": "scene_1_qin_unify",
+      "route": "mainline",
+      "narrative": "【秦 · 公元前221年】六國歸一，嬴政稱「始皇帝」。丞相李斯奏請：須行書同文、車同軌、統一度量衡，方能使政令從咸陽直達天下。",
+      "narrativeFirstPerson": "以{playerName}的視角，你站在咸陽殿上。六國歸一，始皇帝等你獻策。丞相李斯總理文書制度——文字、車軌、度量若不統一，政令如何下達天下？",
+      "decisionPrompt": "殿上靜默，所有人等你的奏對——",
+      "requiredClueCount": 0,
+      "choices": [
+        {
+          "id": "c1_standardize",
+          "label": "我奏請始皇帝：當即推行書同文、車同軌",
+          "type": "historical",
+          "nextSceneId": "scene_2_qin_tyranny",
+          "reveal": {
+            "verdict": "historical",
+            "historyNote": "史書載：秦始皇確實推行書同文、車同軌、統一度量衡，使政令從咸陽直達天下。",
+            "consequence": "你做出了與始皇帝相同的抉擇，正史繼續向前。"
+          }
+        },
+        {
+          "id": "c1_delay_reform",
+          "label": "我建議暫緩改革，先安撫六國舊臣人心",
+          "type": "divergent",
+          "nextSceneId": "dev_1_local_customs",
+          "reveal": {
+            "verdict": "divergent",
+            "historyNote": "史書並無「暫緩統一標準而長治久安」的記載；秦之所以能速統六國，正在於雷厲風行的制度統一。",
+            "consequence": "你選擇了史書未載之路——歷史在此拐彎。"
+          }
+        },
+        {
+          "id": "c1_local_customs",
+          "label": "我提議只統一貨幣，文字車軌各郡自定",
+          "type": "divergent",
+          "nextSceneId": "dev_1_local_customs",
+          "reveal": {
+            "verdict": "divergent",
+            "historyNote": "若各郡仍用舊文字、舊車軌，驛站傳令必常誤；「大一統」只剩地圖上的輪廓。",
+            "consequence": "你選擇了史書未載之路——歷史在此拐彎。"
+          }
+        }
+      ]
+    },
+    "dev_1_local_customs": {
+      "id": "dev_1_local_customs",
+      "route": "deviation",
+      "narrative": "政令到達邊境時屢屢受阻，「大一統」只剩地圖上的輪廓。",
+      "narrativeFirstPerson": "以{playerName}的視角，你看到各郡仍用舊制。驛站傳令常誤，邊吏各行其是——你當初的選擇，正把帝国拖向分裂。",
+      "decisionPrompt": "是時候做最後的決断了——",
+      "requiredClueCount": 0,
+      "resumeMainlineSceneId": "scene_2_qin_tyranny",
+      "choices": [
+        {
+          "id": "c1_return",
+          "label": "我醒悟了：沒有標準，就沒有真正的統一",
+          "type": "return_to_history",
+          "nextSceneId": "scene_2_qin_tyranny",
+          "reveal": {
+            "verdict": "return",
+            "historyNote": "你重新理解了秦始皇統一標準的必要性。",
+            "consequence": "你重返正史主線，故事從秦統一後的變局繼續。"
+          }
+        },
+        {
+          "id": "c1_persist",
+          "label": "我堅持分治，讓各國自行其是",
+          "type": "continue_divergence",
+          "nextSceneId": "failed",
+          "reveal": {
+            "verdict": "persist",
+            "historyNote": "若帝国長期分治，秦漢大一統的歷史敘事將無從寫起。",
+            "consequence": "偏離太遠，已無法返回原故事。"
+          }
+        }
+      ]
+    },
+    "scene_2_qin_tyranny": {
+      "id": "scene_2_qin_tyranny",
+      "route": "mainline",
+      "narrative": "【秦 · 統一後】長城、馳道、阿房宮動員數十萬民夫；焚書坑儒令天下噤聲。至陳勝、吳廣揭竿——秦僅傳二世便亡。",
+      "narrativeFirstPerson": "以{playerName}的視角，你親見長城與阿房宮的民夫，也聽聞焚書坑儒的風聲。陳勝、吳廣揭竿，天下動盪——你必須說出對秦始皇的評價。",
+      "decisionPrompt": "同僚轉頭看你：秦亡，究竟誰之過？",
+      "requiredClueCount": 0,
+      "choices": [
+        {
+          "id": "c2_both_sides",
+          "label": "我說：統一之功不可沒，暴政之過亦不可掩",
+          "type": "historical",
+          "nextSceneId": "scene_3_han_founding",
+          "reveal": {
+            "verdict": "historical",
+            "historyNote": "史學共識：秦始皇有統一六國、建立制度之大功，亦有苛法濫役、焚書坑儒之過；秦二世而亡，有其必然。",
+            "consequence": "你的分析符合史實，進入漢初變局。"
+          }
+        },
+        {
+          "id": "c2_blame_son_only",
+          "label": "我認為：秦滅只因胡亥昏庸，與始皇無關",
+          "type": "divergent",
+          "nextSceneId": "dev_2_blame_son",
+          "reveal": {
+            "verdict": "divergent",
+            "historyNote": "若只怪二世，無法解釋為何陳勝、吳廣起事時民怨已積；苛法與濫役在始皇時期已耗盡民力。",
+            "consequence": "你的看法過於片面——歷史在此拐彎。"
+          }
+        },
+        {
+          "id": "c2_praise_only",
+          "label": "我堅持：始皇功績蓋過一切，秦亡純屬後人敗壞",
+          "type": "divergent",
+          "nextSceneId": "dev_2_blame_son",
+          "reveal": {
+            "verdict": "divergent",
+            "historyNote": "只讚功而不論過，無法解釋天下群起而攻之的史實。",
+            "consequence": "你的看法過於片面——歷史在此拐彎。"
+          }
+        }
+      ]
+    },
+    "dev_2_blame_son": {
+      "id": "dev_2_blame_son",
+      "route": "deviation",
+      "narrative": "你把所有過錯推給二世，卻無視苛法與濫役早已耗盡民力。",
+      "narrativeFirstPerson": "以{playerName}的視角，你仍把秦亡歸咎於胡亥一人。但街市上的老人說：「暴政早從始皇時便開始了。」",
+      "decisionPrompt": "你還來得及修正這個看法——",
+      "requiredClueCount": 0,
+      "resumeMainlineSceneId": "scene_3_han_founding",
+      "choices": [
+        {
+          "id": "c2_return",
+          "label": "我重新思考：功與過必須一併分析",
+          "type": "return_to_history",
+          "nextSceneId": "scene_3_han_founding",
+          "reveal": {
+            "verdict": "return",
+            "historyNote": "全面評價历史人物，才能理解秦亡與漢興的因果。",
+            "consequence": "你重返正史，進入漢初建國的關鍵時刻。"
+          }
+        },
+        {
+          "id": "c2_persist",
+          "label": "我堅持「始皇無過」，拒絕全面評價",
+          "type": "continue_divergence",
+          "nextSceneId": "failed",
+          "reveal": {
+            "verdict": "persist",
+            "historyNote": "拒絕客觀分析，便無法理解歷史何以走向漢朝。",
+            "consequence": "偏離太遠，已無法返回原故事。"
+          }
+        }
+      ]
+    },
+    "scene_3_han_founding": {
+      "id": "scene_3_han_founding",
+      "route": "mainline",
+      "narrative": "【西漢 · 公元前202年】項羽敗亡，劉邦建漢。初漢君臣辯論：秦制該全廢還是承襲？",
+      "narrativeFirstPerson": "以{playerName}的視角，你列席長安廷議。項羽已敗，劉邦初定天下。有人主張廢除一切秦制，有人說須承其利、去其弊——漢該如何從秦亡中汲取教訓？",
+      "decisionPrompt": "劉邦的目光掃過群臣，等你的意見——",
+      "requiredClueCount": 0,
+      "choices": [
+        {
+          "id": "c3_inherit_reform",
+          "label": "我建議：承秦之制、約法三章，休養生息",
+          "type": "historical",
+          "nextSceneId": "scene_4_wudi_era",
+          "reveal": {
+            "verdict": "historical",
+            "historyNote": "史書載：漢承秦制而改之——保留郡縣等制度，又以約法三章、與民休息，奠定西漢基業。",
+            "consequence": "你與漢初君臣同行，進入武帝時代。"
+          }
+        },
+        {
+          "id": "c3_reject_all",
+          "label": "我主張：秦制罪大惡極，漢應一切推倒重來",
+          "type": "divergent",
+          "nextSceneId": "dev_3_reject_all",
+          "reveal": {
+            "verdict": "divergent",
+            "historyNote": "若漢初廢除郡縣與統一度量，天下必再陷混亂；新生政權無力承受。",
+            "consequence": "你選擇了史書未載之路——歷史在此拐彎。"
+          }
+        },
+        {
+          "id": "c3_copy_qin",
+          "label": "我建議：完全照搬秦制，包括苛法與重役",
+          "type": "divergent",
+          "nextSceneId": "dev_3_reject_all",
+          "reveal": {
+            "verdict": "divergent",
+            "historyNote": "漢初若照搬秦之苛法，必重蹈覆轍；劉邦以布衣起兵，深知民力之重要。",
+            "consequence": "你選擇了史書未載之路——歷史在此拐彎。"
+          }
+        }
+      ]
+    },
+    "dev_3_reject_all": {
+      "id": "dev_3_reject_all",
+      "route": "deviation",
+      "narrative": "你主張廢除郡縣、廢除統一度量，天下再度混亂。",
+      "narrativeFirstPerson": "以{playerName}的視角，你的建議令朝堂譁然。關東諸郡各自為政，度量衡再度混亂——漢初本已疲敝，這條路危如累卵。",
+      "decisionPrompt": "還來得及改弦更張——",
+      "requiredClueCount": 0,
+      "resumeMainlineSceneId": "scene_4_wudi_era",
+      "choices": [
+        {
+          "id": "c3_return",
+          "label": "我改採「因俗簡禮、與民休息」",
+          "type": "return_to_history",
+          "nextSceneId": "scene_4_wudi_era",
+          "reveal": {
+            "verdict": "return",
+            "historyNote": "漢初的明智之舉，正是承秦制之長、去其之短。",
+            "consequence": "你重返正史，進入漢武帝時代。"
+          }
+        },
+        {
+          "id": "c3_persist",
+          "label": "我繼續徹底否定秦制，寧可動盪",
+          "type": "continue_divergence",
+          "nextSceneId": "failed",
+          "reveal": {
+            "verdict": "persist",
+            "historyNote": "動盪中的漢朝無法完成大一統的歷史使命。",
+            "consequence": "偏離太遠，已無法返回原故事。"
+          }
+        }
+      ]
+    },
+    "scene_4_wudi_era": {
+      "id": "scene_4_wudi_era",
+      "route": "mainline",
+      "narrative": "【西漢 · 武帝時期】諸侯坐大、匈奴屢犯。主父偃獻推恩令，董仲舒倡獨尊儒術。",
+      "narrativeFirstPerson": "以{playerName}的視角，你見證漢武帝的雄圖。諸侯割據之心未死，匈奴屢犯邊境。主父偃獻推恩令，董仲舒倡獨尊儒術——你該如何建言？",
+      "decisionPrompt": "武帝問計：如何從政治、經濟、思想上鞏固大一統？",
+      "requiredClueCount": 0,
+      "choices": [
+        {
+          "id": "c4_reforms",
+          "label": "我奏請：行推恩令削藩，獨尊儒術統一思想",
+          "type": "historical",
+          "nextSceneId": "scene_5_silk_road",
+          "reveal": {
+            "verdict": "historical",
+            "historyNote": "史書載：漢武帝以推恩令削弱諸侯、獨尊儒術統一思想，從制度與意識形態兩面鞏固大一統。",
+            "consequence": "你沿正史前行，來到絲綢之路的前夜。"
+          }
+        },
+        {
+          "id": "c4_military_only",
+          "label": "我主張：只靠征伐匈奴，不必改權力結構",
+          "type": "divergent",
+          "nextSceneId": "dev_4_military_only",
+          "reveal": {
+            "verdict": "divergent",
+            "historyNote": "若只尚武而不削藩、不統思想，諸侯與豪強坐大，盛世難以長久。",
+            "consequence": "你選擇了史書未載之路——歷史在此拐彎。"
+          }
+        },
+        {
+          "id": "c4_do_nothing",
+          "label": "我建議：維持現狀，不削藩也不改思想",
+          "type": "divergent",
+          "nextSceneId": "dev_4_military_only",
+          "reveal": {
+            "verdict": "divergent",
+            "historyNote": "武帝若不改制，七國之亂的陰影仍懸於漢室之上。",
+            "consequence": "你選擇了史書未載之路——歷史在此拐彎。"
+          }
+        }
+      ]
+    },
+    "dev_4_military_only": {
+      "id": "dev_4_military_only",
+      "route": "deviation",
+      "narrative": "你押注於連年用兵，卻放任諸侯與豪強坐大。",
+      "narrativeFirstPerson": "以{playerName}的視角，連年征伐耗盡國庫，諸侯卻越發坐大。你曾以為「唯武論」可定天下——如今看來未必。",
+      "decisionPrompt": "是繼續這條路，還是回頭？",
+      "requiredClueCount": 0,
+      "resumeMainlineSceneId": "scene_5_silk_road",
+      "choices": [
+        {
+          "id": "c4_return",
+          "label": "我明白：盛世需要制度與思想雙管齊下",
+          "type": "return_to_history",
+          "nextSceneId": "scene_5_silk_road",
+          "reveal": {
+            "verdict": "return",
+            "historyNote": "推恩令與獨尊儒術，是漢武盛世的重要基石。",
+            "consequence": "你重返正史，見證絲綢之路的開闢。"
+          }
+        },
+        {
+          "id": "c4_persist",
+          "label": "我堅持「唯武論」，拒絕推恩與儒術",
+          "type": "continue_divergence",
+          "nextSceneId": "failed",
+          "reveal": {
+            "verdict": "persist",
+            "historyNote": "只靠武功而無制度，漢朝難以完成大一統的深化。",
+            "consequence": "偏離太遠，已無法返回原故事。"
+          }
+        }
+      ]
+    },
+    "scene_5_silk_road": {
+      "id": "scene_5_silk_road",
+      "route": "mainline",
+      "narrative": "【西漢 · 武帝時期】張騫持節出使西域，歷盡艱辛而還，帶回大宛良馬與西域諸國消息。",
+      "narrativeFirstPerson": "以{playerName}的視角，你聽聞張騫持節出使西域，歷盡艱辛而還。絲綢、良馬、香料——長安與西域之間，一條新路即將開闢。",
+      "decisionPrompt": "朝堂上，有人贊通西域，有人主張閉關——",
+      "requiredClueCount": 0,
+      "choices": [
+        {
+          "id": "c5_open_road",
+          "label": "我支持張騫：開闢絲綢之路，連接西域",
+          "type": "historical",
+          "nextSceneId": "scene_6_eastern_han",
+          "reveal": {
+            "verdict": "historical",
+            "historyNote": "史書載：張騫通西域，開闢絲綢之路，促進東西交流，是漢武時代的重要成就。",
+            "consequence": "你見證了絲路傳奇，進入東漢篇章。"
+          }
+        },
+        {
+          "id": "c5_isolation",
+          "label": "我主張閉關自守，斷絕與西域往來",
+          "type": "divergent",
+          "nextSceneId": "dev_5_isolation",
+          "reveal": {
+            "verdict": "divergent",
+            "historyNote": "若漢朝閉關自守，絲綢之路永遠不會出現在世界歷史上。",
+            "consequence": "你選擇了史書未載之路——歷史在此拐彎。"
+          }
+        },
+        {
+          "id": "c5_trade_tax",
+          "label": "我建議：通商但禁絕一切文化交流",
+          "type": "divergent",
+          "nextSceneId": "dev_5_isolation",
+          "reveal": {
+            "verdict": "divergent",
+            "historyNote": "絲綢之路的意義，正在於商貿與文化的雙向交流，而非單純通商。",
+            "consequence": "你選擇了史書未載之路——歷史在此拐彎。"
+          }
+        }
+      ]
+    },
+    "dev_5_isolation": {
+      "id": "dev_5_isolation",
+      "route": "deviation",
+      "narrative": "你關閉邊關、禁絕商隊。中原與西域從此隔絕。",
+      "narrativeFirstPerson": "以{playerName}的視角，邊關緊閉，商隊絕跡。良馬與良種無從引進，長安成了閉塞的都城。",
+      "decisionPrompt": "這條閉關之路，還能回頭嗎？",
+      "requiredClueCount": 0,
+      "resumeMainlineSceneId": "scene_6_eastern_han",
+      "choices": [
+        {
+          "id": "c5_return",
+          "label": "我重新開放邊關，讓長安連接西域",
+          "type": "return_to_history",
+          "nextSceneId": "scene_6_eastern_han",
+          "reveal": {
+            "verdict": "return",
+            "historyNote": "絲綢之路連接的不只是商品，更是文明。",
+            "consequence": "你重返正史，進入東漢中興的篇章。"
+          }
+        },
+        {
+          "id": "c5_persist",
+          "label": "我堅持閉關，認為外交往來無益",
+          "type": "continue_divergence",
+          "nextSceneId": "failed",
+          "reveal": {
+            "verdict": "persist",
+            "historyNote": "閉關的中原，將錯失絲綢之路這段輝煌歷史。",
+            "consequence": "偏離太遠，已無法返回原故事。"
+          }
+        }
+      ]
+    },
+    "scene_6_eastern_han": {
+      "id": "scene_6_eastern_han",
+      "route": "mainline",
+      "narrative": "【東漢 · 光武中興後】王莽之亂平定，劉秀重建漢室。然中興未久，外戚與宦官輪替專權。",
+      "narrativeFirstPerson": "以{playerName}的視角，你見證光武中興。王莽之亂平定，漢室重建。但中興未久，外戚與宦官輪替專權——這段「中興卻難長治」的歷史，你怎麼看？",
+      "decisionPrompt": "身為士人，你必須說出對東漢的判斷——",
+      "requiredClueCount": 0,
+      "choices": [
+        {
+          "id": "c6_balance",
+          "label": "我說：中興之功不可沒，外戚宦官之禍亦須警惕",
+          "type": "historical",
+          "nextSceneId": "scene_ending",
+          "reveal": {
+            "verdict": "historical",
+            "historyNote": "史學共識：光武中興重建漢室，但外戚與宦官專權為後來動盪埋下伏筆。",
+            "consequence": "你走完了四百年風雲，抵達結局。"
+          }
+        },
+        {
+          "id": "c6_restored_forever",
+          "label": "我認為：光武中興已解決一切，東漢必將長治久安",
+          "type": "divergent",
+          "nextSceneId": "dev_6_restored_forever",
+          "reveal": {
+            "verdict": "divergent",
+            "historyNote": "中興並非終點；外戚干政與宦官弄權的種子，在中興之初便已埋下。",
+            "consequence": "你選擇了史書未載之路——歷史在此拐彎。"
+          }
+        },
+        {
+          "id": "c6_dismiss_eunuchs",
+          "label": "我斷言：外戚宦官之爭只是小事，不影響大局",
+          "type": "divergent",
+          "nextSceneId": "dev_6_restored_forever",
+          "reveal": {
+            "verdict": "divergent",
+            "historyNote": "東漢後期的黨锢與動盪，正與外戚宦官之爭密切相關。",
+            "consequence": "你選擇了史書未載之路——歷史在此拐彎。"
+          }
+        }
+      ]
+    },
+    "dev_6_restored_forever": {
+      "id": "dev_6_restored_forever",
+      "route": "deviation",
+      "narrative": "你以為中興即是終點，無視外戚干政與宦官弄權的種子早已埋下。",
+      "narrativeFirstPerson": "以{playerName}的視角，你仍相信中興即完美。但宮中傳來的消息：外戚與宦官，已在暗處角力。",
+      "decisionPrompt": "歷史的教訓，你願意正視嗎？",
+      "requiredClueCount": 0,
+      "resumeMainlineSceneId": "scene_ending",
+      "choices": [
+        {
+          "id": "c6_return",
+          "label": "我承認：中興之後仍有結構性隱患",
+          "type": "return_to_history",
+          "nextSceneId": "scene_ending",
+          "reveal": {
+            "verdict": "return",
+            "historyNote": "看見隱患，才能理解後來的歷史走向。",
+            "consequence": "你重返正史，完成這段四百年旅程。"
+          }
+        },
+        {
+          "id": "c6_persist",
+          "label": "我堅持「中興即完美」，拒絕分析衰亡原因",
+          "type": "continue_divergence",
+          "nextSceneId": "failed",
+          "reveal": {
+            "verdict": "persist",
+            "historyNote": "拒絕分析衰亡原因，便無法真正理解歷史。",
+            "consequence": "偏離太遠，已無法返回原故事。"
+          }
+        }
+      ]
+    },
+    "scene_ending": {
+      "id": "scene_ending",
+      "route": "mainline",
+      "narrative": "你走完秦、西漢、東漢四百年風雲：秦始皇以中央集權奠定大一統，卻因暴政速亡；漢武帝以推恩令、獨尊儒術與絲綢之路鞏固盛世；東漢光武中興後，外戚宦官之爭又預示新的危機。這是中國「大一統」局面的奠基期——功與過，都留給後人評說。",
+      "narrativeFirstPerson": "以{playerName}的視角，你親歷了四百年風雲。每一個抉擇，都連結著後來的歷史。你守住了正史的主線——這段「大一統」的奠基期，從此在你心中有了溫度。",
+      "choices": []
+    }
+  }
+}

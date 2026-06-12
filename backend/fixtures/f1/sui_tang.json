@@ -1,0 +1,1945 @@
+{
+  "analysis": {
+    "title": "中一中國歷史：隋唐",
+    "characters": [
+      {
+        "name": "唐代",
+        "mentions": 13
+      },
+      {
+        "name": "安祿山",
+        "mentions": 6
+      },
+      {
+        "name": "隋文帝",
+        "mentions": 4
+      },
+      {
+        "name": "隋煬帝",
+        "mentions": 4
+      },
+      {
+        "name": "唐軍",
+        "mentions": 4
+      },
+      {
+        "name": "唐太宗",
+        "mentions": 4
+      },
+      {
+        "name": "李林甫",
+        "mentions": 3
+      },
+      {
+        "name": "唐朝社",
+        "mentions": 3
+      }
+    ],
+    "plotBeats": [
+      {
+        "order": 1,
+        "summary": "=== 第一章：隋朝的統一 ==="
+      },
+      {
+        "order": 2,
+        "summary": "中一級"
+      },
+      {
+        "order": 3,
+        "summary": "隋唐時期"
+      },
+      {
+        "order": 4,
+        "summary": "課題一：隋朝的統一與開皇之治"
+      },
+      {
+        "order": 5,
+        "summary": "第一章：隋朝的統一"
+      },
+      {
+        "order": 6,
+        "summary": "考前筆記"
+      },
+      {
+        "order": 7,
+        "summary": "一、統一南北"
+      },
+      {
+        "order": 8,
+        "summary": "1.1 篡周建隋"
+      }
+    ],
+    "settings": [
+      "長安",
+      "洛陽",
+      "西域",
+      "由九州",
+      "國家地區關",
+      "在長江口"
+    ],
+    "rawTextLength": 13089,
+    "engine": "chistory",
+    "structure": {
+      "dialogueCount": 1,
+      "narrationLength": 12998,
+      "paragraphCount": 566
+    },
+    "svoPatterns": [],
+    "imagePrompts": [
+      {
+        "prompt": "場景：長安、洛陽，=== 第一章：隋朝的統一 ===",
+        "expandedPrompt": "場景：長安、洛陽，=== 第一章：隋朝的統一 ===。風格：古風、歷史繪卷、細膩場景",
+        "moodKeywords": [
+          "古風",
+          "歷史繪卷",
+          "細膩場景"
+        ]
+      },
+      {
+        "prompt": "場景：長安、洛陽，中一級",
+        "expandedPrompt": "場景：長安、洛陽，中一級。風格：古風、歷史繪卷、細膩場景",
+        "moodKeywords": [
+          "古風",
+          "歷史繪卷",
+          "細膩場景"
+        ]
+      },
+      {
+        "prompt": "場景：長安、洛陽，隋唐時期",
+        "expandedPrompt": "場景：長安、洛陽，隋唐時期。風格：古風、歷史繪卷、細膩場景",
+        "moodKeywords": [
+          "古風",
+          "歷史繪卷",
+          "細膩場景"
+        ]
+      }
+    ],
+    "sourceUrl": "https://chistory.kanhan.com/tc/f1-reading-card",
+    "periodId": "sui_tang"
+  },
+  "storyGraph": {
+    "title": "中一中國歷史：隋唐",
+    "startSceneId": "scene_1",
+    "scenes": {
+      "scene_1": {
+        "id": "scene_1",
+        "route": "mainline",
+        "narrative": "【第一章：隋朝的統一】楊堅父親楊忠為北周開國功臣，女兒為周宣帝皇后。",
+        "narrativeFirstPerson": "以{playerName}的視角，楊堅父親楊忠為北周開國功臣，女兒為周宣帝皇后。",
+        "decisionPrompt": "研讀「隋朝的統一」後，你會如何理解這段歷史？",
+        "requiredClueCount": 3,
+        "hotspots": [
+          {
+            "id": "scene_1_clue_sui_unify",
+            "label": "查看隋朝統一形勢",
+            "x": 52,
+            "y": 42,
+            "clue": {
+              "title": "隋朝統一",
+              "content": "楊堅代周建隋，先後滅陳，結束長期分裂。"
+            }
+          },
+          {
+            "id": "scene_1_clue_2",
+            "label": "翻閱：北周靜帝年幼繼位，楊堅以外祖父身份輔政。",
+            "x": 28,
+            "y": 48,
+            "clue": {
+              "title": "北周靜帝年幼繼位，楊堅以外祖父身份輔政。",
+              "content": "北周靜帝年幼繼位，楊堅以外祖父身份輔政。"
+            }
+          },
+          {
+            "id": "scene_1_clue_3",
+            "label": "翻閱：楊堅的輔政，引起宗室及地方軍政首長不…",
+            "x": 68,
+            "y": 55,
+            "clue": {
+              "title": "楊堅的輔政，引起宗室及地方軍政首長不…",
+              "content": "楊堅的輔政，引起宗室及地方軍政首長不滿，起兵反對，但都被楊堅平定。"
+            }
+          },
+          {
+            "id": "scene_1_clue_4",
+            "label": "翻閱：公元581 年，楊堅廢靜帝自立，楊氏…",
+            "x": 38,
+            "y": 72,
+            "clue": {
+              "title": "公元581 年，楊堅廢靜帝自立，楊氏…",
+              "content": "公元581 年，楊堅廢靜帝自立，楊氏自西魏受封為隨國公，遂國號「隋」（移除⻌），史稱隋文帝。"
+            }
+          },
+          {
+            "id": "scene_1_clue_5",
+            "label": "翻閱：當時局勢，南方為陳朝佔有長江以南。江…",
+            "x": 78,
+            "y": 38,
+            "clue": {
+              "title": "當時局勢，南方為陳朝佔有長江以南。江…",
+              "content": "當時局勢，南方為陳朝佔有長江以南。江陵地區為梁朝宗室所建的梁政權（史稱蕭梁），一直為北周附庸。"
+            }
+          }
+        ],
+        "choices": [
+          {
+            "id": "scene_1_historical",
+            "label": "我依課程理解：隋朝的統一",
+            "type": "historical",
+            "nextSceneId": "scene_2",
+            "reveal": {
+              "verdict": "historical",
+              "historyNote": "這符合課本對「隋朝的統一」的記載。",
+              "consequence": "你把握了隋唐興衰與開放社會的脈絡。"
+            }
+          },
+          {
+            "id": "scene_1_divergent_a",
+            "label": "我忽略課本，自行臆測",
+            "type": "divergent",
+            "nextSceneId": "deviation_1",
+            "reveal": {
+              "verdict": "divergent",
+              "historyNote": "此舉並無史實依據。",
+              "consequence": "你選擇了史書未載之路——歷史在此拐彎。"
+            }
+          },
+          {
+            "id": "scene_1_divergent_b",
+            "label": "我提出與課本相反的說法",
+            "type": "divergent",
+            "nextSceneId": "deviation_1",
+            "reveal": {
+              "verdict": "divergent",
+              "historyNote": "與課程記載不符。",
+              "consequence": "你選擇了史書未載之路——歷史在此拐彎。"
+            }
+          }
+        ],
+        "narrativeAsReader": "你翻開課本，來到【隋朝的統一】。楊堅父親楊忠為北周開國功臣，女兒為周宣帝皇后。",
+        "decisionPromptAsReader": "研讀「隋朝的統一」後，你會如何理解這段歷史？",
+        "imagePrompt": {
+          "prompt": "楊堅父親楊忠為北周開國功臣，女兒為周宣帝皇后",
+          "expandedPrompt": "楊堅父親楊忠為北周開國功臣，女兒為周宣帝皇后。風格：古風、歷史繪卷、隋朝統一",
+          "moodKeywords": [
+            "古風",
+            "歷史繪卷",
+            "隋朝統一"
+          ]
+        }
+      },
+      "deviation_1": {
+        "id": "deviation_1",
+        "route": "deviation",
+        "narrative": "你對「第一章：隋朝的統一」的理解偏離了課程記載的史實。歷史在此拐了彎——仍可選擇重返正史主線。",
+        "narrativeFirstPerson": "以{playerName}的視角，你對「第一章：隋朝的統一」的理解偏離了史實。",
+        "decisionPrompt": "你還來得及修正——",
+        "requiredClueCount": 0,
+        "resumeMainlineSceneId": "scene_2",
+        "choices": [
+          {
+            "id": "deviation_1_return",
+            "label": "我重新翻閱課本，修正理解",
+            "type": "return_to_history",
+            "nextSceneId": "scene_2",
+            "reveal": {
+              "verdict": "return",
+              "historyNote": "這符合課本對「隋朝的統一」的記載。",
+              "consequence": "你重返正史主線。"
+            }
+          },
+          {
+            "id": "deviation_1_persist",
+            "label": "我堅持錯誤理解，繼續偏離",
+            "type": "continue_divergence",
+            "nextSceneId": "failed",
+            "reveal": {
+              "verdict": "persist",
+              "historyNote": "若長期偏離「第一章：隋朝的統一」的史實，敘事將無從延續。",
+              "consequence": "偏離太遠，已無法返回原故事。"
+            }
+          }
+        ],
+        "narrativeAsReader": "你翻開課本，你發現自己對「隋朝的統一」的理解與史實不符。",
+        "decisionPromptAsReader": "翻閱課本後，你還來得及修正理解——",
+        "imagePrompt": {
+          "prompt": "你發現自己對「隋朝的統一」的理解與史實不符",
+          "expandedPrompt": "你發現自己對「隋朝的統一」的理解與史實不符。風格：暗色調、戲劇性、偏離史實",
+          "moodKeywords": [
+            "暗色調",
+            "戲劇性",
+            "偏離史實"
+          ]
+        }
+      },
+      "scene_2": {
+        "id": "scene_2",
+        "route": "mainline",
+        "narrative": "【第二章：開皇之治的措施與影響】「開皇之治」是後人尊稱隋文帝在位期間勵精圖治，所帶來國泰民安的盛世。",
+        "narrativeFirstPerson": "以{playerName}的視角，「開皇之治」是後人尊稱隋文帝在位期間勵精圖治，所帶來國泰民安的盛世。",
+        "decisionPrompt": "研讀「開皇之治的措施與影響」後，你會如何理解這段歷史？",
+        "requiredClueCount": 3,
+        "hotspots": [
+          {
+            "id": "scene_2_clue_kaihuang",
+            "label": "展閱開皇政令",
+            "x": 52,
+            "y": 42,
+            "clue": {
+              "title": "開皇之治",
+              "content": "減賦輕徭、整頓吏治，史稱開皇之治。"
+            }
+          },
+          {
+            "id": "scene_2_clue_2",
+            "label": "翻閱：隋廢除北周的六官舊制，改行三省六部制。",
+            "x": 28,
+            "y": 48,
+            "clue": {
+              "title": "隋廢除北周的六官舊制，改行三省六部制。",
+              "content": "隋廢除北周的六官舊制，改行三省六部制。"
+            }
+          },
+          {
+            "id": "scene_2_clue_3",
+            "label": "翻閱：三省為內史、門下、尚書，相權被分為制…",
+            "x": 68,
+            "y": 55,
+            "clue": {
+              "title": "三省為內史、門下、尚書，相權被分為制…",
+              "content": "三省為內史、門下、尚書，相權被分為制定、審核、執行三部分。"
+            }
+          },
+          {
+            "id": "scene_2_clue_4",
+            "label": "翻閱：尚書省之下為六部，即吏、民、禮、兵、…",
+            "x": 38,
+            "y": 72,
+            "clue": {
+              "title": "尚書省之下為六部，即吏、民、禮、兵、…",
+              "content": "尚書省之下為六部，即吏、民、禮、兵、刑、工部。"
+            }
+          },
+          {
+            "id": "scene_2_clue_5",
+            "label": "翻閱：三省六部制職權分明，提高行政效率。",
+            "x": 78,
+            "y": 38,
+            "clue": {
+              "title": "三省六部制職權分明，提高行政效率。",
+              "content": "三省六部制職權分明，提高行政效率。"
+            }
+          }
+        ],
+        "choices": [
+          {
+            "id": "scene_2_historical",
+            "label": "我依課程理解：開皇之治的措施與影響",
+            "type": "historical",
+            "nextSceneId": "scene_3",
+            "reveal": {
+              "verdict": "historical",
+              "historyNote": "這符合課本對「開皇之治的措施與影響」的記載。",
+              "consequence": "你把握了隋唐興衰與開放社會的脈絡。"
+            }
+          },
+          {
+            "id": "scene_2_divergent_a",
+            "label": "我忽略課本，自行臆測",
+            "type": "divergent",
+            "nextSceneId": "deviation_2",
+            "reveal": {
+              "verdict": "divergent",
+              "historyNote": "此舉並無史實依據。",
+              "consequence": "你選擇了史書未載之路——歷史在此拐彎。"
+            }
+          },
+          {
+            "id": "scene_2_divergent_b",
+            "label": "我提出與課本相反的說法",
+            "type": "divergent",
+            "nextSceneId": "deviation_2",
+            "reveal": {
+              "verdict": "divergent",
+              "historyNote": "與課程記載不符。",
+              "consequence": "你選擇了史書未載之路——歷史在此拐彎。"
+            }
+          }
+        ],
+        "narrativeAsReader": "你翻開課本，來到【開皇之治的措施與影響】。「開皇之治」是後人尊稱隋文帝在位期間勵精圖治，所帶來國泰民安的盛世。",
+        "decisionPromptAsReader": "研讀「開皇之治的措施與影響」後，你會如何理解這段歷史？",
+        "imagePrompt": {
+          "prompt": "「開皇之治」是後人尊稱隋文帝在位期間勵精圖治，所帶來國泰民安的盛世",
+          "expandedPrompt": "「開皇之治」是後人尊稱隋文帝在位期間勵精圖治，所帶來國泰民安的盛世。風格：古風、歷史繪卷、隋朝統一",
+          "moodKeywords": [
+            "古風",
+            "歷史繪卷",
+            "隋朝統一"
+          ]
+        }
+      },
+      "deviation_2": {
+        "id": "deviation_2",
+        "route": "deviation",
+        "narrative": "你對「第二章：開皇之治的措施與影響」的理解偏離了課程記載的史實。歷史在此拐了彎——仍可選擇重返正史主線。",
+        "narrativeFirstPerson": "以{playerName}的視角，你對「第二章：開皇之治的措施與影響」的理解偏離了史實。",
+        "decisionPrompt": "你還來得及修正——",
+        "requiredClueCount": 0,
+        "resumeMainlineSceneId": "scene_3",
+        "choices": [
+          {
+            "id": "deviation_2_return",
+            "label": "我重新翻閱課本，修正理解",
+            "type": "return_to_history",
+            "nextSceneId": "scene_3",
+            "reveal": {
+              "verdict": "return",
+              "historyNote": "這符合課本對「開皇之治的措施與影響」的記載。",
+              "consequence": "你重返正史主線。"
+            }
+          },
+          {
+            "id": "deviation_2_persist",
+            "label": "我堅持錯誤理解，繼續偏離",
+            "type": "continue_divergence",
+            "nextSceneId": "failed",
+            "reveal": {
+              "verdict": "persist",
+              "historyNote": "若長期偏離「第二章：開皇之治的措施與影響」的史實，敘事將無從延續。",
+              "consequence": "偏離太遠，已無法返回原故事。"
+            }
+          }
+        ],
+        "narrativeAsReader": "你翻開課本，你發現自己對「開皇之治的措施與影響」的理解與史實不符。",
+        "decisionPromptAsReader": "翻閱課本後，你還來得及修正理解——",
+        "imagePrompt": {
+          "prompt": "你發現自己對「開皇之治的措施與影響」的理解與史實不符",
+          "expandedPrompt": "你發現自己對「開皇之治的措施與影響」的理解與史實不符。風格：暗色調、戲劇性、偏離史實",
+          "moodKeywords": [
+            "暗色調",
+            "戲劇性",
+            "偏離史實"
+          ]
+        }
+      },
+      "scene_3": {
+        "id": "scene_3",
+        "route": "mainline",
+        "narrative": "【第一章：隋代大運河的開通與作用】以洛陽為中心，北起涿郡，南到餘杭，全長兩千多公里。",
+        "narrativeFirstPerson": "以{playerName}的視角，以洛陽為中心，北起涿郡，南到餘杭，全長兩千多公里。",
+        "decisionPrompt": "研讀「隋代大運河的開通與作用」後，你會如何理解這段歷史？",
+        "requiredClueCount": 3,
+        "hotspots": [
+          {
+            "id": "scene_3_clue_grand_canal",
+            "label": "查看運河路線圖",
+            "x": 52,
+            "y": 42,
+            "clue": {
+              "title": "隋唐大運河",
+              "content": "以洛陽為中心貫通南北，促進糧運與商貿。"
+            }
+          },
+          {
+            "id": "scene_3_clue_2",
+            "label": "翻閱：文帝與煬帝下令開鑿溝通南北的運河，史…",
+            "x": 28,
+            "y": 48,
+            "clue": {
+              "title": "文帝與煬帝下令開鑿溝通南北的運河，史…",
+              "content": "文帝與煬帝下令開鑿溝通南北的運河，史稱大運河。"
+            }
+          },
+          {
+            "id": "scene_3_clue_3",
+            "label": "翻閱：文帝為方便南巡，及關中漕運，開鑿了廣…",
+            "x": 68,
+            "y": 55,
+            "clue": {
+              "title": "文帝為方便南巡，及關中漕運，開鑿了廣…",
+              "content": "文帝為方便南巡，及關中漕運，開鑿了廣通渠。"
+            }
+          },
+          {
+            "id": "scene_3_clue_4",
+            "label": "翻閱：公元584 年(開皇四年)開鑿。",
+            "x": 38,
+            "y": 72,
+            "clue": {
+              "title": "公元584 年(開皇四年)開鑿。",
+              "content": "公元584 年(開皇四年)開鑿。"
+            }
+          },
+          {
+            "id": "scene_3_clue_5",
+            "label": "翻閱：自首都大興引渭水，至潼關注入黃河。",
+            "x": 78,
+            "y": 38,
+            "clue": {
+              "title": "自首都大興引渭水，至潼關注入黃河。",
+              "content": "自首都大興引渭水，至潼關注入黃河。"
+            }
+          }
+        ],
+        "choices": [
+          {
+            "id": "scene_3_historical",
+            "label": "我依課程理解：隋代大運河的開通與作用",
+            "type": "historical",
+            "nextSceneId": "scene_4",
+            "reveal": {
+              "verdict": "historical",
+              "historyNote": "這符合課本對「隋代大運河的開通與作用」的記載。",
+              "consequence": "你把握了隋唐興衰與開放社會的脈絡。"
+            }
+          },
+          {
+            "id": "scene_3_divergent_a",
+            "label": "我忽略課本，自行臆測",
+            "type": "divergent",
+            "nextSceneId": "deviation_3",
+            "reveal": {
+              "verdict": "divergent",
+              "historyNote": "此舉並無史實依據。",
+              "consequence": "你選擇了史書未載之路——歷史在此拐彎。"
+            }
+          },
+          {
+            "id": "scene_3_divergent_b",
+            "label": "我提出與課本相反的說法",
+            "type": "divergent",
+            "nextSceneId": "deviation_3",
+            "reveal": {
+              "verdict": "divergent",
+              "historyNote": "與課程記載不符。",
+              "consequence": "你選擇了史書未載之路——歷史在此拐彎。"
+            }
+          }
+        ],
+        "narrativeAsReader": "你翻開課本，來到【隋代大運河的開通與作用】。以洛陽為中心，北起涿郡，南到餘杭，全長兩千多公里。",
+        "decisionPromptAsReader": "研讀「隋代大運河的開通與作用」後，你會如何理解這段歷史？",
+        "imagePrompt": {
+          "prompt": "以洛陽為中心，北起涿郡，南到餘杭，全長兩千多公里",
+          "expandedPrompt": "以洛陽為中心，北起涿郡，南到餘杭，全長兩千多公里。風格：古風、歷史繪卷、隋唐運河",
+          "moodKeywords": [
+            "古風",
+            "歷史繪卷",
+            "隋唐運河"
+          ]
+        }
+      },
+      "deviation_3": {
+        "id": "deviation_3",
+        "route": "deviation",
+        "narrative": "你對「第一章：隋代大運河的開通與作用」的理解偏離了課程記載的史實。歷史在此拐了彎——仍可選擇重返正史主線。",
+        "narrativeFirstPerson": "以{playerName}的視角，你對「第一章：隋代大運河的開通與作用」的理解偏離了史實。",
+        "decisionPrompt": "你還來得及修正——",
+        "requiredClueCount": 0,
+        "resumeMainlineSceneId": "scene_4",
+        "choices": [
+          {
+            "id": "deviation_3_return",
+            "label": "我重新翻閱課本，修正理解",
+            "type": "return_to_history",
+            "nextSceneId": "scene_4",
+            "reveal": {
+              "verdict": "return",
+              "historyNote": "這符合課本對「隋代大運河的開通與作用」的記載。",
+              "consequence": "你重返正史主線。"
+            }
+          },
+          {
+            "id": "deviation_3_persist",
+            "label": "我堅持錯誤理解，繼續偏離",
+            "type": "continue_divergence",
+            "nextSceneId": "failed",
+            "reveal": {
+              "verdict": "persist",
+              "historyNote": "若長期偏離「第一章：隋代大運河的開通與作用」的史實，敘事將無從延續。",
+              "consequence": "偏離太遠，已無法返回原故事。"
+            }
+          }
+        ],
+        "narrativeAsReader": "你翻開課本，你發現自己對「隋代大運河的開通與作用」的理解與史實不符。",
+        "decisionPromptAsReader": "翻閱課本後，你還來得及修正理解——",
+        "imagePrompt": {
+          "prompt": "你發現自己對「隋代大運河的開通與作用」的理解與史實不符",
+          "expandedPrompt": "你發現自己對「隋代大運河的開通與作用」的理解與史實不符。風格：暗色調、戲劇性、偏離史實",
+          "moodKeywords": [
+            "暗色調",
+            "戲劇性",
+            "偏離史實"
+          ]
+        }
+      },
+      "scene_4": {
+        "id": "scene_4",
+        "route": "mainline",
+        "narrative": "【第一章：唐的建國】隋煬帝登位後，生活奢華，大興土木，輕啟戰端，濫用民力。",
+        "narrativeFirstPerson": "以{playerName}的視角，隋煬帝登位後，生活奢華，大興土木，輕啟戰端，濫用民力。",
+        "decisionPrompt": "研讀「唐的建國」後，你會如何理解這段歷史？",
+        "requiredClueCount": 3,
+        "hotspots": [
+          {
+            "id": "scene_4_clue_1",
+            "label": "翻閱：隋煬帝登位後，生活奢華，大興土木，輕…",
+            "x": 52,
+            "y": 42,
+            "clue": {
+              "title": "隋煬帝登位後，生活奢華，大興土木，輕…",
+              "content": "隋煬帝登位後，生活奢華，大興土木，輕啟戰端，濫用民力。"
+            }
+          },
+          {
+            "id": "scene_4_clue_2",
+            "label": "翻閱：煬帝三次南巡江都，每次勞師動眾，極盡…",
+            "x": 28,
+            "y": 48,
+            "clue": {
+              "title": "煬帝三次南巡江都，每次勞師動眾，極盡…",
+              "content": "煬帝三次南巡江都，每次勞師動眾，極盡排場。向突厥炫富，為突厥舉行持續半個月的慶典。"
+            }
+          },
+          {
+            "id": "scene_4_clue_3",
+            "label": "翻閱：煬帝大興土木，修建東都、馳道及長城，…",
+            "x": 68,
+            "y": 55,
+            "clue": {
+              "title": "煬帝大興土木，修建東都、馳道及長城，…",
+              "content": "煬帝大興土木，修建東都、馳道及長城，為巡遊江南及征高句麗而開鑿運河，消耗大量資源及民力。"
+            }
+          },
+          {
+            "id": "scene_4_clue_4",
+            "label": "翻閱：煬帝好大喜功，多次對外發動戰爭，例如…",
+            "x": 38,
+            "y": 72,
+            "clue": {
+              "title": "煬帝好大喜功，多次對外發動戰爭，例如…",
+              "content": "煬帝好大喜功，多次對外發動戰爭，例如契丹、高句麗、吐谷渾等，大量"
+            }
+          },
+          {
+            "id": "scene_4_clue_5",
+            "label": "翻閱：公元613 年，楊玄感於黎陽（今河南…",
+            "x": 78,
+            "y": 38,
+            "clue": {
+              "title": "公元613 年，楊玄感於黎陽（今河南…",
+              "content": "公元613 年，楊玄感於黎陽（今河南浚縣東北）叛變，雖被平定，但各地已開始出現大規模民變。"
+            }
+          }
+        ],
+        "choices": [
+          {
+            "id": "scene_4_historical",
+            "label": "我依課程理解：唐的建國",
+            "type": "historical",
+            "nextSceneId": "scene_5",
+            "reveal": {
+              "verdict": "historical",
+              "historyNote": "這符合課本對「唐的建國」的記載。",
+              "consequence": "你把握了隋唐興衰與開放社會的脈絡。"
+            }
+          },
+          {
+            "id": "scene_4_divergent_a",
+            "label": "我忽略課本，自行臆測",
+            "type": "divergent",
+            "nextSceneId": "deviation_4",
+            "reveal": {
+              "verdict": "divergent",
+              "historyNote": "此舉並無史實依據。",
+              "consequence": "你選擇了史書未載之路——歷史在此拐彎。"
+            }
+          },
+          {
+            "id": "scene_4_divergent_b",
+            "label": "我提出與課本相反的說法",
+            "type": "divergent",
+            "nextSceneId": "deviation_4",
+            "reveal": {
+              "verdict": "divergent",
+              "historyNote": "與課程記載不符。",
+              "consequence": "你選擇了史書未載之路——歷史在此拐彎。"
+            }
+          }
+        ],
+        "narrativeAsReader": "你翻開課本，來到【唐的建國】。隋煬帝登位後，生活奢華，大興土木，輕啟戰端，濫用民力。",
+        "decisionPromptAsReader": "研讀「唐的建國」後，你會如何理解這段歷史？",
+        "imagePrompt": {
+          "prompt": "隋煬帝登位後，生活奢華，大興土木，輕啟戰端，濫用民力",
+          "expandedPrompt": "隋煬帝登位後，生活奢華，大興土木，輕啟戰端，濫用民力。風格：古風、歷史繪卷、細膩場景",
+          "moodKeywords": [
+            "古風",
+            "歷史繪卷",
+            "細膩場景"
+          ]
+        }
+      },
+      "deviation_4": {
+        "id": "deviation_4",
+        "route": "deviation",
+        "narrative": "你對「第一章：唐的建國」的理解偏離了課程記載的史實。歷史在此拐了彎——仍可選擇重返正史主線。",
+        "narrativeFirstPerson": "以{playerName}的視角，你對「第一章：唐的建國」的理解偏離了史實。",
+        "decisionPrompt": "你還來得及修正——",
+        "requiredClueCount": 0,
+        "resumeMainlineSceneId": "scene_5",
+        "choices": [
+          {
+            "id": "deviation_4_return",
+            "label": "我重新翻閱課本，修正理解",
+            "type": "return_to_history",
+            "nextSceneId": "scene_5",
+            "reveal": {
+              "verdict": "return",
+              "historyNote": "這符合課本對「唐的建國」的記載。",
+              "consequence": "你重返正史主線。"
+            }
+          },
+          {
+            "id": "deviation_4_persist",
+            "label": "我堅持錯誤理解，繼續偏離",
+            "type": "continue_divergence",
+            "nextSceneId": "failed",
+            "reveal": {
+              "verdict": "persist",
+              "historyNote": "若長期偏離「第一章：唐的建國」的史實，敘事將無從延續。",
+              "consequence": "偏離太遠，已無法返回原故事。"
+            }
+          }
+        ],
+        "narrativeAsReader": "你翻開課本，你發現自己對「唐的建國」的理解與史實不符。",
+        "decisionPromptAsReader": "翻閱課本後，你還來得及修正理解——",
+        "imagePrompt": {
+          "prompt": "你發現自己對「唐的建國」的理解與史實不符",
+          "expandedPrompt": "你發現自己對「唐的建國」的理解與史實不符。風格：暗色調、戲劇性、偏離史實",
+          "moodKeywords": [
+            "暗色調",
+            "戲劇性",
+            "偏離史實"
+          ]
+        }
+      },
+      "scene_5": {
+        "id": "scene_5",
+        "route": "mainline",
+        "narrative": "【第二章：貞觀之治的治績與影響】唐太宗即位後勵精圖治，國泰民安，史家美譽為「貞觀之治」。",
+        "narrativeFirstPerson": "以{playerName}的視角，唐太宗即位後勵精圖治，國泰民安，史家美譽為「貞觀之治」。",
+        "decisionPrompt": "研讀「貞觀之治的治績與影響」後，你會如何理解這段歷史？",
+        "requiredClueCount": 3,
+        "hotspots": [
+          {
+            "id": "scene_5_clue_zhenguan",
+            "label": "閱讀貞觀政要摘錄",
+            "x": 52,
+            "y": 42,
+            "clue": {
+              "title": "貞觀之治",
+              "content": "唐太宗任賢納諫，國泰民安，史稱貞觀之治。"
+            }
+          },
+          {
+            "id": "scene_5_clue_2",
+            "label": "翻閱：在政治、經濟、文教、軍事外交上均有作為。",
+            "x": 28,
+            "y": 48,
+            "clue": {
+              "title": "在政治、經濟、文教、軍事外交上均有作為。",
+              "content": "在政治、經濟、文教、軍事外交上均有作為。"
+            }
+          },
+          {
+            "id": "scene_5_clue_3",
+            "label": "翻閱：貞觀之治為唐朝第一個治世。",
+            "x": 68,
+            "y": 55,
+            "clue": {
+              "title": "貞觀之治為唐朝第一個治世。",
+              "content": "貞觀之治為唐朝第一個治世。"
+            }
+          },
+          {
+            "id": "scene_5_clue_4",
+            "label": "翻閱：唐沿隋制，中央行三省六部制。",
+            "x": 38,
+            "y": 72,
+            "clue": {
+              "title": "唐沿隋制，中央行三省六部制。",
+              "content": "唐沿隋制，中央行三省六部制。"
+            }
+          },
+          {
+            "id": "scene_5_clue_5",
+            "label": "翻閱：三省為中書、門下、尚書，六部為「吏、…",
+            "x": 78,
+            "y": 38,
+            "clue": {
+              "title": "三省為中書、門下、尚書，六部為「吏、…",
+              "content": "三省為中書、門下、尚書，六部為「吏、戶、禮、兵、刑、工」六部。"
+            }
+          }
+        ],
+        "choices": [
+          {
+            "id": "scene_5_historical",
+            "label": "我依課程理解：貞觀之治的治績與影響",
+            "type": "historical",
+            "nextSceneId": "scene_6",
+            "reveal": {
+              "verdict": "historical",
+              "historyNote": "這符合課本對「貞觀之治的治績與影響」的記載。",
+              "consequence": "你把握了隋唐興衰與開放社會的脈絡。"
+            }
+          },
+          {
+            "id": "scene_5_divergent_a",
+            "label": "我忽略課本，自行臆測",
+            "type": "divergent",
+            "nextSceneId": "deviation_5",
+            "reveal": {
+              "verdict": "divergent",
+              "historyNote": "此舉並無史實依據。",
+              "consequence": "你選擇了史書未載之路——歷史在此拐彎。"
+            }
+          },
+          {
+            "id": "scene_5_divergent_b",
+            "label": "我提出與課本相反的說法",
+            "type": "divergent",
+            "nextSceneId": "deviation_5",
+            "reveal": {
+              "verdict": "divergent",
+              "historyNote": "與課程記載不符。",
+              "consequence": "你選擇了史書未載之路——歷史在此拐彎。"
+            }
+          }
+        ],
+        "narrativeAsReader": "你翻開課本，來到【貞觀之治的治績與影響】。唐太宗即位後勵精圖治，國泰民安，史家美譽為「貞觀之治」。",
+        "decisionPromptAsReader": "研讀「貞觀之治的治績與影響」後，你會如何理解這段歷史？",
+        "imagePrompt": {
+          "prompt": "唐太宗即位後勵精圖治，國泰民安，史家美譽為「貞觀之治」",
+          "expandedPrompt": "唐太宗即位後勵精圖治，國泰民安，史家美譽為「貞觀之治」。風格：古風、歷史繪卷、貞觀之治",
+          "moodKeywords": [
+            "古風",
+            "歷史繪卷",
+            "貞觀之治"
+          ]
+        }
+      },
+      "deviation_5": {
+        "id": "deviation_5",
+        "route": "deviation",
+        "narrative": "你對「第二章：貞觀之治的治績與影響」的理解偏離了課程記載的史實。歷史在此拐了彎——仍可選擇重返正史主線。",
+        "narrativeFirstPerson": "以{playerName}的視角，你對「第二章：貞觀之治的治績與影響」的理解偏離了史實。",
+        "decisionPrompt": "你還來得及修正——",
+        "requiredClueCount": 0,
+        "resumeMainlineSceneId": "scene_6",
+        "choices": [
+          {
+            "id": "deviation_5_return",
+            "label": "我重新翻閱課本，修正理解",
+            "type": "return_to_history",
+            "nextSceneId": "scene_6",
+            "reveal": {
+              "verdict": "return",
+              "historyNote": "這符合課本對「貞觀之治的治績與影響」的記載。",
+              "consequence": "你重返正史主線。"
+            }
+          },
+          {
+            "id": "deviation_5_persist",
+            "label": "我堅持錯誤理解，繼續偏離",
+            "type": "continue_divergence",
+            "nextSceneId": "failed",
+            "reveal": {
+              "verdict": "persist",
+              "historyNote": "若長期偏離「第二章：貞觀之治的治績與影響」的史實，敘事將無從延續。",
+              "consequence": "偏離太遠，已無法返回原故事。"
+            }
+          }
+        ],
+        "narrativeAsReader": "你翻開課本，你發現自己對「貞觀之治的治績與影響」的理解與史實不符。",
+        "decisionPromptAsReader": "翻閱課本後，你還來得及修正理解——",
+        "imagePrompt": {
+          "prompt": "你發現自己對「貞觀之治的治績與影響」的理解與史實不符",
+          "expandedPrompt": "你發現自己對「貞觀之治的治績與影響」的理解與史實不符。風格：暗色調、戲劇性、偏離史實",
+          "moodKeywords": [
+            "暗色調",
+            "戲劇性",
+            "偏離史實"
+          ]
+        }
+      },
+      "scene_6": {
+        "id": "scene_6",
+        "route": "mainline",
+        "narrative": "【第三章：武后施政的特色（延伸）】武則天協助唐高宗施政，被合稱「二聖」，武則天更稱帝，開創武周。",
+        "narrativeFirstPerson": "以{playerName}的視角，武則天協助唐高宗施政，被合稱「二聖」，武則天更稱帝，開創武周。",
+        "decisionPrompt": "研讀「武后施政的特色（延伸）」後，你會如何理解這段歷史？",
+        "requiredClueCount": 3,
+        "hotspots": [
+          {
+            "id": "scene_6_clue_1",
+            "label": "翻閱：武則天協助唐高宗施政，被合稱「二聖」…",
+            "x": 52,
+            "y": 42,
+            "clue": {
+              "title": "武則天協助唐高宗施政，被合稱「二聖」…",
+              "content": "武則天協助唐高宗施政，被合稱「二聖」，武則天更稱帝，開創武周。"
+            }
+          },
+          {
+            "id": "scene_6_clue_2",
+            "label": "翻閱：武則天曾上表建言十二事，包括勸農桑、…",
+            "x": 28,
+            "y": 48,
+            "clue": {
+              "title": "武則天曾上表建言十二事，包括勸農桑、…",
+              "content": "武則天曾上表建言十二事，包括勸農桑、薄賦徭、息兵、廣言路、提高中下級官員待遇等，高宗詔皆施行。"
+            }
+          },
+          {
+            "id": "scene_6_clue_3",
+            "label": "翻閱：武則天重視農業生產，規定各州縣境內「…",
+            "x": 68,
+            "y": 55,
+            "clue": {
+              "title": "武則天重視農業生產，規定各州縣境內「…",
+              "content": "武則天重視農業生產，規定各州縣境內「田疇墾辟，家有餘糧」者予以升獎。"
+            }
+          },
+          {
+            "id": "scene_6_clue_4",
+            "label": "翻閱：武則天放手招官，開制科，破格提拔才能…",
+            "x": 38,
+            "y": 72,
+            "clue": {
+              "title": "武則天放手招官，開制科，破格提拔才能…",
+              "content": "武則天放手招官，開制科，破格提拔才能之士，善用人才。"
+            }
+          },
+          {
+            "id": "scene_6_clue_5",
+            "label": "翻閱：武則天晚年病重，群臣發動政變，逼武氏…",
+            "x": 78,
+            "y": 38,
+            "clue": {
+              "title": "武則天晚年病重，群臣發動政變，逼武氏…",
+              "content": "武則天晚年病重，群臣發動政變，逼武氏退位，迎立唐中宗復位。"
+            }
+          }
+        ],
+        "choices": [
+          {
+            "id": "scene_6_historical",
+            "label": "我依課程理解：武后施政的特色（延伸）",
+            "type": "historical",
+            "nextSceneId": "scene_7",
+            "reveal": {
+              "verdict": "historical",
+              "historyNote": "這符合課本對「武后施政的特色（延伸）」的記載。",
+              "consequence": "你把握了隋唐興衰與開放社會的脈絡。"
+            }
+          },
+          {
+            "id": "scene_6_divergent_a",
+            "label": "我忽略課本，自行臆測",
+            "type": "divergent",
+            "nextSceneId": "deviation_6",
+            "reveal": {
+              "verdict": "divergent",
+              "historyNote": "此舉並無史實依據。",
+              "consequence": "你選擇了史書未載之路——歷史在此拐彎。"
+            }
+          },
+          {
+            "id": "scene_6_divergent_b",
+            "label": "我提出與課本相反的說法",
+            "type": "divergent",
+            "nextSceneId": "deviation_6",
+            "reveal": {
+              "verdict": "divergent",
+              "historyNote": "與課程記載不符。",
+              "consequence": "你選擇了史書未載之路——歷史在此拐彎。"
+            }
+          }
+        ],
+        "narrativeAsReader": "你翻開課本，來到【武后施政的特色（延伸）】。武則天協助唐高宗施政，被合稱「二聖」，武則天更稱帝，開創武周。",
+        "decisionPromptAsReader": "研讀「武后施政的特色（延伸）」後，你會如何理解這段歷史？",
+        "imagePrompt": {
+          "prompt": "武則天協助唐高宗施政，被合稱「二聖」，武則天更稱帝，開創武周",
+          "expandedPrompt": "武則天協助唐高宗施政，被合稱「二聖」，武則天更稱帝，開創武周。風格：古風、歷史繪卷、武后施政",
+          "moodKeywords": [
+            "古風",
+            "歷史繪卷",
+            "武后施政"
+          ]
+        }
+      },
+      "deviation_6": {
+        "id": "deviation_6",
+        "route": "deviation",
+        "narrative": "你對「第三章：武后施政的特色（延伸）」的理解偏離了課程記載的史實。歷史在此拐了彎——仍可選擇重返正史主線。",
+        "narrativeFirstPerson": "以{playerName}的視角，你對「第三章：武后施政的特色（延伸）」的理解偏離了史實。",
+        "decisionPrompt": "你還來得及修正——",
+        "requiredClueCount": 0,
+        "resumeMainlineSceneId": "scene_7",
+        "choices": [
+          {
+            "id": "deviation_6_return",
+            "label": "我重新翻閱課本，修正理解",
+            "type": "return_to_history",
+            "nextSceneId": "scene_7",
+            "reveal": {
+              "verdict": "return",
+              "historyNote": "這符合課本對「武后施政的特色（延伸）」的記載。",
+              "consequence": "你重返正史主線。"
+            }
+          },
+          {
+            "id": "deviation_6_persist",
+            "label": "我堅持錯誤理解，繼續偏離",
+            "type": "continue_divergence",
+            "nextSceneId": "failed",
+            "reveal": {
+              "verdict": "persist",
+              "historyNote": "若長期偏離「第三章：武后施政的特色（延伸）」的史實，敘事將無從延續。",
+              "consequence": "偏離太遠，已無法返回原故事。"
+            }
+          }
+        ],
+        "narrativeAsReader": "你翻開課本，你發現自己對「武后施政的特色（延伸）」的理解與史實不符。",
+        "decisionPromptAsReader": "翻閱課本後，你還來得及修正理解——",
+        "imagePrompt": {
+          "prompt": "你發現自己對「武后施政的特色（延伸）」的理解與史實不符",
+          "expandedPrompt": "你發現自己對「武后施政的特色（延伸）」的理解與史實不符。風格：暗色調、戲劇性、偏離史實",
+          "moodKeywords": [
+            "暗色調",
+            "戲劇性",
+            "偏離史實"
+          ]
+        }
+      },
+      "scene_7": {
+        "id": "scene_7",
+        "route": "mainline",
+        "narrative": "【第四章：開元之治的治績與影響（延伸）】武則天晚年病重，群臣發動政變，逼武氏退位，迎立唐中宗復位。",
+        "narrativeFirstPerson": "以{playerName}的視角，武則天晚年病重，群臣發動政變，逼武氏退位，迎立唐中宗復位。",
+        "decisionPrompt": "研讀「開元之治的治績與影響（延伸）」後，你會如何理解這段歷史？",
+        "requiredClueCount": 3,
+        "hotspots": [
+          {
+            "id": "scene_7_clue_1",
+            "label": "翻閱：武則天晚年病重，群臣發動政變，逼武氏…",
+            "x": 52,
+            "y": 42,
+            "clue": {
+              "title": "武則天晚年病重，群臣發動政變，逼武氏…",
+              "content": "武則天晚年病重，群臣發動政變，逼武氏退位，迎立唐中宗復位。"
+            }
+          },
+          {
+            "id": "scene_7_clue_2",
+            "label": "翻閱：中宗皇后韋氏干政，更毒死中宗，睿宗之…",
+            "x": 28,
+            "y": 48,
+            "clue": {
+              "title": "中宗皇后韋氏干政，更毒死中宗，睿宗之…",
+              "content": "中宗皇后韋氏干政，更毒死中宗，睿宗之子李隆基聯同武后之女太平公主，合力誅除韋后，迎睿宗復位。"
+            }
+          },
+          {
+            "id": "scene_7_clue_3",
+            "label": "翻閱：睿宗於不久後把帝位傳給李隆基，是為「…",
+            "x": 68,
+            "y": 55,
+            "clue": {
+              "title": "睿宗於不久後把帝位傳給李隆基，是為「…",
+              "content": "睿宗於不久後把帝位傳給李隆基，是為「唐玄宗」。"
+            }
+          },
+          {
+            "id": "scene_7_clue_4",
+            "label": "翻閱：唐玄宗在位前期勵精圖治，天下大治。",
+            "x": 38,
+            "y": 72,
+            "clue": {
+              "title": "唐玄宗在位前期勵精圖治，天下大治。",
+              "content": "唐玄宗在位前期勵精圖治，天下大治。"
+            }
+          },
+          {
+            "id": "scene_7_clue_5",
+            "label": "翻閱：唐玄宗開元時治續斐然，政治、經濟、文…",
+            "x": 78,
+            "y": 38,
+            "clue": {
+              "title": "唐玄宗開元時治續斐然，政治、經濟、文…",
+              "content": "唐玄宗開元時治續斐然，政治、經濟、文教方面多有建樹。"
+            }
+          }
+        ],
+        "choices": [
+          {
+            "id": "scene_7_historical",
+            "label": "我依課程理解：開元之治的治績與影響（延伸）",
+            "type": "historical",
+            "nextSceneId": "scene_8",
+            "reveal": {
+              "verdict": "historical",
+              "historyNote": "這符合課本對「開元之治的治績與影響（延伸）」的記載。",
+              "consequence": "你把握了隋唐興衰與開放社會的脈絡。"
+            }
+          },
+          {
+            "id": "scene_7_divergent_a",
+            "label": "我忽略課本，自行臆測",
+            "type": "divergent",
+            "nextSceneId": "deviation_7",
+            "reveal": {
+              "verdict": "divergent",
+              "historyNote": "此舉並無史實依據。",
+              "consequence": "你選擇了史書未載之路——歷史在此拐彎。"
+            }
+          },
+          {
+            "id": "scene_7_divergent_b",
+            "label": "我提出與課本相反的說法",
+            "type": "divergent",
+            "nextSceneId": "deviation_7",
+            "reveal": {
+              "verdict": "divergent",
+              "historyNote": "與課程記載不符。",
+              "consequence": "你選擇了史書未載之路——歷史在此拐彎。"
+            }
+          }
+        ],
+        "narrativeAsReader": "你翻開課本，來到【開元之治的治績與影響（延伸）】。武則天晚年病重，群臣發動政變，逼武氏退位，迎立唐中宗復位。",
+        "decisionPromptAsReader": "研讀「開元之治的治績與影響（延伸）」後，你會如何理解這段歷史？",
+        "imagePrompt": {
+          "prompt": "武則天晚年病重，群臣發動政變，逼武氏退位，迎立唐中宗復位",
+          "expandedPrompt": "武則天晚年病重，群臣發動政變，逼武氏退位，迎立唐中宗復位。風格：古風、歷史繪卷、武后施政",
+          "moodKeywords": [
+            "古風",
+            "歷史繪卷",
+            "武后施政"
+          ]
+        }
+      },
+      "deviation_7": {
+        "id": "deviation_7",
+        "route": "deviation",
+        "narrative": "你對「第四章：開元之治的治績與影響（延伸）」的理解偏離了課程記載的史實。歷史在此拐了彎——仍可選擇重返正史主線。",
+        "narrativeFirstPerson": "以{playerName}的視角，你對「第四章：開元之治的治績與影響（延伸）」的理解偏離了史實。",
+        "decisionPrompt": "你還來得及修正——",
+        "requiredClueCount": 0,
+        "resumeMainlineSceneId": "scene_8",
+        "choices": [
+          {
+            "id": "deviation_7_return",
+            "label": "我重新翻閱課本，修正理解",
+            "type": "return_to_history",
+            "nextSceneId": "scene_8",
+            "reveal": {
+              "verdict": "return",
+              "historyNote": "這符合課本對「開元之治的治績與影響（延伸）」的記載。",
+              "consequence": "你重返正史主線。"
+            }
+          },
+          {
+            "id": "deviation_7_persist",
+            "label": "我堅持錯誤理解，繼續偏離",
+            "type": "continue_divergence",
+            "nextSceneId": "failed",
+            "reveal": {
+              "verdict": "persist",
+              "historyNote": "若長期偏離「第四章：開元之治的治績與影響（延伸）」的史實，敘事將無從延續。",
+              "consequence": "偏離太遠，已無法返回原故事。"
+            }
+          }
+        ],
+        "narrativeAsReader": "你翻開課本，你發現自己對「開元之治的治績與影響（延伸）」的理解與史實不符。",
+        "decisionPromptAsReader": "翻閱課本後，你還來得及修正理解——",
+        "imagePrompt": {
+          "prompt": "你發現自己對「開元之治的治績與影響（延伸）」的理解與史實不符",
+          "expandedPrompt": "你發現自己對「開元之治的治績與影響（延伸）」的理解與史實不符。風格：暗色調、戲劇性、偏離史實",
+          "moodKeywords": [
+            "暗色調",
+            "戲劇性",
+            "偏離史實"
+          ]
+        }
+      },
+      "scene_8": {
+        "id": "scene_8",
+        "route": "mainline",
+        "narrative": "【第一章：安史之亂的始末】玄宗後期耽於逸樂，怠誤政事，引發安史之亂。",
+        "narrativeFirstPerson": "以{playerName}的視角，玄宗後期耽於逸樂，怠誤政事，引發安史之亂。",
+        "decisionPrompt": "研讀「安史之亂的始末」後，你會如何理解這段歷史？",
+        "requiredClueCount": 3,
+        "hotspots": [
+          {
+            "id": "scene_8_clue_anshi",
+            "label": "查閱安史之亂戰報",
+            "x": 52,
+            "y": 42,
+            "clue": {
+              "title": "安史之亂",
+              "content": "安祿山、史思明起兵，盛唐由盛轉衰的轉折。"
+            }
+          },
+          {
+            "id": "scene_8_clue_2",
+            "label": "翻閱：叛亂主要人物是安祿山及史思明，所以稱…",
+            "x": 28,
+            "y": 48,
+            "clue": {
+              "title": "叛亂主要人物是安祿山及史思明，所以稱…",
+              "content": "叛亂主要人物是安祿山及史思明，所以稱安史之亂。"
+            }
+          },
+          {
+            "id": "scene_8_clue_3",
+            "label": "翻閱：安史之亂標誌唐朝由盛轉衰。",
+            "x": 68,
+            "y": 55,
+            "clue": {
+              "title": "安史之亂標誌唐朝由盛轉衰。",
+              "content": "安史之亂標誌唐朝由盛轉衰。"
+            }
+          },
+          {
+            "id": "scene_8_clue_4",
+            "label": "翻閱：開元後期，玄宗耽於逸樂，荒怠政事。",
+            "x": 38,
+            "y": 72,
+            "clue": {
+              "title": "開元後期，玄宗耽於逸樂，荒怠政事。",
+              "content": "開元後期，玄宗耽於逸樂，荒怠政事。"
+            }
+          },
+          {
+            "id": "scene_8_clue_5",
+            "label": "翻閱：公元742 年，地方發現祥瑞，玄宗因…",
+            "x": 78,
+            "y": 38,
+            "clue": {
+              "title": "公元742 年，地方發現祥瑞，玄宗因…",
+              "content": "公元742 年，地方發現祥瑞，玄宗因而改年號「天寶」。"
+            }
+          }
+        ],
+        "choices": [
+          {
+            "id": "scene_8_historical",
+            "label": "我依課程理解：安史之亂的始末",
+            "type": "historical",
+            "nextSceneId": "scene_9",
+            "reveal": {
+              "verdict": "historical",
+              "historyNote": "這符合課本對「安史之亂的始末」的記載。",
+              "consequence": "你把握了隋唐興衰與開放社會的脈絡。"
+            }
+          },
+          {
+            "id": "scene_8_divergent_a",
+            "label": "我忽略課本，自行臆測",
+            "type": "divergent",
+            "nextSceneId": "deviation_8",
+            "reveal": {
+              "verdict": "divergent",
+              "historyNote": "此舉並無史實依據。",
+              "consequence": "你選擇了史書未載之路——歷史在此拐彎。"
+            }
+          },
+          {
+            "id": "scene_8_divergent_b",
+            "label": "我提出與課本相反的說法",
+            "type": "divergent",
+            "nextSceneId": "deviation_8",
+            "reveal": {
+              "verdict": "divergent",
+              "historyNote": "與課程記載不符。",
+              "consequence": "你選擇了史書未載之路——歷史在此拐彎。"
+            }
+          }
+        ],
+        "narrativeAsReader": "你翻開課本，來到【安史之亂的始末】。玄宗後期耽於逸樂，怠誤政事，引發安史之亂。",
+        "decisionPromptAsReader": "研讀「安史之亂的始末」後，你會如何理解這段歷史？",
+        "imagePrompt": {
+          "prompt": "玄宗後期耽於逸樂，怠誤政事，引發安史之亂",
+          "expandedPrompt": "玄宗後期耽於逸樂，怠誤政事，引發安史之亂。風格：古風、歷史繪卷、安史之亂",
+          "moodKeywords": [
+            "古風",
+            "歷史繪卷",
+            "安史之亂"
+          ]
+        }
+      },
+      "deviation_8": {
+        "id": "deviation_8",
+        "route": "deviation",
+        "narrative": "你對「第一章：安史之亂的始末」的理解偏離了課程記載的史實。歷史在此拐了彎——仍可選擇重返正史主線。",
+        "narrativeFirstPerson": "以{playerName}的視角，你對「第一章：安史之亂的始末」的理解偏離了史實。",
+        "decisionPrompt": "你還來得及修正——",
+        "requiredClueCount": 0,
+        "resumeMainlineSceneId": "scene_9",
+        "choices": [
+          {
+            "id": "deviation_8_return",
+            "label": "我重新翻閱課本，修正理解",
+            "type": "return_to_history",
+            "nextSceneId": "scene_9",
+            "reveal": {
+              "verdict": "return",
+              "historyNote": "這符合課本對「安史之亂的始末」的記載。",
+              "consequence": "你重返正史主線。"
+            }
+          },
+          {
+            "id": "deviation_8_persist",
+            "label": "我堅持錯誤理解，繼續偏離",
+            "type": "continue_divergence",
+            "nextSceneId": "failed",
+            "reveal": {
+              "verdict": "persist",
+              "historyNote": "若長期偏離「第一章：安史之亂的始末」的史實，敘事將無從延續。",
+              "consequence": "偏離太遠，已無法返回原故事。"
+            }
+          }
+        ],
+        "narrativeAsReader": "你翻開課本，你發現自己對「安史之亂的始末」的理解與史實不符。",
+        "decisionPromptAsReader": "翻閱課本後，你還來得及修正理解——",
+        "imagePrompt": {
+          "prompt": "你發現自己對「安史之亂的始末」的理解與史實不符",
+          "expandedPrompt": "你發現自己對「安史之亂的始末」的理解與史實不符。風格：暗色調、戲劇性、偏離史實",
+          "moodKeywords": [
+            "暗色調",
+            "戲劇性",
+            "偏離史實"
+          ]
+        }
+      },
+      "scene_9": {
+        "id": "scene_9",
+        "route": "mainline",
+        "narrative": "【第二章：唐中葉後的政局與衰亡】安史之亂長達八年，唐朝國勢由盛轉衰。",
+        "narrativeFirstPerson": "以{playerName}的視角，安史之亂長達八年，唐朝國勢由盛轉衰。",
+        "decisionPrompt": "研讀「唐中葉後的政局與衰亡」後，你會如何理解這段歷史？",
+        "requiredClueCount": 3,
+        "hotspots": [
+          {
+            "id": "scene_9_clue_1",
+            "label": "翻閱：安史之亂長達八年，唐朝國勢由盛轉衰。",
+            "x": 52,
+            "y": 42,
+            "clue": {
+              "title": "安史之亂長達八年，唐朝國勢由盛轉衰。",
+              "content": "安史之亂長達八年，唐朝國勢由盛轉衰。"
+            }
+          },
+          {
+            "id": "scene_9_clue_2",
+            "label": "翻閱：安史之亂時，朝廷封部分功臣為節度使，…",
+            "x": 28,
+            "y": 48,
+            "clue": {
+              "title": "安史之亂時，朝廷封部分功臣為節度使，…",
+              "content": "安史之亂時，朝廷封部分功臣為節度使，藩鎮數量大增。"
+            }
+          },
+          {
+            "id": "scene_9_clue_3",
+            "label": "翻閱：朝廷為穩定局勢，對叛軍降將姑息，起用…",
+            "x": 68,
+            "y": 55,
+            "clue": {
+              "title": "朝廷為穩定局勢，對叛軍降將姑息，起用…",
+              "content": "朝廷為穩定局勢，對叛軍降將姑息，起用為節度使，帶來藩鎮割據惡果。"
+            }
+          },
+          {
+            "id": "scene_9_clue_4",
+            "label": "翻閱：安史之亂後，朝廷無力改變藩鎮割據之局面。",
+            "x": 38,
+            "y": 72,
+            "clue": {
+              "title": "安史之亂後，朝廷無力改變藩鎮割據之局面。",
+              "content": "安史之亂後，朝廷無力改變藩鎮割據之局面。"
+            }
+          },
+          {
+            "id": "scene_9_clue_5",
+            "label": "翻閱：宦官李輔國擁立肅宗登基有功，得以掌禁…",
+            "x": 78,
+            "y": 38,
+            "clue": {
+              "title": "宦官李輔國擁立肅宗登基有功，得以掌禁…",
+              "content": "宦官李輔國擁立肅宗登基有功，得以掌禁軍之權，及參預政事，開始宦官專權序幕。"
+            }
+          }
+        ],
+        "choices": [
+          {
+            "id": "scene_9_historical",
+            "label": "我依課程理解：唐中葉後的政局與衰亡",
+            "type": "historical",
+            "nextSceneId": "scene_10",
+            "reveal": {
+              "verdict": "historical",
+              "historyNote": "這符合課本對「唐中葉後的政局與衰亡」的記載。",
+              "consequence": "你把握了隋唐興衰與開放社會的脈絡。"
+            }
+          },
+          {
+            "id": "scene_9_divergent_a",
+            "label": "我忽略課本，自行臆測",
+            "type": "divergent",
+            "nextSceneId": "deviation_9",
+            "reveal": {
+              "verdict": "divergent",
+              "historyNote": "此舉並無史實依據。",
+              "consequence": "你選擇了史書未載之路——歷史在此拐彎。"
+            }
+          },
+          {
+            "id": "scene_9_divergent_b",
+            "label": "我提出與課本相反的說法",
+            "type": "divergent",
+            "nextSceneId": "deviation_9",
+            "reveal": {
+              "verdict": "divergent",
+              "historyNote": "與課程記載不符。",
+              "consequence": "你選擇了史書未載之路——歷史在此拐彎。"
+            }
+          }
+        ],
+        "narrativeAsReader": "你翻開課本，來到【唐中葉後的政局與衰亡】。安史之亂長達八年，唐朝國勢由盛轉衰。",
+        "decisionPromptAsReader": "研讀「唐中葉後的政局與衰亡」後，你會如何理解這段歷史？",
+        "imagePrompt": {
+          "prompt": "安史之亂長達八年，唐朝國勢由盛轉衰",
+          "expandedPrompt": "安史之亂長達八年，唐朝國勢由盛轉衰。風格：古風、歷史繪卷、安史之亂",
+          "moodKeywords": [
+            "古風",
+            "歷史繪卷",
+            "安史之亂"
+          ]
+        }
+      },
+      "deviation_9": {
+        "id": "deviation_9",
+        "route": "deviation",
+        "narrative": "你對「第二章：唐中葉後的政局與衰亡」的理解偏離了課程記載的史實。歷史在此拐了彎——仍可選擇重返正史主線。",
+        "narrativeFirstPerson": "以{playerName}的視角，你對「第二章：唐中葉後的政局與衰亡」的理解偏離了史實。",
+        "decisionPrompt": "你還來得及修正——",
+        "requiredClueCount": 0,
+        "resumeMainlineSceneId": "scene_10",
+        "choices": [
+          {
+            "id": "deviation_9_return",
+            "label": "我重新翻閱課本，修正理解",
+            "type": "return_to_history",
+            "nextSceneId": "scene_10",
+            "reveal": {
+              "verdict": "return",
+              "historyNote": "這符合課本對「唐中葉後的政局與衰亡」的記載。",
+              "consequence": "你重返正史主線。"
+            }
+          },
+          {
+            "id": "deviation_9_persist",
+            "label": "我堅持錯誤理解，繼續偏離",
+            "type": "continue_divergence",
+            "nextSceneId": "failed",
+            "reveal": {
+              "verdict": "persist",
+              "historyNote": "若長期偏離「第二章：唐中葉後的政局與衰亡」的史實，敘事將無從延續。",
+              "consequence": "偏離太遠，已無法返回原故事。"
+            }
+          }
+        ],
+        "narrativeAsReader": "你翻開課本，你發現自己對「唐中葉後的政局與衰亡」的理解與史實不符。",
+        "decisionPromptAsReader": "翻閱課本後，你還來得及修正理解——",
+        "imagePrompt": {
+          "prompt": "你發現自己對「唐中葉後的政局與衰亡」的理解與史實不符",
+          "expandedPrompt": "你發現自己對「唐中葉後的政局與衰亡」的理解與史實不符。風格：暗色調、戲劇性、偏離史實",
+          "moodKeywords": [
+            "暗色調",
+            "戲劇性",
+            "偏離史實"
+          ]
+        }
+      },
+      "scene_10": {
+        "id": "scene_10",
+        "route": "mainline",
+        "narrative": "【第一章：婦女的生活面貌與地位】夏朝史料缺乏，因而未能確知其時婦女生活面貌與地位。",
+        "narrativeFirstPerson": "以{playerName}的視角，夏朝史料缺乏，因而未能確知其時婦女生活面貌與地位。",
+        "decisionPrompt": "研讀「婦女的生活面貌與地位」後，你會如何理解這段歷史？",
+        "requiredClueCount": 3,
+        "hotspots": [
+          {
+            "id": "scene_10_clue_1",
+            "label": "翻閱：夏朝史料缺乏，因而未能確知其時婦女生…",
+            "x": 52,
+            "y": 42,
+            "clue": {
+              "title": "夏朝史料缺乏，因而未能確知其時婦女生…",
+              "content": "夏朝史料缺乏，因而未能確知其時婦女生活面貌與地位。"
+            }
+          },
+          {
+            "id": "scene_10_clue_2",
+            "label": "翻閱：據《淮南子》所記，大禹的妻子是南方塗…",
+            "x": 28,
+            "y": 48,
+            "clue": {
+              "title": "據《淮南子》所記，大禹的妻子是南方塗…",
+              "content": "據《淮南子》所記，大禹的妻子是南方塗山氏之女，結合後沒有住進夫家，反映婦女有一定獨位地位，不一定要跟從丈夫。"
+            }
+          },
+          {
+            "id": "scene_10_clue_3",
+            "label": "翻閱：商代出土的許多青銅器刻有女性名字，反…",
+            "x": 68,
+            "y": 55,
+            "clue": {
+              "title": "商代出土的許多青銅器刻有女性名字，反…",
+              "content": "商代出土的許多青銅器刻有女性名字，反映女性在當時頗受尊重。"
+            }
+          },
+          {
+            "id": "scene_10_clue_4",
+            "label": "翻閱：商代婦女有權參與祭祀、占卜等宗教活動。",
+            "x": 38,
+            "y": 72,
+            "clue": {
+              "title": "商代婦女有權參與祭祀、占卜等宗教活動。",
+              "content": "商代婦女有權參與祭祀、占卜等宗教活動。"
+            }
+          },
+          {
+            "id": "scene_10_clue_5",
+            "label": "翻閱：商代婦女可以擔任「少臣」，為掌管占卜…",
+            "x": 78,
+            "y": 38,
+            "clue": {
+              "title": "商代婦女可以擔任「少臣」，為掌管占卜…",
+              "content": "商代婦女可以擔任「少臣」，為掌管占卜、祭祀、田獵、征伐之官，有時兼監管耕種事宜。"
+            }
+          }
+        ],
+        "choices": [
+          {
+            "id": "scene_10_historical",
+            "label": "我依課程理解：婦女的生活面貌與地位",
+            "type": "historical",
+            "nextSceneId": "scene_11",
+            "reveal": {
+              "verdict": "historical",
+              "historyNote": "這符合課本對「婦女的生活面貌與地位」的記載。",
+              "consequence": "你把握了隋唐興衰與開放社會的脈絡。"
+            }
+          },
+          {
+            "id": "scene_10_divergent_a",
+            "label": "我忽略課本，自行臆測",
+            "type": "divergent",
+            "nextSceneId": "deviation_10",
+            "reveal": {
+              "verdict": "divergent",
+              "historyNote": "此舉並無史實依據。",
+              "consequence": "你選擇了史書未載之路——歷史在此拐彎。"
+            }
+          },
+          {
+            "id": "scene_10_divergent_b",
+            "label": "我提出與課本相反的說法",
+            "type": "divergent",
+            "nextSceneId": "deviation_10",
+            "reveal": {
+              "verdict": "divergent",
+              "historyNote": "與課程記載不符。",
+              "consequence": "你選擇了史書未載之路——歷史在此拐彎。"
+            }
+          }
+        ],
+        "narrativeAsReader": "你翻開課本，來到【婦女的生活面貌與地位】。夏朝史料缺乏，因而未能確知其時婦女生活面貌與地位。",
+        "decisionPromptAsReader": "研讀「婦女的生活面貌與地位」後，你會如何理解這段歷史？",
+        "imagePrompt": {
+          "prompt": "夏朝史料缺乏，因而未能確知其時婦女生活面貌與地位",
+          "expandedPrompt": "夏朝史料缺乏，因而未能確知其時婦女生活面貌與地位。風格：古風、歷史繪卷、夏商周",
+          "moodKeywords": [
+            "古風",
+            "歷史繪卷",
+            "夏商周"
+          ]
+        }
+      },
+      "deviation_10": {
+        "id": "deviation_10",
+        "route": "deviation",
+        "narrative": "你對「第一章：婦女的生活面貌與地位」的理解偏離了課程記載的史實。歷史在此拐了彎——仍可選擇重返正史主線。",
+        "narrativeFirstPerson": "以{playerName}的視角，你對「第一章：婦女的生活面貌與地位」的理解偏離了史實。",
+        "decisionPrompt": "你還來得及修正——",
+        "requiredClueCount": 0,
+        "resumeMainlineSceneId": "scene_11",
+        "choices": [
+          {
+            "id": "deviation_10_return",
+            "label": "我重新翻閱課本，修正理解",
+            "type": "return_to_history",
+            "nextSceneId": "scene_11",
+            "reveal": {
+              "verdict": "return",
+              "historyNote": "這符合課本對「婦女的生活面貌與地位」的記載。",
+              "consequence": "你重返正史主線。"
+            }
+          },
+          {
+            "id": "deviation_10_persist",
+            "label": "我堅持錯誤理解，繼續偏離",
+            "type": "continue_divergence",
+            "nextSceneId": "failed",
+            "reveal": {
+              "verdict": "persist",
+              "historyNote": "若長期偏離「第一章：婦女的生活面貌與地位」的史實，敘事將無從延續。",
+              "consequence": "偏離太遠，已無法返回原故事。"
+            }
+          }
+        ],
+        "narrativeAsReader": "你翻開課本，你發現自己對「婦女的生活面貌與地位」的理解與史實不符。",
+        "decisionPromptAsReader": "翻閱課本後，你還來得及修正理解——",
+        "imagePrompt": {
+          "prompt": "你發現自己對「婦女的生活面貌與地位」的理解與史實不符",
+          "expandedPrompt": "你發現自己對「婦女的生活面貌與地位」的理解與史實不符。風格：暗色調、戲劇性、偏離史實",
+          "moodKeywords": [
+            "暗色調",
+            "戲劇性",
+            "偏離史實"
+          ]
+        }
+      },
+      "scene_11": {
+        "id": "scene_11",
+        "route": "mainline",
+        "narrative": "【第二章：玄奘西行與中印文化交流】玄奘感佛教各派學說莫衷一是，於是決心到天竺取佛經原文。",
+        "narrativeFirstPerson": "以{playerName}的視角，玄奘感佛教各派學說莫衷一是，於是決心到天竺取佛經原文。",
+        "decisionPrompt": "研讀「玄奘西行與中印文化交流」後，你會如何理解這段歷史？",
+        "requiredClueCount": 3,
+        "hotspots": [
+          {
+            "id": "scene_11_clue_xuanzang",
+            "label": "閱讀玄奘西行記",
+            "x": 52,
+            "y": 42,
+            "clue": {
+              "title": "玄奘西行",
+              "content": "西行天竺取經，促進中印文化交流。"
+            }
+          },
+          {
+            "id": "scene_11_clue_2",
+            "label": "翻閱：公元629 年（太宗，貞觀三年），玄…",
+            "x": 28,
+            "y": 48,
+            "clue": {
+              "title": "公元629 年（太宗，貞觀三年），玄…",
+              "content": "公元629 年（太宗，貞觀三年），玄奘由長安出發，幾經辛苦終到天竺。"
+            }
+          },
+          {
+            "id": "scene_11_clue_3",
+            "label": "翻閱：玄奘在「那爛陀寺」跟隨名僧學習，獲得…",
+            "x": 68,
+            "y": 55,
+            "clue": {
+              "title": "玄奘在「那爛陀寺」跟隨名僧學習，獲得…",
+              "content": "玄奘在「那爛陀寺」跟隨名僧學習，獲得「三藏法師」的尊稱。"
+            }
+          },
+          {
+            "id": "scene_11_clue_4",
+            "label": "翻閱：三藏法師指精通佛教經典「經、律、論」…",
+            "x": 38,
+            "y": 72,
+            "clue": {
+              "title": "三藏法師指精通佛教經典「經、律、論」…",
+              "content": "三藏法師指精通佛教經典「經、律、論」之僧侶。"
+            }
+          },
+          {
+            "id": "scene_11_clue_5",
+            "label": "翻閱：玄奘在天竺各地取經及與當地僧侶辯論交…",
+            "x": 78,
+            "y": 38,
+            "clue": {
+              "title": "玄奘在天竺各地取經及與當地僧侶辯論交…",
+              "content": "玄奘在天竺各地取經及與當地僧侶辯論交流，令當地僧侶深感佩服。"
+            }
+          }
+        ],
+        "choices": [
+          {
+            "id": "scene_11_historical",
+            "label": "我依課程理解：玄奘西行與中印文化交流",
+            "type": "historical",
+            "nextSceneId": "scene_12",
+            "reveal": {
+              "verdict": "historical",
+              "historyNote": "這符合課本對「玄奘西行與中印文化交流」的記載。",
+              "consequence": "你把握了隋唐興衰與開放社會的脈絡。"
+            }
+          },
+          {
+            "id": "scene_11_divergent_a",
+            "label": "我忽略課本，自行臆測",
+            "type": "divergent",
+            "nextSceneId": "deviation_11",
+            "reveal": {
+              "verdict": "divergent",
+              "historyNote": "此舉並無史實依據。",
+              "consequence": "你選擇了史書未載之路——歷史在此拐彎。"
+            }
+          },
+          {
+            "id": "scene_11_divergent_b",
+            "label": "我提出與課本相反的說法",
+            "type": "divergent",
+            "nextSceneId": "deviation_11",
+            "reveal": {
+              "verdict": "divergent",
+              "historyNote": "與課程記載不符。",
+              "consequence": "你選擇了史書未載之路——歷史在此拐彎。"
+            }
+          }
+        ],
+        "narrativeAsReader": "你翻開課本，來到【玄奘西行與中印文化交流】。玄奘感佛教各派學說莫衷一是，於是決心到天竺取佛經原文。",
+        "decisionPromptAsReader": "研讀「玄奘西行與中印文化交流」後，你會如何理解這段歷史？",
+        "imagePrompt": {
+          "prompt": "玄奘感佛教各派學說莫衷一是，於是決心到天竺取佛經原文",
+          "expandedPrompt": "玄奘感佛教各派學說莫衷一是，於是決心到天竺取佛經原文。風格：古風、歷史繪卷、玄奘西行",
+          "moodKeywords": [
+            "古風",
+            "歷史繪卷",
+            "玄奘西行"
+          ]
+        }
+      },
+      "deviation_11": {
+        "id": "deviation_11",
+        "route": "deviation",
+        "narrative": "你對「第二章：玄奘西行與中印文化交流」的理解偏離了課程記載的史實。歷史在此拐了彎——仍可選擇重返正史主線。",
+        "narrativeFirstPerson": "以{playerName}的視角，你對「第二章：玄奘西行與中印文化交流」的理解偏離了史實。",
+        "decisionPrompt": "你還來得及修正——",
+        "requiredClueCount": 0,
+        "resumeMainlineSceneId": "scene_12",
+        "choices": [
+          {
+            "id": "deviation_11_return",
+            "label": "我重新翻閱課本，修正理解",
+            "type": "return_to_history",
+            "nextSceneId": "scene_12",
+            "reveal": {
+              "verdict": "return",
+              "historyNote": "這符合課本對「玄奘西行與中印文化交流」的記載。",
+              "consequence": "你重返正史主線。"
+            }
+          },
+          {
+            "id": "deviation_11_persist",
+            "label": "我堅持錯誤理解，繼續偏離",
+            "type": "continue_divergence",
+            "nextSceneId": "failed",
+            "reveal": {
+              "verdict": "persist",
+              "historyNote": "若長期偏離「第二章：玄奘西行與中印文化交流」的史實，敘事將無從延續。",
+              "consequence": "偏離太遠，已無法返回原故事。"
+            }
+          }
+        ],
+        "narrativeAsReader": "你翻開課本，你發現自己對「玄奘西行與中印文化交流」的理解與史實不符。",
+        "decisionPromptAsReader": "翻閱課本後，你還來得及修正理解——",
+        "imagePrompt": {
+          "prompt": "你發現自己對「玄奘西行與中印文化交流」的理解與史實不符",
+          "expandedPrompt": "你發現自己對「玄奘西行與中印文化交流」的理解與史實不符。風格：暗色調、戲劇性、偏離史實",
+          "moodKeywords": [
+            "暗色調",
+            "戲劇性",
+            "偏離史實"
+          ]
+        }
+      },
+      "scene_12": {
+        "id": "scene_12",
+        "route": "mainline",
+        "narrative": "【第三章：唐代海路交通及對外關係】中外海路交通早於秦代已開展，當時與倭國（現今日本）、南海諸國（現今東南亞）已有聯繫。",
+        "narrativeFirstPerson": "以{playerName}的視角，中外海路交通早於秦代已開展，當時與倭國（現今日本）、南海諸國（現今東南亞）已有聯繫。",
+        "decisionPrompt": "研讀「唐代海路交通及對外關係」後，你會如何理解這段歷史？",
+        "requiredClueCount": 3,
+        "hotspots": [
+          {
+            "id": "scene_12_clue_1",
+            "label": "翻閱：中外海路交通早於秦代已開展，當時與倭…",
+            "x": 52,
+            "y": 42,
+            "clue": {
+              "title": "中外海路交通早於秦代已開展，當時與倭…",
+              "content": "中外海路交通早於秦代已開展，當時與倭國（現今日本）、南海諸國（現今東南亞）已有聯繫。"
+            }
+          },
+          {
+            "id": "scene_12_clue_2",
+            "label": "翻閱：東漢時的海上航線已遠及現今印度南端。",
+            "x": 28,
+            "y": 48,
+            "clue": {
+              "title": "東漢時的海上航線已遠及現今印度南端。",
+              "content": "東漢時的海上航線已遠及現今印度南端。"
+            }
+          },
+          {
+            "id": "scene_12_clue_3",
+            "label": "翻閱：南北朝時期，中外海路交通日漸頻繁，高…",
+            "x": 68,
+            "y": 55,
+            "clue": {
+              "title": "南北朝時期，中外海路交通日漸頻繁，高…",
+              "content": "南北朝時期，中外海路交通日漸頻繁，高僧法顯也是取海路回中國。"
+            }
+          },
+          {
+            "id": "scene_12_clue_4",
+            "label": "翻閱：唐代中葉以後絲路受戰亂所阻，陸路幾近…",
+            "x": 38,
+            "y": 72,
+            "clue": {
+              "title": "唐代中葉以後絲路受戰亂所阻，陸路幾近…",
+              "content": "唐代中葉以後絲路受戰亂所阻，陸路幾近被斷絕。"
+            }
+          },
+          {
+            "id": "scene_12_clue_5",
+            "label": "翻閱：唐代中葉以後，中國經濟重心南移，造船…",
+            "x": 78,
+            "y": 38,
+            "clue": {
+              "title": "唐代中葉以後，中國經濟重心南移，造船…",
+              "content": "唐代中葉以後，中國經濟重心南移，造船技術也較前代有了顯著改進。"
+            }
+          }
+        ],
+        "choices": [
+          {
+            "id": "scene_12_historical",
+            "label": "我依課程理解：唐代海路交通及對外關係",
+            "type": "historical",
+            "nextSceneId": "scene_12_end",
+            "reveal": {
+              "verdict": "historical",
+              "historyNote": "這符合課本對「唐代海路交通及對外關係」的記載。",
+              "consequence": "你把握了隋唐興衰與開放社會的脈絡。"
+            }
+          },
+          {
+            "id": "scene_12_divergent_a",
+            "label": "我忽略課本，自行臆測",
+            "type": "divergent",
+            "nextSceneId": "deviation_12",
+            "reveal": {
+              "verdict": "divergent",
+              "historyNote": "此舉並無史實依據。",
+              "consequence": "你選擇了史書未載之路——歷史在此拐彎。"
+            }
+          },
+          {
+            "id": "scene_12_divergent_b",
+            "label": "我提出與課本相反的說法",
+            "type": "divergent",
+            "nextSceneId": "deviation_12",
+            "reveal": {
+              "verdict": "divergent",
+              "historyNote": "與課程記載不符。",
+              "consequence": "你選擇了史書未載之路——歷史在此拐彎。"
+            }
+          }
+        ],
+        "narrativeAsReader": "你翻開課本，來到【唐代海路交通及對外關係】。中外海路交通早於秦代已開展，當時與倭國（現今日本）、南海諸國（現今東南亞）已有聯繫。",
+        "decisionPromptAsReader": "研讀「唐代海路交通及對外關係」後，你會如何理解這段歷史？",
+        "imagePrompt": {
+          "prompt": "中外海路交通早於秦代已開展，當時與倭國（現今日本）、南海諸國（現今東南亞）已有聯繫",
+          "expandedPrompt": "中外海路交通早於秦代已開展，當時與倭國（現今日本）、南海諸國（現今東南亞）已有聯繫。風格：古風、歷史繪卷、細膩場景",
+          "moodKeywords": [
+            "古風",
+            "歷史繪卷",
+            "細膩場景"
+          ]
+        }
+      },
+      "deviation_12": {
+        "id": "deviation_12",
+        "route": "deviation",
+        "narrative": "你對「第三章：唐代海路交通及對外關係」的理解偏離了課程記載的史實。歷史在此拐了彎——仍可選擇重返正史主線。",
+        "narrativeFirstPerson": "以{playerName}的視角，你對「第三章：唐代海路交通及對外關係」的理解偏離了史實。",
+        "decisionPrompt": "你還來得及修正——",
+        "requiredClueCount": 0,
+        "resumeMainlineSceneId": "scene_12_end",
+        "choices": [
+          {
+            "id": "deviation_12_return",
+            "label": "我重新翻閱課本，修正理解",
+            "type": "return_to_history",
+            "nextSceneId": "scene_12_end",
+            "reveal": {
+              "verdict": "return",
+              "historyNote": "這符合課本對「唐代海路交通及對外關係」的記載。",
+              "consequence": "你重返正史主線。"
+            }
+          },
+          {
+            "id": "deviation_12_persist",
+            "label": "我堅持錯誤理解，繼續偏離",
+            "type": "continue_divergence",
+            "nextSceneId": "failed",
+            "reveal": {
+              "verdict": "persist",
+              "historyNote": "若長期偏離「第三章：唐代海路交通及對外關係」的史實，敘事將無從延續。",
+              "consequence": "偏離太遠，已無法返回原故事。"
+            }
+          }
+        ],
+        "narrativeAsReader": "你翻開課本，你發現自己對「唐代海路交通及對外關係」的理解與史實不符。",
+        "decisionPromptAsReader": "翻閱課本後，你還來得及修正理解——",
+        "imagePrompt": {
+          "prompt": "你發現自己對「唐代海路交通及對外關係」的理解與史實不符",
+          "expandedPrompt": "你發現自己對「唐代海路交通及對外關係」的理解與史實不符。風格：暗色調、戲劇性、偏離史實",
+          "moodKeywords": [
+            "暗色調",
+            "戲劇性",
+            "偏離史實"
+          ]
+        }
+      },
+      "scene_12_end": {
+        "id": "scene_12_end",
+        "route": "mainline",
+        "narrative": "你已完成「隋唐」沉浸式歷史之旅，沿正史主線走完了各個章節。",
+        "narrativeAsReader": "你合上課本，回望這段歷史旅程。從史料到抉擇，史書上的名字此刻有了溫度。",
+        "narrativeFirstPerson": "以{playerName}的視角，你完成了這段歷史之旅。每一章都是不同年代的故事——你透過課本把它們串連起來。",
+        "choices": [],
+        "imagePrompt": {
+          "prompt": "你合上課本，回望這段歷史旅程。從史料到抉擇，史書上的名字此刻有了溫度",
+          "expandedPrompt": "你合上課本，回望這段歷史旅程。從史料到抉擇，史書上的名字此刻有了溫度。風格：古風、歷史繪卷、史卷回顧",
+          "moodKeywords": [
+            "古風",
+            "歷史繪卷",
+            "史卷回顧"
+          ]
+        }
+      }
+    },
+    "periodId": "sui_tang",
+    "sourceUrl": "https://chistory.kanhan.com/tc/f1-reading-card"
+  }
+}

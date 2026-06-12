@@ -1,0 +1,1345 @@
+{
+  "analysis": {
+    "title": "中一中國歷史：史前至夏商周",
+    "characters": [
+      {
+        "name": "周武王",
+        "mentions": 8
+      },
+      {
+        "name": "楚莊王",
+        "mentions": 8
+      },
+      {
+        "name": "春秋",
+        "mentions": 7
+      },
+      {
+        "name": "三皇五帝",
+        "mentions": 6
+      },
+      {
+        "name": "周厲王",
+        "mentions": 6
+      },
+      {
+        "name": "秦國",
+        "mentions": 6
+      },
+      {
+        "name": "周天子",
+        "mentions": 5
+      },
+      {
+        "name": "周襄王",
+        "mentions": 4
+      }
+    ],
+    "plotBeats": [
+      {
+        "order": 1,
+        "summary": "=== 第一章：中國多元一體文化的起源 ==="
+      },
+      {
+        "order": 2,
+        "summary": "中一級"
+      },
+      {
+        "order": 3,
+        "summary": "歷史時期：史前至夏商周"
+      },
+      {
+        "order": 4,
+        "summary": "課題一：中華民族的起源與早期國家的形成"
+      },
+      {
+        "order": 5,
+        "summary": "第一章：中國多元一體文化的起源"
+      },
+      {
+        "order": 6,
+        "summary": "考前筆記"
+      },
+      {
+        "order": 7,
+        "summary": "一、黃河流域"
+      },
+      {
+        "order": 8,
+        "summary": "1.1 仰韶文化"
+      }
+    ],
+    "settings": [
+      "以血緣關",
+      "太甲於桐宮",
+      "武王定都",
+      "遷都",
+      "僅留一城",
+      "再沒有遷都"
+    ],
+    "rawTextLength": 17150,
+    "engine": "chistory",
+    "structure": {
+      "dialogueCount": 6,
+      "narrationLength": 16978,
+      "paragraphCount": 707
+    },
+    "svoPatterns": [],
+    "imagePrompts": [
+      {
+        "prompt": "場景：以血緣關、太甲於桐宮，=== 第一章：中國多元一體文化的起源 ===",
+        "expandedPrompt": "場景：以血緣關、太甲於桐宮，=== 第一章：中國多元一體文化的起源 ===。風格：古風、歷史繪卷、細膩場景",
+        "moodKeywords": [
+          "古風",
+          "歷史繪卷",
+          "細膩場景"
+        ]
+      },
+      {
+        "prompt": "場景：以血緣關、太甲於桐宮，中一級",
+        "expandedPrompt": "場景：以血緣關、太甲於桐宮，中一級。風格：古風、歷史繪卷、細膩場景",
+        "moodKeywords": [
+          "古風",
+          "歷史繪卷",
+          "細膩場景"
+        ]
+      },
+      {
+        "prompt": "場景：以血緣關、太甲於桐宮，歷史時期：史前至夏商周",
+        "expandedPrompt": "場景：以血緣關、太甲於桐宮，歷史時期：史前至夏商周。風格：古風、歷史繪卷、細膩場景",
+        "moodKeywords": [
+          "古風",
+          "歷史繪卷",
+          "細膩場景"
+        ]
+      }
+    ],
+    "sourceUrl": "https://chistory.kanhan.com/tc/f1-reading-card",
+    "periodId": "pre_qin"
+  },
+  "storyGraph": {
+    "title": "中一中國歷史：史前至夏商周",
+    "startSceneId": "scene_1",
+    "scenes": {
+      "scene_1": {
+        "id": "scene_1",
+        "route": "mainline",
+        "narrative": "【第一章：中國多元一體文化的起源】公元前5000 年至公元前3000 年，出現於黃河流域，遺蹟於1921 年在河南仰韶村發現，因此命名仰韶文化。",
+        "narrativeFirstPerson": "以{playerName}的視角，公元前5000 年至公元前3000 年，出現於黃河流域，遺蹟於1921 年在河南仰韶村發現，因此命名仰韶文化。",
+        "decisionPrompt": "研讀「中國多元一體文化的起源」後，你會如何理解這段歷史？",
+        "requiredClueCount": 3,
+        "hotspots": [
+          {
+            "id": "scene_1_clue_1",
+            "label": "翻閱：公元前5000 年至公元前3000 …",
+            "x": 52,
+            "y": 42,
+            "clue": {
+              "title": "公元前5000 年至公元前3000 …",
+              "content": "公元前5000 年至公元前3000 年，出現於黃河流域，遺蹟於1921 年在河南仰韶村發現，因此命名仰韶文化。"
+            }
+          },
+          {
+            "id": "scene_1_clue_2",
+            "label": "翻閱：1953 年於西安半坡村發現的半坡遺…",
+            "x": 28,
+            "y": 48,
+            "clue": {
+              "title": "1953 年於西安半坡村發現的半坡遺…",
+              "content": "1953 年於西安半坡村發現的半坡遺址是仰韶文化典型。"
+            }
+          },
+          {
+            "id": "scene_1_clue_3",
+            "label": "翻閱：分佈範圍廣泛，主要在今陝西及山西。",
+            "x": 68,
+            "y": 55,
+            "clue": {
+              "title": "分佈範圍廣泛，主要在今陝西及山西。",
+              "content": "分佈範圍廣泛，主要在今陝西及山西。"
+            }
+          },
+          {
+            "id": "scene_1_clue_4",
+            "label": "翻閱：開始定居及群居，懂得建屋居住。",
+            "x": 38,
+            "y": 72,
+            "clue": {
+              "title": "開始定居及群居，懂得建屋居住。",
+              "content": "開始定居及群居，懂得建屋居住。"
+            }
+          },
+          {
+            "id": "scene_1_clue_5",
+            "label": "翻閱：村落已有一定佈局，有居住區、公共場地…",
+            "x": 78,
+            "y": 38,
+            "clue": {
+              "title": "村落已有一定佈局，有居住區、公共場地…",
+              "content": "村落已有一定佈局，有居住區、公共場地、陶器工場。"
+            }
+          }
+        ],
+        "choices": [
+          {
+            "id": "scene_1_historical",
+            "label": "我依課程理解：中國多元一體文化的起源",
+            "type": "historical",
+            "nextSceneId": "scene_2",
+            "reveal": {
+              "verdict": "historical",
+              "historyNote": "這符合課本對「中國多元一體文化的起源」的記載。",
+              "consequence": "你把握了史前至夏商周的變局脈絡。"
+            }
+          },
+          {
+            "id": "scene_1_divergent_a",
+            "label": "我忽略課本，自行臆測",
+            "type": "divergent",
+            "nextSceneId": "deviation_1",
+            "reveal": {
+              "verdict": "divergent",
+              "historyNote": "此舉並無史實依據。",
+              "consequence": "你選擇了史書未載之路——歷史在此拐彎。"
+            }
+          },
+          {
+            "id": "scene_1_divergent_b",
+            "label": "我提出與課本相反的說法",
+            "type": "divergent",
+            "nextSceneId": "deviation_1",
+            "reveal": {
+              "verdict": "divergent",
+              "historyNote": "與課程記載不符。",
+              "consequence": "你選擇了史書未載之路——歷史在此拐彎。"
+            }
+          }
+        ],
+        "narrativeAsReader": "你翻開課本，來到【中國多元一體文化的起源】。公元前5000 年至公元前3000 年，出現於黃河流域，遺蹟於1921 年在河南仰韶村發現，因此命名仰韶文化。",
+        "decisionPromptAsReader": "研讀「中國多元一體文化的起源」後，你會如何理解這段歷史？",
+        "imagePrompt": {
+          "prompt": "公元前5000 年至公元前3000 年，出現於黃河流域，遺蹟於1921 年在河南仰韶村發現，因此命名仰韶文化",
+          "expandedPrompt": "公元前5000 年至公元前3000 年，出現於黃河流域，遺蹟於1921 年在河南仰韶村發現，因此命名仰韶文化。風格：古風、歷史繪卷、史前聚落",
+          "moodKeywords": [
+            "古風",
+            "歷史繪卷",
+            "史前聚落"
+          ]
+        }
+      },
+      "deviation_1": {
+        "id": "deviation_1",
+        "route": "deviation",
+        "narrative": "你對「第一章：中國多元一體文化的起源」的理解偏離了課程記載的史實。歷史在此拐了彎——仍可選擇重返正史主線。",
+        "narrativeFirstPerson": "以{playerName}的視角，你對「第一章：中國多元一體文化的起源」的理解偏離了史實。",
+        "decisionPrompt": "你還來得及修正——",
+        "requiredClueCount": 0,
+        "resumeMainlineSceneId": "scene_2",
+        "choices": [
+          {
+            "id": "deviation_1_return",
+            "label": "我重新翻閱課本，修正理解",
+            "type": "return_to_history",
+            "nextSceneId": "scene_2",
+            "reveal": {
+              "verdict": "return",
+              "historyNote": "這符合課本對「中國多元一體文化的起源」的記載。",
+              "consequence": "你重返正史主線。"
+            }
+          },
+          {
+            "id": "deviation_1_persist",
+            "label": "我堅持錯誤理解，繼續偏離",
+            "type": "continue_divergence",
+            "nextSceneId": "failed",
+            "reveal": {
+              "verdict": "persist",
+              "historyNote": "若長期偏離「第一章：中國多元一體文化的起源」的史實，敘事將無從延續。",
+              "consequence": "偏離太遠，已無法返回原故事。"
+            }
+          }
+        ],
+        "narrativeAsReader": "你翻開課本，你發現自己對「中國多元一體文化的起源」的理解與史實不符。",
+        "decisionPromptAsReader": "翻閱課本後，你還來得及修正理解——",
+        "imagePrompt": {
+          "prompt": "你發現自己對「中國多元一體文化的起源」的理解與史實不符",
+          "expandedPrompt": "你發現自己對「中國多元一體文化的起源」的理解與史實不符。風格：暗色調、戲劇性、偏離史實",
+          "moodKeywords": [
+            "暗色調",
+            "戲劇性",
+            "偏離史實"
+          ]
+        }
+      },
+      "scene_2": {
+        "id": "scene_2",
+        "route": "mainline",
+        "narrative": "【第二章：中華民族的演進歷程】口耳相傳，未有文字紀錄證明的時代，被稱為傳疑時代。",
+        "narrativeFirstPerson": "以{playerName}的視角，口耳相傳，未有文字紀錄證明的時代，被稱為傳疑時代。",
+        "decisionPrompt": "研讀「中華民族的演進歷程」後，你會如何理解這段歷史？",
+        "requiredClueCount": 3,
+        "hotspots": [
+          {
+            "id": "scene_2_clue_1",
+            "label": "翻閱：口耳相傳，未有文字紀錄證明的時代，被…",
+            "x": 52,
+            "y": 42,
+            "clue": {
+              "title": "口耳相傳，未有文字紀錄證明的時代，被…",
+              "content": "口耳相傳，未有文字紀錄證明的時代，被稱為傳疑時代。"
+            }
+          },
+          {
+            "id": "scene_2_clue_2",
+            "label": "翻閱：「皇」與「帝」為上古君主的稱號。",
+            "x": 28,
+            "y": 48,
+            "clue": {
+              "title": "「皇」與「帝」為上古君主的稱號。",
+              "content": "「皇」與「帝」為上古君主的稱號。"
+            }
+          },
+          {
+            "id": "scene_2_clue_3",
+            "label": "翻閱：三皇五帝為傳說中的八位賢君，但誰是那…",
+            "x": 68,
+            "y": 55,
+            "clue": {
+              "title": "三皇五帝為傳說中的八位賢君，但誰是那…",
+              "content": "三皇五帝為傳說中的八位賢君，但誰是那八位則眾說紛紜。"
+            }
+          },
+          {
+            "id": "scene_2_clue_4",
+            "label": "翻閱：《尚書》記載三皇為伏羲、神農、燧人 …",
+            "x": 38,
+            "y": 72,
+            "clue": {
+              "title": "《尚書》記載三皇為伏羲、神農、燧人 …",
+              "content": "《尚書》記載三皇為伏羲、神農、燧人 ；五帝為少昊、顓頊、嚳、堯、舜。"
+            }
+          },
+          {
+            "id": "scene_2_clue_5",
+            "label": "翻閱：《史記》記載三皇為伏羲、神農、女媧；…",
+            "x": 78,
+            "y": 38,
+            "clue": {
+              "title": "《史記》記載三皇為伏羲、神農、女媧；…",
+              "content": "《史記》記載三皇為伏羲、神農、女媧；五帝為黃帝、顓頊、嚳、堯、舜。"
+            }
+          }
+        ],
+        "choices": [
+          {
+            "id": "scene_2_historical",
+            "label": "我依課程理解：中華民族的演進歷程",
+            "type": "historical",
+            "nextSceneId": "scene_3",
+            "reveal": {
+              "verdict": "historical",
+              "historyNote": "這符合課本對「中華民族的演進歷程」的記載。",
+              "consequence": "你把握了史前至夏商周的變局脈絡。"
+            }
+          },
+          {
+            "id": "scene_2_divergent_a",
+            "label": "我忽略課本，自行臆測",
+            "type": "divergent",
+            "nextSceneId": "deviation_2",
+            "reveal": {
+              "verdict": "divergent",
+              "historyNote": "此舉並無史實依據。",
+              "consequence": "你選擇了史書未載之路——歷史在此拐彎。"
+            }
+          },
+          {
+            "id": "scene_2_divergent_b",
+            "label": "我提出與課本相反的說法",
+            "type": "divergent",
+            "nextSceneId": "deviation_2",
+            "reveal": {
+              "verdict": "divergent",
+              "historyNote": "與課程記載不符。",
+              "consequence": "你選擇了史書未載之路——歷史在此拐彎。"
+            }
+          }
+        ],
+        "narrativeAsReader": "你翻開課本，來到【中華民族的演進歷程】。口耳相傳，未有文字紀錄證明的時代，被稱為傳疑時代。",
+        "decisionPromptAsReader": "研讀「中華民族的演進歷程」後，你會如何理解這段歷史？",
+        "imagePrompt": {
+          "prompt": "口耳相傳，未有文字紀錄證明的時代，被稱為傳疑時代",
+          "expandedPrompt": "口耳相傳，未有文字紀錄證明的時代，被稱為傳疑時代。風格：古風、歷史繪卷、傳疑時代",
+          "moodKeywords": [
+            "古風",
+            "歷史繪卷",
+            "傳疑時代"
+          ]
+        }
+      },
+      "deviation_2": {
+        "id": "deviation_2",
+        "route": "deviation",
+        "narrative": "你對「第二章：中華民族的演進歷程」的理解偏離了課程記載的史實。歷史在此拐了彎——仍可選擇重返正史主線。",
+        "narrativeFirstPerson": "以{playerName}的視角，你對「第二章：中華民族的演進歷程」的理解偏離了史實。",
+        "decisionPrompt": "你還來得及修正——",
+        "requiredClueCount": 0,
+        "resumeMainlineSceneId": "scene_3",
+        "choices": [
+          {
+            "id": "deviation_2_return",
+            "label": "我重新翻閱課本，修正理解",
+            "type": "return_to_history",
+            "nextSceneId": "scene_3",
+            "reveal": {
+              "verdict": "return",
+              "historyNote": "這符合課本對「中華民族的演進歷程」的記載。",
+              "consequence": "你重返正史主線。"
+            }
+          },
+          {
+            "id": "deviation_2_persist",
+            "label": "我堅持錯誤理解，繼續偏離",
+            "type": "continue_divergence",
+            "nextSceneId": "failed",
+            "reveal": {
+              "verdict": "persist",
+              "historyNote": "若長期偏離「第二章：中華民族的演進歷程」的史實，敘事將無從延續。",
+              "consequence": "偏離太遠，已無法返回原故事。"
+            }
+          }
+        ],
+        "narrativeAsReader": "你翻開課本，你發現自己對「中華民族的演進歷程」的理解與史實不符。",
+        "decisionPromptAsReader": "翻閱課本後，你還來得及修正理解——",
+        "imagePrompt": {
+          "prompt": "你發現自己對「中華民族的演進歷程」的理解與史實不符",
+          "expandedPrompt": "你發現自己對「中華民族的演進歷程」的理解與史實不符。風格：暗色調、戲劇性、偏離史實",
+          "moodKeywords": [
+            "暗色調",
+            "戲劇性",
+            "偏離史實"
+          ]
+        }
+      },
+      "scene_3": {
+        "id": "scene_3",
+        "route": "mainline",
+        "narrative": "【第三章：夏、商、周三代的興替概況】夏朝是中國第一個世襲王朝，由禹的兒子「啟」建立。",
+        "narrativeFirstPerson": "以{playerName}的視角，夏朝是中國第一個世襲王朝，由禹的兒子「啟」建立。",
+        "decisionPrompt": "研讀「夏、商、周三代的興替概況」後，你會如何理解這段歷史？",
+        "requiredClueCount": 3,
+        "hotspots": [
+          {
+            "id": "scene_3_clue_1",
+            "label": "翻閱：夏朝是中國第一個世襲王朝，由禹的兒子…",
+            "x": 52,
+            "y": 42,
+            "clue": {
+              "title": "夏朝是中國第一個世襲王朝，由禹的兒子…",
+              "content": "夏朝是中國第一個世襲王朝，由禹的兒子「啟」建立。"
+            }
+          },
+          {
+            "id": "scene_3_clue_2",
+            "label": "翻閱：禹晚年欲禪讓予「益」，但禹死後各部落…",
+            "x": 28,
+            "y": 48,
+            "clue": {
+              "title": "禹晚年欲禪讓予「益」，但禹死後各部落…",
+              "content": "禹晚年欲禪讓予「益」，但禹死後各部落卻擁戴禹的兒子啟。"
+            }
+          },
+          {
+            "id": "scene_3_clue_3",
+            "label": "翻閱：依《竹書紀年》的另一說法，禹假意讓位…",
+            "x": 68,
+            "y": 55,
+            "clue": {
+              "title": "依《竹書紀年》的另一說法，禹假意讓位…",
+              "content": "依《竹書紀年》的另一說法，禹假意讓位給益，而啟則殺死益奪取共主之位。"
+            }
+          },
+          {
+            "id": "scene_3_clue_4",
+            "label": "翻閱：先秦古籍記載，「有扈氏」不滿意夏啟破…",
+            "x": 38,
+            "y": 72,
+            "clue": {
+              "title": "先秦古籍記載，「有扈氏」不滿意夏啟破…",
+              "content": "先秦古籍記載，「有扈氏」不滿意夏啟破壞禪讓制度而起兵討伐夏啟。"
+            }
+          },
+          {
+            "id": "scene_3_clue_5",
+            "label": "翻閱：夏啟率兵於「甘」的地方撃敗有扈氏，並…",
+            "x": 78,
+            "y": 38,
+            "clue": {
+              "title": "夏啟率兵於「甘」的地方撃敗有扈氏，並…",
+              "content": "夏啟率兵於「甘」的地方撃敗有扈氏，並罰有扈氏全族為牧奴。"
+            }
+          }
+        ],
+        "choices": [
+          {
+            "id": "scene_3_historical",
+            "label": "我依課程理解：夏、商、周三代的興替概況",
+            "type": "historical",
+            "nextSceneId": "scene_4",
+            "reveal": {
+              "verdict": "historical",
+              "historyNote": "這符合課本對「夏、商、周三代的興替概況」的記載。",
+              "consequence": "你把握了史前至夏商周的變局脈絡。"
+            }
+          },
+          {
+            "id": "scene_3_divergent_a",
+            "label": "我忽略課本，自行臆測",
+            "type": "divergent",
+            "nextSceneId": "deviation_3",
+            "reveal": {
+              "verdict": "divergent",
+              "historyNote": "此舉並無史實依據。",
+              "consequence": "你選擇了史書未載之路——歷史在此拐彎。"
+            }
+          },
+          {
+            "id": "scene_3_divergent_b",
+            "label": "我提出與課本相反的說法",
+            "type": "divergent",
+            "nextSceneId": "deviation_3",
+            "reveal": {
+              "verdict": "divergent",
+              "historyNote": "與課程記載不符。",
+              "consequence": "你選擇了史書未載之路——歷史在此拐彎。"
+            }
+          }
+        ],
+        "narrativeAsReader": "你翻開課本，來到【夏、商、周三代的興替概況】。夏朝是中國第一個世襲王朝，由禹的兒子「啟」建立。",
+        "decisionPromptAsReader": "研讀「夏、商、周三代的興替概況」後，你會如何理解這段歷史？",
+        "imagePrompt": {
+          "prompt": "夏朝是中國第一個世襲王朝，由禹的兒子「啟」建立",
+          "expandedPrompt": "夏朝是中國第一個世襲王朝，由禹的兒子「啟」建立。風格：古風、歷史繪卷、夏商周",
+          "moodKeywords": [
+            "古風",
+            "歷史繪卷",
+            "夏商周"
+          ]
+        }
+      },
+      "deviation_3": {
+        "id": "deviation_3",
+        "route": "deviation",
+        "narrative": "你對「第三章：夏、商、周三代的興替概況」的理解偏離了課程記載的史實。歷史在此拐了彎——仍可選擇重返正史主線。",
+        "narrativeFirstPerson": "以{playerName}的視角，你對「第三章：夏、商、周三代的興替概況」的理解偏離了史實。",
+        "decisionPrompt": "你還來得及修正——",
+        "requiredClueCount": 0,
+        "resumeMainlineSceneId": "scene_4",
+        "choices": [
+          {
+            "id": "deviation_3_return",
+            "label": "我重新翻閱課本，修正理解",
+            "type": "return_to_history",
+            "nextSceneId": "scene_4",
+            "reveal": {
+              "verdict": "return",
+              "historyNote": "這符合課本對「夏、商、周三代的興替概況」的記載。",
+              "consequence": "你重返正史主線。"
+            }
+          },
+          {
+            "id": "deviation_3_persist",
+            "label": "我堅持錯誤理解，繼續偏離",
+            "type": "continue_divergence",
+            "nextSceneId": "failed",
+            "reveal": {
+              "verdict": "persist",
+              "historyNote": "若長期偏離「第三章：夏、商、周三代的興替概況」的史實，敘事將無從延續。",
+              "consequence": "偏離太遠，已無法返回原故事。"
+            }
+          }
+        ],
+        "narrativeAsReader": "你翻開課本，你發現自己對「夏、商、周三代的興替概況」的理解與史實不符。",
+        "decisionPromptAsReader": "翻閱課本後，你還來得及修正理解——",
+        "imagePrompt": {
+          "prompt": "你發現自己對「夏、商、周三代的興替概況」的理解與史實不符",
+          "expandedPrompt": "你發現自己對「夏、商、周三代的興替概況」的理解與史實不符。風格：暗色調、戲劇性、偏離史實",
+          "moodKeywords": [
+            "暗色調",
+            "戲劇性",
+            "偏離史實"
+          ]
+        }
+      },
+      "scene_4": {
+        "id": "scene_4",
+        "route": "mainline",
+        "narrative": "【第一章：西周的封建】周初實行了兩次大規模封建，詳細請參看課題一：中華民族與早期國家的起源之第三章：夏、商、周三代的興替概況之第三節。",
+        "narrativeFirstPerson": "以{playerName}的視角，周初實行了兩次大規模封建，詳細請參看課題一：中華民族與早期國家的起源之第三章：夏、商、周三代的興替概況之第三節。",
+        "decisionPrompt": "研讀「西周的封建」後，你會如何理解這段歷史？",
+        "requiredClueCount": 3,
+        "hotspots": [
+          {
+            "id": "scene_4_clue_1",
+            "label": "翻閱：周初實行了兩次大規模封建，詳細請參看…",
+            "x": 52,
+            "y": 42,
+            "clue": {
+              "title": "周初實行了兩次大規模封建，詳細請參看…",
+              "content": "周初實行了兩次大規模封建，詳細請參看課題一：中華民族與早期國家的起源之第三章：夏、商、周三代的興替概況之第三節。"
+            }
+          },
+          {
+            "id": "scene_4_clue_2",
+            "label": "翻閱：周朝在兩次封建後，仍繼續分封諸侯。",
+            "x": 28,
+            "y": 48,
+            "clue": {
+              "title": "周朝在兩次封建後，仍繼續分封諸侯。",
+              "content": "周朝在兩次封建後，仍繼續分封諸侯。"
+            }
+          },
+          {
+            "id": "scene_4_clue_3",
+            "label": "翻閱：封建即「封土建國」，指周天子把土地和…",
+            "x": 68,
+            "y": 55,
+            "clue": {
+              "title": "封建即「封土建國」，指周天子把土地和…",
+              "content": "封建即「封土建國」，指周天子把土地和人民分予諸侯作為中央屏藩的政治制度。"
+            }
+          },
+          {
+            "id": "scene_4_clue_4",
+            "label": "翻閱：周行封建制，領土分為王畿及封國。",
+            "x": 38,
+            "y": 72,
+            "clue": {
+              "title": "周行封建制，領土分為王畿及封國。",
+              "content": "周行封建制，領土分為王畿及封國。"
+            }
+          },
+          {
+            "id": "scene_4_clue_5",
+            "label": "翻閱：王畿指天子直接管轄之地，封國是諸侯的…",
+            "x": 78,
+            "y": 38,
+            "clue": {
+              "title": "王畿指天子直接管轄之地，封國是諸侯的…",
+              "content": "王畿指天子直接管轄之地，封國是諸侯的土地。"
+            }
+          }
+        ],
+        "choices": [
+          {
+            "id": "scene_4_historical",
+            "label": "我依課程理解：西周的封建",
+            "type": "historical",
+            "nextSceneId": "scene_5",
+            "reveal": {
+              "verdict": "historical",
+              "historyNote": "這符合課本對「西周的封建」的記載。",
+              "consequence": "你把握了史前至夏商周的變局脈絡。"
+            }
+          },
+          {
+            "id": "scene_4_divergent_a",
+            "label": "我忽略課本，自行臆測",
+            "type": "divergent",
+            "nextSceneId": "deviation_4",
+            "reveal": {
+              "verdict": "divergent",
+              "historyNote": "此舉並無史實依據。",
+              "consequence": "你選擇了史書未載之路——歷史在此拐彎。"
+            }
+          },
+          {
+            "id": "scene_4_divergent_b",
+            "label": "我提出與課本相反的說法",
+            "type": "divergent",
+            "nextSceneId": "deviation_4",
+            "reveal": {
+              "verdict": "divergent",
+              "historyNote": "與課程記載不符。",
+              "consequence": "你選擇了史書未載之路——歷史在此拐彎。"
+            }
+          }
+        ],
+        "narrativeAsReader": "你翻開課本，來到【西周的封建】。周初實行了兩次大規模封建，詳細請參看課題一：中華民族與早期國家的起源之第三章：夏、商、周三代的興替概況之第三節。",
+        "decisionPromptAsReader": "研讀「西周的封建」後，你會如何理解這段歷史？",
+        "imagePrompt": {
+          "prompt": "周初實行了兩次大規模封建，詳細請參看課題一：中華民族與早期國家的起源之第三章：夏、商、周三代的興替概況之第三節",
+          "expandedPrompt": "周初實行了兩次大規模封建，詳細請參看課題一：中華民族與早期國家的起源之第三章：夏、商、周三代的興替概況之第三節。風格：古風、歷史繪卷、西周封建",
+          "moodKeywords": [
+            "古風",
+            "歷史繪卷",
+            "西周封建"
+          ]
+        }
+      },
+      "deviation_4": {
+        "id": "deviation_4",
+        "route": "deviation",
+        "narrative": "你對「第一章：西周的封建」的理解偏離了課程記載的史實。歷史在此拐了彎——仍可選擇重返正史主線。",
+        "narrativeFirstPerson": "以{playerName}的視角，你對「第一章：西周的封建」的理解偏離了史實。",
+        "decisionPrompt": "你還來得及修正——",
+        "requiredClueCount": 0,
+        "resumeMainlineSceneId": "scene_5",
+        "choices": [
+          {
+            "id": "deviation_4_return",
+            "label": "我重新翻閱課本，修正理解",
+            "type": "return_to_history",
+            "nextSceneId": "scene_5",
+            "reveal": {
+              "verdict": "return",
+              "historyNote": "這符合課本對「西周的封建」的記載。",
+              "consequence": "你重返正史主線。"
+            }
+          },
+          {
+            "id": "deviation_4_persist",
+            "label": "我堅持錯誤理解，繼續偏離",
+            "type": "continue_divergence",
+            "nextSceneId": "failed",
+            "reveal": {
+              "verdict": "persist",
+              "historyNote": "若長期偏離「第一章：西周的封建」的史實，敘事將無從延續。",
+              "consequence": "偏離太遠，已無法返回原故事。"
+            }
+          }
+        ],
+        "narrativeAsReader": "你翻開課本，你發現自己對「西周的封建」的理解與史實不符。",
+        "decisionPromptAsReader": "翻閱課本後，你還來得及修正理解——",
+        "imagePrompt": {
+          "prompt": "你發現自己對「西周的封建」的理解與史實不符",
+          "expandedPrompt": "你發現自己對「西周的封建」的理解與史實不符。風格：暗色調、戲劇性、偏離史實",
+          "moodKeywords": [
+            "暗色調",
+            "戲劇性",
+            "偏離史實"
+          ]
+        }
+      },
+      "scene_5": {
+        "id": "scene_5",
+        "route": "mainline",
+        "narrative": "【第一章：春秋戰國時期的兼併戰爭】幽王寵愛褒姒，廢申后及太子宜臼，改立褒姒為后，其子伯服為太子。",
+        "narrativeFirstPerson": "以{playerName}的視角，宣王死後，由其子繼位，是為周幽王。",
+        "decisionPrompt": "研讀「春秋戰國時期的兼併戰爭」後，你會如何理解這段歷史？",
+        "requiredClueCount": 3,
+        "hotspots": [
+          {
+            "id": "scene_5_clue_1",
+            "label": "翻閱：宣王死後，由其子繼位，是為周幽王。",
+            "x": 52,
+            "y": 42,
+            "clue": {
+              "title": "宣王死後，由其子繼位，是為周幽王。",
+              "content": "宣王死後，由其子繼位，是為周幽王。"
+            }
+          },
+          {
+            "id": "scene_5_clue_2",
+            "label": "翻閱：幽王荒廢朝政，沉迷酒色，無心治國。",
+            "x": 28,
+            "y": 48,
+            "clue": {
+              "title": "幽王荒廢朝政，沉迷酒色，無心治國。",
+              "content": "幽王荒廢朝政，沉迷酒色，無心治國。"
+            }
+          },
+          {
+            "id": "scene_5_clue_3",
+            "label": "翻閱：幽王寵愛褒姒，廢申后及太子宜臼，改立…",
+            "x": 68,
+            "y": 55,
+            "clue": {
+              "title": "幽王寵愛褒姒，廢申后及太子宜臼，改立…",
+              "content": "幽王寵愛褒姒，廢申后及太子宜臼，改立褒姒為后，其子伯服為太子。"
+            }
+          },
+          {
+            "id": "scene_5_clue_4",
+            "label": "翻閱：申侯不滿其女及外孫被廢，聯合犬戎攻打…",
+            "x": 38,
+            "y": 72,
+            "clue": {
+              "title": "申侯不滿其女及外孫被廢，聯合犬戎攻打…",
+              "content": "申侯不滿其女及外孫被廢，聯合犬戎攻打鎬京。"
+            }
+          },
+          {
+            "id": "scene_5_clue_5",
+            "label": "翻閱：鎬京被攻破，幽王逃至驪山被犬戎所殺，…",
+            "x": 78,
+            "y": 38,
+            "clue": {
+              "title": "鎬京被攻破，幽王逃至驪山被犬戎所殺，…",
+              "content": "鎬京被攻破，幽王逃至驪山被犬戎所殺，西周時期結束。"
+            }
+          }
+        ],
+        "choices": [
+          {
+            "id": "scene_5_historical",
+            "label": "我依課程理解：春秋戰國時期的兼併戰爭",
+            "type": "historical",
+            "nextSceneId": "scene_6",
+            "reveal": {
+              "verdict": "historical",
+              "historyNote": "這符合課本對「春秋戰國時期的兼併戰爭」的記載。",
+              "consequence": "你把握了史前至夏商周的變局脈絡。"
+            }
+          },
+          {
+            "id": "scene_5_divergent_a",
+            "label": "我忽略課本，自行臆測",
+            "type": "divergent",
+            "nextSceneId": "deviation_5",
+            "reveal": {
+              "verdict": "divergent",
+              "historyNote": "此舉並無史實依據。",
+              "consequence": "你選擇了史書未載之路——歷史在此拐彎。"
+            }
+          },
+          {
+            "id": "scene_5_divergent_b",
+            "label": "我提出與課本相反的說法",
+            "type": "divergent",
+            "nextSceneId": "deviation_5",
+            "reveal": {
+              "verdict": "divergent",
+              "historyNote": "與課程記載不符。",
+              "consequence": "你選擇了史書未載之路——歷史在此拐彎。"
+            }
+          }
+        ],
+        "narrativeAsReader": "你翻開課本，來到【春秋戰國時期的兼併戰爭】。宣王死後，由其子繼位，是為周幽王。",
+        "decisionPromptAsReader": "研讀「春秋戰國時期的兼併戰爭」後，你會如何理解這段歷史？",
+        "imagePrompt": {
+          "prompt": "宣王死後，由其子繼位，是為周幽王",
+          "expandedPrompt": "宣王死後，由其子繼位，是為周幽王。風格：古風、歷史繪卷、細膩場景",
+          "moodKeywords": [
+            "古風",
+            "歷史繪卷",
+            "細膩場景"
+          ]
+        }
+      },
+      "deviation_5": {
+        "id": "deviation_5",
+        "route": "deviation",
+        "narrative": "你對「第一章：春秋戰國時期的兼併戰爭」的理解偏離了課程記載的史實。歷史在此拐了彎——仍可選擇重返正史主線。",
+        "narrativeFirstPerson": "以{playerName}的視角，你對「第一章：春秋戰國時期的兼併戰爭」的理解偏離了史實。",
+        "decisionPrompt": "你還來得及修正——",
+        "requiredClueCount": 0,
+        "resumeMainlineSceneId": "scene_6",
+        "choices": [
+          {
+            "id": "deviation_5_return",
+            "label": "我重新翻閱課本，修正理解",
+            "type": "return_to_history",
+            "nextSceneId": "scene_6",
+            "reveal": {
+              "verdict": "return",
+              "historyNote": "這符合課本對「春秋戰國時期的兼併戰爭」的記載。",
+              "consequence": "你重返正史主線。"
+            }
+          },
+          {
+            "id": "deviation_5_persist",
+            "label": "我堅持錯誤理解，繼續偏離",
+            "type": "continue_divergence",
+            "nextSceneId": "failed",
+            "reveal": {
+              "verdict": "persist",
+              "historyNote": "若長期偏離「第一章：春秋戰國時期的兼併戰爭」的史實，敘事將無從延續。",
+              "consequence": "偏離太遠，已無法返回原故事。"
+            }
+          }
+        ],
+        "narrativeAsReader": "你翻開課本，你發現自己對「春秋戰國時期的兼併戰爭」的理解與史實不符。",
+        "decisionPromptAsReader": "翻閱課本後，你還來得及修正理解——",
+        "imagePrompt": {
+          "prompt": "你發現自己對「春秋戰國時期的兼併戰爭」的理解與史實不符",
+          "expandedPrompt": "你發現自己對「春秋戰國時期的兼併戰爭」的理解與史實不符。風格：暗色調、戲劇性、偏離史實",
+          "moodKeywords": [
+            "暗色調",
+            "戲劇性",
+            "偏離史實"
+          ]
+        }
+      },
+      "scene_6": {
+        "id": "scene_6",
+        "route": "mainline",
+        "narrative": "【第二章：戰國時期的厲行變法】兼併時代，列國紛紛求變，以富國強兵為目標，魏國最先變法，而秦國變法最徹底。",
+        "narrativeFirstPerson": "以{playerName}的視角，兼併時代，列國紛紛求變，以富國強兵為目標，魏國最先變法，而秦國變法最徹底。",
+        "decisionPrompt": "研讀「戰國時期的厲行變法」後，你會如何理解這段歷史？",
+        "requiredClueCount": 3,
+        "hotspots": [
+          {
+            "id": "scene_6_clue_1",
+            "label": "翻閱：兼併時代，列國紛紛求變，以富國強兵為…",
+            "x": 52,
+            "y": 42,
+            "clue": {
+              "title": "兼併時代，列國紛紛求變，以富國強兵為…",
+              "content": "兼併時代，列國紛紛求變，以富國強兵為目標，魏國最先變法，而秦國變法最徹底。"
+            }
+          },
+          {
+            "id": "scene_6_clue_2",
+            "label": "翻閱：公元前445 年，魏文侯以李悝為相國…",
+            "x": 28,
+            "y": 48,
+            "clue": {
+              "title": "公元前445 年，魏文侯以李悝為相國…",
+              "content": "公元前445 年，魏文侯以李悝為相國，主持變法，以「盡地力之教」，增加生產；又行「平糴法」維持糧食價格，保障民生。"
+            }
+          },
+          {
+            "id": "scene_6_clue_3",
+            "label": "翻閱：李悝主張以法治國，收集六國法律編成《…",
+            "x": 68,
+            "y": 55,
+            "clue": {
+              "title": "李悝主張以法治國，收集六國法律編成《…",
+              "content": "李悝主張以法治國，收集六國法律編成《法經》，用意以法保障社會變革有序進行。"
+            }
+          },
+          {
+            "id": "scene_6_clue_4",
+            "label": "翻閱：魏國實行變法後，於七國中率先躍出，歷…",
+            "x": 38,
+            "y": 72,
+            "clue": {
+              "title": "魏國實行變法後，於七國中率先躍出，歷…",
+              "content": "魏國實行變法後，於七國中率先躍出，歷經武侯、惠王，成就百年霸業。"
+            }
+          },
+          {
+            "id": "scene_6_clue_5",
+            "label": "翻閱：公元前403 年，趙烈侯用公仲連為相…",
+            "x": 78,
+            "y": 38,
+            "clue": {
+              "title": "公元前403 年，趙烈侯用公仲連為相…",
+              "content": "公元前403 年，趙烈侯用公仲連為相國，進行變革。依法家理論選拔人才、考核官員；以儒家理論教化人民。"
+            }
+          }
+        ],
+        "choices": [
+          {
+            "id": "scene_6_historical",
+            "label": "我依課程理解：戰國時期的厲行變法",
+            "type": "historical",
+            "nextSceneId": "scene_7",
+            "reveal": {
+              "verdict": "historical",
+              "historyNote": "這符合課本對「戰國時期的厲行變法」的記載。",
+              "consequence": "你把握了史前至夏商周的變局脈絡。"
+            }
+          },
+          {
+            "id": "scene_6_divergent_a",
+            "label": "我忽略課本，自行臆測",
+            "type": "divergent",
+            "nextSceneId": "deviation_6",
+            "reveal": {
+              "verdict": "divergent",
+              "historyNote": "此舉並無史實依據。",
+              "consequence": "你選擇了史書未載之路——歷史在此拐彎。"
+            }
+          },
+          {
+            "id": "scene_6_divergent_b",
+            "label": "我提出與課本相反的說法",
+            "type": "divergent",
+            "nextSceneId": "deviation_6",
+            "reveal": {
+              "verdict": "divergent",
+              "historyNote": "與課程記載不符。",
+              "consequence": "你選擇了史書未載之路——歷史在此拐彎。"
+            }
+          }
+        ],
+        "narrativeAsReader": "你翻開課本，來到【戰國時期的厲行變法】。兼併時代，列國紛紛求變，以富國強兵為目標，魏國最先變法，而秦國變法最徹底。",
+        "decisionPromptAsReader": "研讀「戰國時期的厲行變法」後，你會如何理解這段歷史？",
+        "imagePrompt": {
+          "prompt": "兼併時代，列國紛紛求變，以富國強兵為目標，魏國最先變法，而秦國變法最徹底",
+          "expandedPrompt": "兼併時代，列國紛紛求變，以富國強兵為目標，魏國最先變法，而秦國變法最徹底。風格：古風、歷史繪卷、春秋戰國",
+          "moodKeywords": [
+            "古風",
+            "歷史繪卷",
+            "春秋戰國"
+          ]
+        }
+      },
+      "deviation_6": {
+        "id": "deviation_6",
+        "route": "deviation",
+        "narrative": "你對「第二章：戰國時期的厲行變法」的理解偏離了課程記載的史實。歷史在此拐了彎——仍可選擇重返正史主線。",
+        "narrativeFirstPerson": "以{playerName}的視角，你對「第二章：戰國時期的厲行變法」的理解偏離了史實。",
+        "decisionPrompt": "你還來得及修正——",
+        "requiredClueCount": 0,
+        "resumeMainlineSceneId": "scene_7",
+        "choices": [
+          {
+            "id": "deviation_6_return",
+            "label": "我重新翻閱課本，修正理解",
+            "type": "return_to_history",
+            "nextSceneId": "scene_7",
+            "reveal": {
+              "verdict": "return",
+              "historyNote": "這符合課本對「戰國時期的厲行變法」的記載。",
+              "consequence": "你重返正史主線。"
+            }
+          },
+          {
+            "id": "deviation_6_persist",
+            "label": "我堅持錯誤理解，繼續偏離",
+            "type": "continue_divergence",
+            "nextSceneId": "failed",
+            "reveal": {
+              "verdict": "persist",
+              "historyNote": "若長期偏離「第二章：戰國時期的厲行變法」的史實，敘事將無從延續。",
+              "consequence": "偏離太遠，已無法返回原故事。"
+            }
+          }
+        ],
+        "narrativeAsReader": "你翻開課本，你發現自己對「戰國時期的厲行變法」的理解與史實不符。",
+        "decisionPromptAsReader": "翻閱課本後，你還來得及修正理解——",
+        "imagePrompt": {
+          "prompt": "你發現自己對「戰國時期的厲行變法」的理解與史實不符",
+          "expandedPrompt": "你發現自己對「戰國時期的厲行變法」的理解與史實不符。風格：暗色調、戲劇性、偏離史實",
+          "moodKeywords": [
+            "暗色調",
+            "戲劇性",
+            "偏離史實"
+          ]
+        }
+      },
+      "scene_7": {
+        "id": "scene_7",
+        "route": "mainline",
+        "narrative": "【第三章：百家爭鳴】春秋戰國時代，不同學術思想出現，學者紛紛講學著書。",
+        "narrativeFirstPerson": "以{playerName}的視角，春秋戰國時代，不同學術思想出現，學者紛紛講學著書。",
+        "decisionPrompt": "研讀「百家爭鳴」後，你會如何理解這段歷史？",
+        "requiredClueCount": 3,
+        "hotspots": [
+          {
+            "id": "scene_7_clue_1",
+            "label": "翻閱：春秋戰國時代，不同學術思想出現，學者…",
+            "x": 52,
+            "y": 42,
+            "clue": {
+              "title": "春秋戰國時代，不同學術思想出現，學者…",
+              "content": "春秋戰國時代，不同學術思想出現，學者紛紛講學著書。"
+            }
+          },
+          {
+            "id": "scene_7_clue_2",
+            "label": "翻閱：不同思想交鋒與激盪，形成百家爭鳴的繁…",
+            "x": 28,
+            "y": 48,
+            "clue": {
+              "title": "不同思想交鋒與激盪，形成百家爭鳴的繁…",
+              "content": "不同思想交鋒與激盪，形成百家爭鳴的繁榮局面。"
+            }
+          },
+          {
+            "id": "scene_7_clue_3",
+            "label": "翻閱：西漢的劉歆將此時期眾學說，概括為儒、…",
+            "x": 68,
+            "y": 55,
+            "clue": {
+              "title": "西漢的劉歆將此時期眾學說，概括為儒、…",
+              "content": "西漢的劉歆將此時期眾學說，概括為儒、墨、道、名、法、陰陽、農、縱橫、雜、小說共十家。"
+            }
+          },
+          {
+            "id": "scene_7_clue_4",
+            "label": "翻閱：因小說家多是坊間俚語，道聽途說，古人…",
+            "x": 38,
+            "y": 72,
+            "clue": {
+              "title": "因小說家多是坊間俚語，道聽途說，古人…",
+              "content": "因小說家多是坊間俚語，道聽途說，古人認為未入流，故有九流十家說法。"
+            }
+          },
+          {
+            "id": "scene_7_clue_5",
+            "label": "翻閱：九流十家當中，以儒、墨、道、法最著名。",
+            "x": 78,
+            "y": 38,
+            "clue": {
+              "title": "九流十家當中，以儒、墨、道、法最著名。",
+              "content": "九流十家當中，以儒、墨、道、法最著名。"
+            }
+          }
+        ],
+        "choices": [
+          {
+            "id": "scene_7_historical",
+            "label": "我依課程理解：百家爭鳴",
+            "type": "historical",
+            "nextSceneId": "scene_8",
+            "reveal": {
+              "verdict": "historical",
+              "historyNote": "這符合課本對「百家爭鳴」的記載。",
+              "consequence": "你把握了史前至夏商周的變局脈絡。"
+            }
+          },
+          {
+            "id": "scene_7_divergent_a",
+            "label": "我忽略課本，自行臆測",
+            "type": "divergent",
+            "nextSceneId": "deviation_7",
+            "reveal": {
+              "verdict": "divergent",
+              "historyNote": "此舉並無史實依據。",
+              "consequence": "你選擇了史書未載之路——歷史在此拐彎。"
+            }
+          },
+          {
+            "id": "scene_7_divergent_b",
+            "label": "我提出與課本相反的說法",
+            "type": "divergent",
+            "nextSceneId": "deviation_7",
+            "reveal": {
+              "verdict": "divergent",
+              "historyNote": "與課程記載不符。",
+              "consequence": "你選擇了史書未載之路——歷史在此拐彎。"
+            }
+          }
+        ],
+        "narrativeAsReader": "你翻開課本，來到【百家爭鳴】。春秋戰國時代，不同學術思想出現，學者紛紛講學著書。",
+        "decisionPromptAsReader": "研讀「百家爭鳴」後，你會如何理解這段歷史？",
+        "imagePrompt": {
+          "prompt": "春秋戰國時代，不同學術思想出現，學者紛紛講學著書",
+          "expandedPrompt": "春秋戰國時代，不同學術思想出現，學者紛紛講學著書。風格：古風、歷史繪卷、春秋戰國",
+          "moodKeywords": [
+            "古風",
+            "歷史繪卷",
+            "春秋戰國"
+          ]
+        }
+      },
+      "deviation_7": {
+        "id": "deviation_7",
+        "route": "deviation",
+        "narrative": "你對「第三章：百家爭鳴」的理解偏離了課程記載的史實。歷史在此拐了彎——仍可選擇重返正史主線。",
+        "narrativeFirstPerson": "以{playerName}的視角，你對「第三章：百家爭鳴」的理解偏離了史實。",
+        "decisionPrompt": "你還來得及修正——",
+        "requiredClueCount": 0,
+        "resumeMainlineSceneId": "scene_8",
+        "choices": [
+          {
+            "id": "deviation_7_return",
+            "label": "我重新翻閱課本，修正理解",
+            "type": "return_to_history",
+            "nextSceneId": "scene_8",
+            "reveal": {
+              "verdict": "return",
+              "historyNote": "這符合課本對「百家爭鳴」的記載。",
+              "consequence": "你重返正史主線。"
+            }
+          },
+          {
+            "id": "deviation_7_persist",
+            "label": "我堅持錯誤理解，繼續偏離",
+            "type": "continue_divergence",
+            "nextSceneId": "failed",
+            "reveal": {
+              "verdict": "persist",
+              "historyNote": "若長期偏離「第三章：百家爭鳴」的史實，敘事將無從延續。",
+              "consequence": "偏離太遠，已無法返回原故事。"
+            }
+          }
+        ],
+        "narrativeAsReader": "你翻開課本，你發現自己對「百家爭鳴」的理解與史實不符。",
+        "decisionPromptAsReader": "翻閱課本後，你還來得及修正理解——",
+        "imagePrompt": {
+          "prompt": "你發現自己對「百家爭鳴」的理解與史實不符",
+          "expandedPrompt": "你發現自己對「百家爭鳴」的理解與史實不符。風格：暗色調、戲劇性、偏離史實",
+          "moodKeywords": [
+            "暗色調",
+            "戲劇性",
+            "偏離史實"
+          ]
+        }
+      },
+      "scene_8": {
+        "id": "scene_8",
+        "route": "mainline",
+        "narrative": "【第四章：人物個案研習】儒家代表人物包括春秋末魯國的孔子，戰國中期鄒人的孟子，戰國末趙人的荀子。",
+        "narrativeFirstPerson": "以{playerName}的視角，儒家代表人物包括春秋末魯國的孔子，戰國中期鄒人的孟子，戰國末趙人的荀子。",
+        "decisionPrompt": "研讀「人物個案研習」後，你會如何理解這段歷史？",
+        "requiredClueCount": 3,
+        "hotspots": [
+          {
+            "id": "scene_8_clue_1",
+            "label": "翻閱：儒家代表人物包括春秋末魯國的孔子，戰…",
+            "x": 52,
+            "y": 42,
+            "clue": {
+              "title": "儒家代表人物包括春秋末魯國的孔子，戰…",
+              "content": "儒家代表人物包括春秋末魯國的孔子，戰國中期鄒人的孟子，戰國末趙人的荀子。"
+            }
+          },
+          {
+            "id": "scene_8_clue_2",
+            "label": "翻閱：儒家學說被後世統治者奉為學術正統，影…",
+            "x": 28,
+            "y": 48,
+            "clue": {
+              "title": "儒家學說被後世統治者奉為學術正統，影…",
+              "content": "儒家學說被後世統治者奉為學術正統，影響中國文化、政治發展。"
+            }
+          },
+          {
+            "id": "scene_8_clue_3",
+            "label": "翻閱：因孔子學生眾多，儒家也分成不同流派。",
+            "x": 68,
+            "y": 55,
+            "clue": {
+              "title": "因孔子學生眾多，儒家也分成不同流派。",
+              "content": "因孔子學生眾多，儒家也分成不同流派。"
+            }
+          },
+          {
+            "id": "scene_8_clue_4",
+            "label": "翻閱：孟子兼有孔子「仁說」及「義利之辨」，…",
+            "x": 38,
+            "y": 72,
+            "clue": {
+              "title": "孟子兼有孔子「仁說」及「義利之辨」，…",
+              "content": "孟子兼有孔子「仁說」及「義利之辨」，主性善，法先王。一般認為孟子便是孟氏之儒。"
+            }
+          },
+          {
+            "id": "scene_8_clue_5",
+            "label": "翻閱：儒家學說，以「仁道」、「忠恕之道」，…",
+            "x": 78,
+            "y": 38,
+            "clue": {
+              "title": "儒家學說，以「仁道」、「忠恕之道」，…",
+              "content": "儒家學說，以「仁道」、「忠恕之道」，作人類精神的寄托。"
+            }
+          }
+        ],
+        "choices": [
+          {
+            "id": "scene_8_historical",
+            "label": "我依課程理解：人物個案研習",
+            "type": "historical",
+            "nextSceneId": "scene_8_end",
+            "reveal": {
+              "verdict": "historical",
+              "historyNote": "這符合課本對「人物個案研習」的記載。",
+              "consequence": "你把握了史前至夏商周的變局脈絡。"
+            }
+          },
+          {
+            "id": "scene_8_divergent_a",
+            "label": "我忽略課本，自行臆測",
+            "type": "divergent",
+            "nextSceneId": "deviation_8",
+            "reveal": {
+              "verdict": "divergent",
+              "historyNote": "此舉並無史實依據。",
+              "consequence": "你選擇了史書未載之路——歷史在此拐彎。"
+            }
+          },
+          {
+            "id": "scene_8_divergent_b",
+            "label": "我提出與課本相反的說法",
+            "type": "divergent",
+            "nextSceneId": "deviation_8",
+            "reveal": {
+              "verdict": "divergent",
+              "historyNote": "與課程記載不符。",
+              "consequence": "你選擇了史書未載之路——歷史在此拐彎。"
+            }
+          }
+        ],
+        "narrativeAsReader": "你翻開課本，來到【人物個案研習】。儒家代表人物包括春秋末魯國的孔子，戰國中期鄒人的孟子，戰國末趙人的荀子。",
+        "decisionPromptAsReader": "研讀「人物個案研習」後，你會如何理解這段歷史？",
+        "imagePrompt": {
+          "prompt": "儒家代表人物包括春秋末魯國的孔子，戰國中期鄒人的孟子，戰國末趙人的荀子",
+          "expandedPrompt": "儒家代表人物包括春秋末魯國的孔子，戰國中期鄒人的孟子，戰國末趙人的荀子。風格：古風、歷史繪卷、細膩場景",
+          "moodKeywords": [
+            "古風",
+            "歷史繪卷",
+            "細膩場景"
+          ]
+        }
+      },
+      "deviation_8": {
+        "id": "deviation_8",
+        "route": "deviation",
+        "narrative": "你對「第四章：人物個案研習」的理解偏離了課程記載的史實。歷史在此拐了彎——仍可選擇重返正史主線。",
+        "narrativeFirstPerson": "以{playerName}的視角，你對「第四章：人物個案研習」的理解偏離了史實。",
+        "decisionPrompt": "你還來得及修正——",
+        "requiredClueCount": 0,
+        "resumeMainlineSceneId": "scene_8_end",
+        "choices": [
+          {
+            "id": "deviation_8_return",
+            "label": "我重新翻閱課本，修正理解",
+            "type": "return_to_history",
+            "nextSceneId": "scene_8_end",
+            "reveal": {
+              "verdict": "return",
+              "historyNote": "這符合課本對「人物個案研習」的記載。",
+              "consequence": "你重返正史主線。"
+            }
+          },
+          {
+            "id": "deviation_8_persist",
+            "label": "我堅持錯誤理解，繼續偏離",
+            "type": "continue_divergence",
+            "nextSceneId": "failed",
+            "reveal": {
+              "verdict": "persist",
+              "historyNote": "若長期偏離「第四章：人物個案研習」的史實，敘事將無從延續。",
+              "consequence": "偏離太遠，已無法返回原故事。"
+            }
+          }
+        ],
+        "narrativeAsReader": "你翻開課本，你發現自己對「人物個案研習」的理解與史實不符。",
+        "decisionPromptAsReader": "翻閱課本後，你還來得及修正理解——",
+        "imagePrompt": {
+          "prompt": "你發現自己對「人物個案研習」的理解與史實不符",
+          "expandedPrompt": "你發現自己對「人物個案研習」的理解與史實不符。風格：暗色調、戲劇性、偏離史實",
+          "moodKeywords": [
+            "暗色調",
+            "戲劇性",
+            "偏離史實"
+          ]
+        }
+      },
+      "scene_8_end": {
+        "id": "scene_8_end",
+        "route": "mainline",
+        "narrative": "你已完成「史前至夏商周」沉浸式歷史之旅，沿正史主線走完了各個章節。",
+        "narrativeAsReader": "你合上課本，回望這段歷史旅程。從史料到抉擇，史書上的名字此刻有了溫度。",
+        "narrativeFirstPerson": "以{playerName}的視角，你完成了這段歷史之旅。每一章都是不同年代的故事——你透過課本把它們串連起來。",
+        "choices": [],
+        "imagePrompt": {
+          "prompt": "你合上課本，回望這段歷史旅程。從史料到抉擇，史書上的名字此刻有了溫度",
+          "expandedPrompt": "你合上課本，回望這段歷史旅程。從史料到抉擇，史書上的名字此刻有了溫度。風格：古風、歷史繪卷、史卷回顧",
+          "moodKeywords": [
+            "古風",
+            "歷史繪卷",
+            "史卷回顧"
+          ]
+        }
+      }
+    },
+    "periodId": "pre_qin",
+    "sourceUrl": "https://chistory.kanhan.com/tc/f1-reading-card"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "id": "qin_han",
+  "title": "秦漢",
+  "subtitle": "大一統帝國的建立、發展與中外文化交流",
+  "sourceUrl": "https://chistory.kanhan.com/tc/f1-reading-card",
+  "chapterCount": 8,
+  "chapters": [
+    {
+      "title": "秦朝的統一及其統治措施與影響",
+      "filename": "F1P2T1CH1秦朝的統一及其統治措施與影響.pdf",
+      "url": "https://chistory.kanhan.com/sites/default/files/course_pdf/f1/f1p2/F1P2T1CH1秦朝的統一及其統治措施與影響.pdf",
+      "summary": "【秦朝的統一及其統治措施與影響】公元前237 年，秦王政採納李斯建議，決定進行併滅六國之策。",
+      "textLength": 4570
+    },
+    {
+      "title": "秦朝滅亡與楚漢相爭",
+      "filename": "F1P2T1CH2秦朝滅亡與楚漢相爭.pdf",
+      "url": "https://chistory.kanhan.com/sites/default/files/course_pdf/f1/f1p2/F1P2T1CH2秦朝滅亡與楚漢相爭.pdf",
+      "summary": "【秦朝滅亡與楚漢相爭】戰國中後期，諸侯間連年戰爭，有時一年竟進行幾次大戰，有的大戰持續數年之久。",
+      "textLength": 2365
+    },
+    {
+      "title": "西漢的建立",
+      "filename": "F1P2T2CH1西漢的建立.pdf",
+      "url": "https://chistory.kanhan.com/sites/default/files/course_pdf/f1/f1p2/F1P2T2CH1西漢的建立.pdf",
+      "summary": "【西漢的建立】劉邦戰勝項羽，統一天下，建立漢朝，是為漢高祖。",
+      "textLength": 940
+    },
+    {
+      "title": "漢武帝的文治與武功",
+      "filename": "F1P2T2CH2漢武帝的文治與武功.pdf",
+      "url": "https://chistory.kanhan.com/sites/default/files/course_pdf/f1/f1p2/F1P2T2CH2漢武帝的文治與武功.pdf",
+      "summary": "【漢武帝的文治與武功】自高祖以來七十餘年，休養生息，漢朝國力日盛。",
+      "textLength": 2264
+    },
+    {
+      "title": "昭宣以後戚宦政治與漢朝的衰亡",
+      "filename": "F1P2T2CH3昭宣以後戚宦政治與漢朝的衰亡.pdf",
+      "url": "https://chistory.kanhan.com/sites/default/files/course_pdf/f1/f1p2/F1P2T2CH3昭宣以後戚宦政治與漢朝的衰亡.pdf",
+      "summary": "【昭宣以後戚宦政治與漢朝的衰亡】漢武帝本人好大喜功，經常對外用兵，大建宮室，大事遊幸，晚年時國力漸衰。",
+      "textLength": 3476
+    },
+    {
+      "title": "兩漢通西域與中外文化交流",
+      "filename": "F1P2T2CH4兩漢通西域與中外文化交流.pdf",
+      "url": "https://chistory.kanhan.com/sites/default/files/course_pdf/f1/f1p2/F1P2T2CH4兩漢通西域與中外文化交流.pdf",
+      "summary": "【兩漢通西域與中外文化交流】位於現今武威一帶的大月氏被匈奴攻擊，因而西遷。",
+      "textLength": 1258
+    },
+    {
+      "title": "道教的形成（延伸）",
+      "filename": "F1P2T2CH5道教的形成_延伸部分.pdf",
+      "url": "https://chistory.kanhan.com/sites/default/files/course_pdf/f1/f1p2/F1P2T2CH5道教的形成_延伸部分.pdf",
+      "summary": "【道教的形成（延伸）】東漢末社會動盪，張陵的五斗米道和張角的太平道兩派，皆以符水咒語治病，並結合黃老思想來傳教，形成道教。",
+      "textLength": 647
+    },
+    {
+      "title": "科技發明（延伸）",
+      "filename": "F1P2T2CH6科技發明_延伸部分_造紙術、天文儀器的發明_ver.2.pdf",
+      "url": "https://chistory.kanhan.com/sites/default/files/course_pdf/f1/f1p2/F1P2T2CH6科技發明_延伸部分_造紙術、天文儀器的發明_ver.2.pdf",
+      "summary": "【科技發明（延伸）】古代文字多刻在龜甲、青銅上，後來演變成在竹、帛上書寫。",
+      "textLength": 1808
+    }
+  ],
+  "fullTextLength": 17502
+}

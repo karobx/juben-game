@@ -1,0 +1,1195 @@
+{
+  "analysis": {
+    "title": "中一中國歷史：三國兩晉南北朝",
+    "characters": [
+      {
+        "name": "曹操",
+        "mentions": 40
+      },
+      {
+        "name": "劉備",
+        "mentions": 24
+      },
+      {
+        "name": "孝文帝",
+        "mentions": 24
+      },
+      {
+        "name": "孫權",
+        "mentions": 24
+      },
+      {
+        "name": "晉武帝",
+        "mentions": 10
+      },
+      {
+        "name": "北伐",
+        "mentions": 10
+      },
+      {
+        "name": "諸葛亮",
+        "mentions": 8
+      },
+      {
+        "name": "晉元帝",
+        "mentions": 6
+      }
+    ],
+    "plotBeats": [
+      {
+        "order": 1,
+        "summary": "=== 第一章：三國鼎立局面的形成 ==="
+      },
+      {
+        "order": 2,
+        "summary": "中一級"
+      },
+      {
+        "order": 3,
+        "summary": "歷史時期：三國兩晉南北朝"
+      },
+      {
+        "order": 4,
+        "summary": "課題一：魏晉南北朝的分裂與政權的更替"
+      },
+      {
+        "order": 5,
+        "summary": "第一章：三國鼎立局面的形成"
+      },
+      {
+        "order": 6,
+        "summary": "考前筆記"
+      },
+      {
+        "order": 7,
+        "summary": "一、州牧割據"
+      },
+      {
+        "order": 8,
+        "summary": "- 黃巾之亂，雖被漢朝平定，但黃巾餘黨此起彼落。"
+      }
+    ],
+    "settings": [
+      "洛陽",
+      "建康",
+      "長安",
+      "人口",
+      "遷都",
+      "大規模人口"
+    ],
+    "rawTextLength": 11895,
+    "engine": "chistory",
+    "structure": {
+      "dialogueCount": 4,
+      "narrationLength": 11819,
+      "paragraphCount": 472
+    },
+    "svoPatterns": [],
+    "imagePrompts": [
+      {
+        "prompt": "場景：洛陽、建康，=== 第一章：三國鼎立局面的形成 ===",
+        "expandedPrompt": "場景：洛陽、建康，=== 第一章：三國鼎立局面的形成 ===。風格：古風、歷史繪卷、細膩場景",
+        "moodKeywords": [
+          "古風",
+          "歷史繪卷",
+          "細膩場景"
+        ]
+      },
+      {
+        "prompt": "場景：洛陽、建康，中一級",
+        "expandedPrompt": "場景：洛陽、建康，中一級。風格：古風、歷史繪卷、細膩場景",
+        "moodKeywords": [
+          "古風",
+          "歷史繪卷",
+          "細膩場景"
+        ]
+      },
+      {
+        "prompt": "場景：洛陽、建康，歷史時期：三國兩晉南北朝",
+        "expandedPrompt": "場景：洛陽、建康，歷史時期：三國兩晉南北朝。風格：古風、歷史繪卷、細膩場景",
+        "moodKeywords": [
+          "古風",
+          "歷史繪卷",
+          "細膩場景"
+        ]
+      }
+    ],
+    "sourceUrl": "https://chistory.kanhan.com/tc/f1-reading-card",
+    "periodId": "three_kingdoms"
+  },
+  "storyGraph": {
+    "title": "中一中國歷史：三國兩晉南北朝",
+    "startSceneId": "scene_1",
+    "scenes": {
+      "scene_1": {
+        "id": "scene_1",
+        "route": "mainline",
+        "narrative": "【第一章：三國鼎立局面的形成】黃巾之亂，雖被漢朝平定，但黃巾餘黨此起彼落。",
+        "narrativeFirstPerson": "以{playerName}的視角，黃巾之亂，雖被漢朝平定，但黃巾餘黨此起彼落。",
+        "decisionPrompt": "研讀「三國鼎立局面的形成」後，你會如何理解這段歷史？",
+        "requiredClueCount": 3,
+        "hotspots": [
+          {
+            "id": "scene_1_clue_three_kingdoms_map",
+            "label": "查看三國形勢圖",
+            "x": 52,
+            "y": 42,
+            "clue": {
+              "title": "鼎立局勢",
+              "content": "魏據北方，蜀漢與東吳夾擊抗衡，分裂政局由此成形。"
+            }
+          },
+          {
+            "id": "scene_1_clue_2",
+            "label": "翻閱：宗室劉焉建議靈帝下放權力地方，以便討…",
+            "x": 28,
+            "y": 48,
+            "clue": {
+              "title": "宗室劉焉建議靈帝下放權力地方，以便討…",
+              "content": "宗室劉焉建議靈帝下放權力地方，以便討伐黃巾餘黨。"
+            }
+          },
+          {
+            "id": "scene_1_clue_3",
+            "label": "翻閱：靈帝下令原為監察地方的刺史改稱州牧，…",
+            "x": 68,
+            "y": 55,
+            "clue": {
+              "title": "靈帝下令原為監察地方的刺史改稱州牧，…",
+              "content": "靈帝下令原為監察地方的刺史改稱州牧，給予行政及軍事大權。"
+            }
+          },
+          {
+            "id": "scene_1_clue_4",
+            "label": "翻閱：董卓專權後，地方手握重兵的州牧拒絕聽…",
+            "x": 38,
+            "y": 72,
+            "clue": {
+              "title": "董卓專權後，地方手握重兵的州牧拒絕聽…",
+              "content": "董卓專權後，地方手握重兵的州牧拒絕聽命中央，形成州牧割據。"
+            }
+          },
+          {
+            "id": "scene_1_clue_5",
+            "label": "翻閱：天下州郡，豪強割據，大者連州；小者連郡。",
+            "x": 78,
+            "y": 38,
+            "clue": {
+              "title": "天下州郡，豪強割據，大者連州；小者連郡。",
+              "content": "天下州郡，豪強割據，大者連州；小者連郡。"
+            }
+          }
+        ],
+        "choices": [
+          {
+            "id": "scene_1_historical",
+            "label": "我依課程理解：三國鼎立局面的形成",
+            "type": "historical",
+            "nextSceneId": "scene_2",
+            "reveal": {
+              "verdict": "historical",
+              "historyNote": "這符合課本對「三國鼎立局面的形成」的記載。",
+              "consequence": "你把握了三國兩晉南北朝的分裂與融合脈絡。"
+            }
+          },
+          {
+            "id": "scene_1_divergent_a",
+            "label": "我忽略課本，自行臆測",
+            "type": "divergent",
+            "nextSceneId": "deviation_1",
+            "reveal": {
+              "verdict": "divergent",
+              "historyNote": "此舉並無史實依據。",
+              "consequence": "你選擇了史書未載之路——歷史在此拐彎。"
+            }
+          },
+          {
+            "id": "scene_1_divergent_b",
+            "label": "我提出與課本相反的說法",
+            "type": "divergent",
+            "nextSceneId": "deviation_1",
+            "reveal": {
+              "verdict": "divergent",
+              "historyNote": "與課程記載不符。",
+              "consequence": "你選擇了史書未載之路——歷史在此拐彎。"
+            }
+          }
+        ],
+        "narrativeAsReader": "你翻開課本，來到【三國鼎立】。黃巾之亂後天下分崩，曹操、劉備、孫權逐步形成鼎立局面。",
+        "decisionPromptAsReader": "研讀「三國鼎立局面的形成」後，你會如何理解這段歷史？",
+        "imagePrompt": {
+          "prompt": "黃巾之亂後天下分崩，曹操、劉備、孫權逐步形成鼎立局面",
+          "expandedPrompt": "黃巾之亂後天下分崩，曹操、劉備、孫權逐步形成鼎立局面。風格：古風、歷史繪卷、漢室中衰",
+          "moodKeywords": [
+            "古風",
+            "歷史繪卷",
+            "漢室中衰"
+          ]
+        }
+      },
+      "deviation_1": {
+        "id": "deviation_1",
+        "route": "deviation",
+        "narrative": "你對「第一章：三國鼎立局面的形成」的理解偏離了課程記載的史實。歷史在此拐了彎——仍可選擇重返正史主線。",
+        "narrativeFirstPerson": "以{playerName}的視角，你對「第一章：三國鼎立局面的形成」的理解偏離了史實。",
+        "decisionPrompt": "你還來得及修正——",
+        "requiredClueCount": 0,
+        "resumeMainlineSceneId": "scene_2",
+        "choices": [
+          {
+            "id": "deviation_1_return",
+            "label": "我重新翻閱課本，修正理解",
+            "type": "return_to_history",
+            "nextSceneId": "scene_2",
+            "reveal": {
+              "verdict": "return",
+              "historyNote": "這符合課本對「三國鼎立局面的形成」的記載。",
+              "consequence": "你重返正史主線。"
+            }
+          },
+          {
+            "id": "deviation_1_persist",
+            "label": "我堅持錯誤理解，繼續偏離",
+            "type": "continue_divergence",
+            "nextSceneId": "failed",
+            "reveal": {
+              "verdict": "persist",
+              "historyNote": "若長期偏離「第一章：三國鼎立局面的形成」的史實，敘事將無從延續。",
+              "consequence": "偏離太遠，已無法返回原故事。"
+            }
+          }
+        ],
+        "narrativeAsReader": "你翻開課本，你發現自己對「三國鼎立局面的形成」的理解與史實不符。",
+        "decisionPromptAsReader": "翻閱課本後，你還來得及修正理解——",
+        "imagePrompt": {
+          "prompt": "你發現自己對「三國鼎立局面的形成」的理解與史實不符",
+          "expandedPrompt": "你發現自己對「三國鼎立局面的形成」的理解與史實不符。風格：暗色調、戲劇性、偏離史實",
+          "moodKeywords": [
+            "暗色調",
+            "戲劇性",
+            "偏離史實"
+          ]
+        }
+      },
+      "scene_2": {
+        "id": "scene_2",
+        "route": "mainline",
+        "narrative": "【第二章：兩晉南北朝政權的更替概況】三國以魏最強大，形勢上蜀漢與吳多合作抗魏。",
+        "narrativeFirstPerson": "以{playerName}的視角，三國以魏最強大，形勢上蜀漢與吳多合作抗魏。",
+        "decisionPrompt": "研讀「兩晉南北朝政權的更替概況」後，你會如何理解這段歷史？",
+        "requiredClueCount": 3,
+        "hotspots": [
+          {
+            "id": "scene_2_clue_1",
+            "label": "翻閱：三國以魏最強大，形勢上蜀漢與吳多合作…",
+            "x": 52,
+            "y": 42,
+            "clue": {
+              "title": "三國以魏最強大，形勢上蜀漢與吳多合作…",
+              "content": "三國以魏最強大，形勢上蜀漢與吳多合作抗魏。"
+            }
+          },
+          {
+            "id": "scene_2_clue_2",
+            "label": "翻閱：蜀漢在劉備死後，由其子劉禪繼位，是為…",
+            "x": 28,
+            "y": 48,
+            "clue": {
+              "title": "蜀漢在劉備死後，由其子劉禪繼位，是為…",
+              "content": "蜀漢在劉備死後，由其子劉禪繼位，是為蜀後主，諸葛亮輔政。"
+            }
+          },
+          {
+            "id": "scene_2_clue_3",
+            "label": "翻閱：蜀漢以光復漢室為名，多次北伐魏國失敗…",
+            "x": 68,
+            "y": 55,
+            "clue": {
+              "title": "蜀漢以光復漢室為名，多次北伐魏國失敗…",
+              "content": "蜀漢以光復漢室為名，多次北伐魏國失敗，多次北伐魏國都失敗。"
+            }
+          },
+          {
+            "id": "scene_2_clue_4",
+            "label": "翻閱：蜀漢於諸葛亮死後，開始衰落。",
+            "x": 38,
+            "y": 72,
+            "clue": {
+              "title": "蜀漢於諸葛亮死後，開始衰落。",
+              "content": "蜀漢於諸葛亮死後，開始衰落。"
+            }
+          },
+          {
+            "id": "scene_2_clue_5",
+            "label": "翻閱：東吳孫權死後，領導層內訌，開始衰落。",
+            "x": 78,
+            "y": 38,
+            "clue": {
+              "title": "東吳孫權死後，領導層內訌，開始衰落。",
+              "content": "東吳孫權死後，領導層內訌，開始衰落。"
+            }
+          }
+        ],
+        "choices": [
+          {
+            "id": "scene_2_historical",
+            "label": "我依課程理解：兩晉南北朝政權的更替概況",
+            "type": "historical",
+            "nextSceneId": "scene_3",
+            "reveal": {
+              "verdict": "historical",
+              "historyNote": "這符合課本對「兩晉南北朝政權的更替概況」的記載。",
+              "consequence": "你把握了三國兩晉南北朝的分裂與融合脈絡。"
+            }
+          },
+          {
+            "id": "scene_2_divergent_a",
+            "label": "我忽略課本，自行臆測",
+            "type": "divergent",
+            "nextSceneId": "deviation_2",
+            "reveal": {
+              "verdict": "divergent",
+              "historyNote": "此舉並無史實依據。",
+              "consequence": "你選擇了史書未載之路——歷史在此拐彎。"
+            }
+          },
+          {
+            "id": "scene_2_divergent_b",
+            "label": "我提出與課本相反的說法",
+            "type": "divergent",
+            "nextSceneId": "deviation_2",
+            "reveal": {
+              "verdict": "divergent",
+              "historyNote": "與課程記載不符。",
+              "consequence": "你選擇了史書未載之路——歷史在此拐彎。"
+            }
+          }
+        ],
+        "narrativeAsReader": "你翻開課本，來到【兩晉南北朝政權的更替概況】。三國以魏最強大，形勢上蜀漢與吳多合作抗魏。",
+        "decisionPromptAsReader": "研讀「兩晉南北朝政權的更替概況」後，你會如何理解這段歷史？",
+        "imagePrompt": {
+          "prompt": "三國以魏最強大，形勢上蜀漢與吳多合作抗魏",
+          "expandedPrompt": "三國以魏最強大，形勢上蜀漢與吳多合作抗魏。風格：古風、歷史繪卷、三國鼎立",
+          "moodKeywords": [
+            "古風",
+            "歷史繪卷",
+            "三國鼎立"
+          ]
+        }
+      },
+      "deviation_2": {
+        "id": "deviation_2",
+        "route": "deviation",
+        "narrative": "你對「第二章：兩晉南北朝政權的更替概況」的理解偏離了課程記載的史實。歷史在此拐了彎——仍可選擇重返正史主線。",
+        "narrativeFirstPerson": "以{playerName}的視角，你對「第二章：兩晉南北朝政權的更替概況」的理解偏離了史實。",
+        "decisionPrompt": "你還來得及修正——",
+        "requiredClueCount": 0,
+        "resumeMainlineSceneId": "scene_3",
+        "choices": [
+          {
+            "id": "deviation_2_return",
+            "label": "我重新翻閱課本，修正理解",
+            "type": "return_to_history",
+            "nextSceneId": "scene_3",
+            "reveal": {
+              "verdict": "return",
+              "historyNote": "這符合課本對「兩晉南北朝政權的更替概況」的記載。",
+              "consequence": "你重返正史主線。"
+            }
+          },
+          {
+            "id": "deviation_2_persist",
+            "label": "我堅持錯誤理解，繼續偏離",
+            "type": "continue_divergence",
+            "nextSceneId": "failed",
+            "reveal": {
+              "verdict": "persist",
+              "historyNote": "若長期偏離「第二章：兩晉南北朝政權的更替概況」的史實，敘事將無從延續。",
+              "consequence": "偏離太遠，已無法返回原故事。"
+            }
+          }
+        ],
+        "narrativeAsReader": "你翻開課本，你發現自己對「兩晉南北朝政權的更替概況」的理解與史實不符。",
+        "decisionPromptAsReader": "翻閱課本後，你還來得及修正理解——",
+        "imagePrompt": {
+          "prompt": "你發現自己對「兩晉南北朝政權的更替概況」的理解與史實不符",
+          "expandedPrompt": "你發現自己對「兩晉南北朝政權的更替概況」的理解與史實不符。風格：暗色調、戲劇性、偏離史實",
+          "moodKeywords": [
+            "暗色調",
+            "戲劇性",
+            "偏離史實"
+          ]
+        }
+      },
+      "scene_3": {
+        "id": "scene_3",
+        "route": "mainline",
+        "narrative": "【第三章：武備的演進（延伸）】魏晉南北朝時期，南方多江河湖泊，作戰重視水軍；北方多平原，軍隊擅長騎兵突擊。",
+        "narrativeFirstPerson": "以{playerName}的視角，魏晉南北朝時期，南方多江河湖泊，作戰重視水軍；北方多平原，軍隊擅長騎兵突擊。",
+        "decisionPrompt": "研讀「武備的演進（延伸）」後，你會如何理解這段歷史？",
+        "requiredClueCount": 3,
+        "hotspots": [
+          {
+            "id": "scene_3_clue_1",
+            "label": "翻閱：魏晉南北朝時期，南方多江河湖泊，作戰…",
+            "x": 52,
+            "y": 42,
+            "clue": {
+              "title": "魏晉南北朝時期，南方多江河湖泊，作戰…",
+              "content": "魏晉南北朝時期，南方多江河湖泊，作戰重視水軍；北方多平原，軍隊擅長騎兵突擊。"
+            }
+          },
+          {
+            "id": "scene_3_clue_2",
+            "label": "翻閱：曹操統一北方後南征，荊州劉琮降曹，曹…",
+            "x": 28,
+            "y": 48,
+            "clue": {
+              "title": "曹操統一北方後南征，荊州劉琮降曹，曹…",
+              "content": "曹操統一北方後南征，荊州劉琮降曹，曹操轉向東吳孫權。"
+            }
+          },
+          {
+            "id": "scene_3_clue_3",
+            "label": "翻閱：劉備退到夏口，派諸葛亮聯繫孫權，尋求…",
+            "x": 68,
+            "y": 55,
+            "clue": {
+              "title": "劉備退到夏口，派諸葛亮聯繫孫權，尋求…",
+              "content": "劉備退到夏口，派諸葛亮聯繫孫權，尋求共同抗曹。"
+            }
+          },
+          {
+            "id": "scene_3_clue_4",
+            "label": "翻閱：孫權決定與劉備結盟，派周瑜領兵共同抗曹。",
+            "x": 38,
+            "y": 72,
+            "clue": {
+              "title": "孫權決定與劉備結盟，派周瑜領兵共同抗曹。",
+              "content": "孫權決定與劉備結盟，派周瑜領兵共同抗曹。"
+            }
+          },
+          {
+            "id": "scene_3_clue_5",
+            "label": "翻閱：周瑜於赤壁以火攻大敗曹軍，史稱「赤壁…",
+            "x": 78,
+            "y": 38,
+            "clue": {
+              "title": "周瑜於赤壁以火攻大敗曹軍，史稱「赤壁…",
+              "content": "周瑜於赤壁以火攻大敗曹軍，史稱「赤壁之戰」。"
+            }
+          }
+        ],
+        "choices": [
+          {
+            "id": "scene_3_historical",
+            "label": "我依課程理解：武備的演進（延伸）",
+            "type": "historical",
+            "nextSceneId": "scene_4",
+            "reveal": {
+              "verdict": "historical",
+              "historyNote": "這符合課本對「武備的演進（延伸）」的記載。",
+              "consequence": "你把握了三國兩晉南北朝的分裂與融合脈絡。"
+            }
+          },
+          {
+            "id": "scene_3_divergent_a",
+            "label": "我忽略課本，自行臆測",
+            "type": "divergent",
+            "nextSceneId": "deviation_3",
+            "reveal": {
+              "verdict": "divergent",
+              "historyNote": "此舉並無史實依據。",
+              "consequence": "你選擇了史書未載之路——歷史在此拐彎。"
+            }
+          },
+          {
+            "id": "scene_3_divergent_b",
+            "label": "我提出與課本相反的說法",
+            "type": "divergent",
+            "nextSceneId": "deviation_3",
+            "reveal": {
+              "verdict": "divergent",
+              "historyNote": "與課程記載不符。",
+              "consequence": "你選擇了史書未載之路——歷史在此拐彎。"
+            }
+          }
+        ],
+        "narrativeAsReader": "你翻開課本，研讀【武備的演進（延伸）】。南方重水軍、北方重騎兵，赤壁之戰是南北武備差異的經典例證。",
+        "decisionPromptAsReader": "研讀「武備的演進（延伸）」後，你會如何理解這段歷史？",
+        "imagePrompt": {
+          "prompt": "研讀【武備的演進（延伸）】。南方重水軍、北方重騎兵，赤壁之戰是南北武備差異的經典例證",
+          "expandedPrompt": "研讀【武備的演進（延伸）】。南方重水軍、北方重騎兵，赤壁之戰是南北武備差異的經典例證。風格：古風、歷史繪卷、三國鼎立",
+          "moodKeywords": [
+            "古風",
+            "歷史繪卷",
+            "三國鼎立"
+          ]
+        }
+      },
+      "deviation_3": {
+        "id": "deviation_3",
+        "route": "deviation",
+        "narrative": "你對「第三章：武備的演進（延伸）」的理解偏離了課程記載的史實。歷史在此拐了彎——仍可選擇重返正史主線。",
+        "narrativeFirstPerson": "以{playerName}的視角，你對「第三章：武備的演進（延伸）」的理解偏離了史實。",
+        "decisionPrompt": "你還來得及修正——",
+        "requiredClueCount": 0,
+        "resumeMainlineSceneId": "scene_4",
+        "choices": [
+          {
+            "id": "deviation_3_return",
+            "label": "我重新翻閱課本，修正理解",
+            "type": "return_to_history",
+            "nextSceneId": "scene_4",
+            "reveal": {
+              "verdict": "return",
+              "historyNote": "這符合課本對「武備的演進（延伸）」的記載。",
+              "consequence": "你重返正史主線。"
+            }
+          },
+          {
+            "id": "deviation_3_persist",
+            "label": "我堅持錯誤理解，繼續偏離",
+            "type": "continue_divergence",
+            "nextSceneId": "failed",
+            "reveal": {
+              "verdict": "persist",
+              "historyNote": "若長期偏離「第三章：武備的演進（延伸）」的史實，敘事將無從延續。",
+              "consequence": "偏離太遠，已無法返回原故事。"
+            }
+          }
+        ],
+        "narrativeAsReader": "你翻開課本，你發現自己對「武備的演進（延伸）」的理解與史實不符。",
+        "decisionPromptAsReader": "翻閱課本後，你還來得及修正理解——",
+        "imagePrompt": {
+          "prompt": "你發現自己對「武備的演進（延伸）」的理解與史實不符",
+          "expandedPrompt": "你發現自己對「武備的演進（延伸）」的理解與史實不符。風格：暗色調、戲劇性、偏離史實",
+          "moodKeywords": [
+            "暗色調",
+            "戲劇性",
+            "偏離史實"
+          ]
+        }
+      },
+      "scene_4": {
+        "id": "scene_4",
+        "route": "mainline",
+        "narrative": "【第一章：北方的政局與孝文帝漢化】中原漢人把居住在長城以北的周邊民族統稱胡人。",
+        "narrativeFirstPerson": "以{playerName}的視角，中原漢人把居住在長城以北的周邊民族統稱胡人。",
+        "decisionPrompt": "研讀「北方的政局與孝文帝漢化」後，你會如何理解這段歷史？",
+        "requiredClueCount": 3,
+        "hotspots": [
+          {
+            "id": "scene_4_clue_tuoba_reform",
+            "label": "閱讀孝文帝漢化令",
+            "x": 52,
+            "y": 42,
+            "clue": {
+              "title": "北魏漢化",
+              "content": "遷都洛陽、改穿漢服、改用漢語，促進胡漢融合。"
+            }
+          },
+          {
+            "id": "scene_4_clue_2",
+            "label": "翻閱：自東漢末，匈奴、鮮卑、氐、羯及羌的胡…",
+            "x": 28,
+            "y": 48,
+            "clue": {
+              "title": "自東漢末，匈奴、鮮卑、氐、羯及羌的胡…",
+              "content": "自東漢末，匈奴、鮮卑、氐、羯及羌的胡人陸續內徒。"
+            }
+          },
+          {
+            "id": "scene_4_clue_3",
+            "label": "翻閱：元朝以後史家將匈奴、鮮卑、氐、羯、羌…",
+            "x": 68,
+            "y": 55,
+            "clue": {
+              "title": "元朝以後史家將匈奴、鮮卑、氐、羯、羌…",
+              "content": "元朝以後史家將匈奴、鮮卑、氐、羯、羌，統稱五胡。"
+            }
+          },
+          {
+            "id": "scene_4_clue_4",
+            "label": "翻閱：東漢中葉之後，農民出現大批逃亡，胡人…",
+            "x": 38,
+            "y": 72,
+            "clue": {
+              "title": "東漢中葉之後，農民出現大批逃亡，胡人…",
+              "content": "東漢中葉之後，農民出現大批逃亡，胡人內徒可補充勞動力及稅源。"
+            }
+          },
+          {
+            "id": "scene_4_clue_5",
+            "label": "翻閱：因連年戰亂，漢魏為補充兵源，將整族胡…",
+            "x": 78,
+            "y": 38,
+            "clue": {
+              "title": "因連年戰亂，漢魏為補充兵源，將整族胡…",
+              "content": "因連年戰亂，漢魏為補充兵源，將整族胡人內遷進行整編為兵。"
+            }
+          }
+        ],
+        "choices": [
+          {
+            "id": "scene_4_historical",
+            "label": "我依課程理解：北方的政局與孝文帝漢化",
+            "type": "historical",
+            "nextSceneId": "scene_5",
+            "reveal": {
+              "verdict": "historical",
+              "historyNote": "這符合課本對「北方的政局與孝文帝漢化」的記載。",
+              "consequence": "你把握了三國兩晉南北朝的分裂與融合脈絡。"
+            }
+          },
+          {
+            "id": "scene_4_divergent_a",
+            "label": "我忽略課本，自行臆測",
+            "type": "divergent",
+            "nextSceneId": "deviation_4",
+            "reveal": {
+              "verdict": "divergent",
+              "historyNote": "此舉並無史實依據。",
+              "consequence": "你選擇了史書未載之路——歷史在此拐彎。"
+            }
+          },
+          {
+            "id": "scene_4_divergent_b",
+            "label": "我提出與課本相反的說法",
+            "type": "divergent",
+            "nextSceneId": "deviation_4",
+            "reveal": {
+              "verdict": "divergent",
+              "historyNote": "與課程記載不符。",
+              "consequence": "你選擇了史書未載之路——歷史在此拐彎。"
+            }
+          }
+        ],
+        "narrativeAsReader": "你翻開課本，來到【北方的政局與孝文帝漢化】。中原漢人把居住在長城以北的周邊民族統稱胡人。",
+        "decisionPromptAsReader": "研讀「北方的政局與孝文帝漢化」後，你會如何理解這段歷史？",
+        "imagePrompt": {
+          "prompt": "中原漢人把居住在長城以北的周邊民族統稱胡人",
+          "expandedPrompt": "中原漢人把居住在長城以北的周邊民族統稱胡人。風格：古風、歷史繪卷、長城修築",
+          "moodKeywords": [
+            "古風",
+            "歷史繪卷",
+            "長城修築"
+          ]
+        }
+      },
+      "deviation_4": {
+        "id": "deviation_4",
+        "route": "deviation",
+        "narrative": "你對「第一章：北方的政局與孝文帝漢化」的理解偏離了課程記載的史實。歷史在此拐了彎——仍可選擇重返正史主線。",
+        "narrativeFirstPerson": "以{playerName}的視角，你對「第一章：北方的政局與孝文帝漢化」的理解偏離了史實。",
+        "decisionPrompt": "你還來得及修正——",
+        "requiredClueCount": 0,
+        "resumeMainlineSceneId": "scene_5",
+        "choices": [
+          {
+            "id": "deviation_4_return",
+            "label": "我重新翻閱課本，修正理解",
+            "type": "return_to_history",
+            "nextSceneId": "scene_5",
+            "reveal": {
+              "verdict": "return",
+              "historyNote": "這符合課本對「北方的政局與孝文帝漢化」的記載。",
+              "consequence": "你重返正史主線。"
+            }
+          },
+          {
+            "id": "deviation_4_persist",
+            "label": "我堅持錯誤理解，繼續偏離",
+            "type": "continue_divergence",
+            "nextSceneId": "failed",
+            "reveal": {
+              "verdict": "persist",
+              "historyNote": "若長期偏離「第一章：北方的政局與孝文帝漢化」的史實，敘事將無從延續。",
+              "consequence": "偏離太遠，已無法返回原故事。"
+            }
+          }
+        ],
+        "narrativeAsReader": "你翻開課本，你發現自己對「北方的政局與孝文帝漢化」的理解與史實不符。",
+        "decisionPromptAsReader": "翻閱課本後，你還來得及修正理解——",
+        "imagePrompt": {
+          "prompt": "你發現自己對「北方的政局與孝文帝漢化」的理解與史實不符",
+          "expandedPrompt": "你發現自己對「北方的政局與孝文帝漢化」的理解與史實不符。風格：暗色調、戲劇性、偏離史實",
+          "moodKeywords": [
+            "暗色調",
+            "戲劇性",
+            "偏離史實"
+          ]
+        }
+      },
+      "scene_5": {
+        "id": "scene_5",
+        "route": "mainline",
+        "narrative": "【第二章：江南地區的開發】古籍描述為瘴漫之地，象、犀牛等熱帶動物棲息其中。",
+        "narrativeFirstPerson": "以{playerName}的視角，上古時期，長江流域屬於熱帶雨林氣候。",
+        "decisionPrompt": "研讀「江南地區的開發」後，你會如何理解這段歷史？",
+        "requiredClueCount": 3,
+        "hotspots": [
+          {
+            "id": "scene_5_clue_jiangnan",
+            "label": "查看江南開發圖",
+            "x": 52,
+            "y": 42,
+            "clue": {
+              "title": "江南開發",
+              "content": "北方士族南遷，帶來農具與水利技術，江南逐步成為經濟重鎮。"
+            }
+          },
+          {
+            "id": "scene_5_clue_2",
+            "label": "翻閱：古籍描述為瘴漫之地，象、犀牛等熱帶動…",
+            "x": 28,
+            "y": 48,
+            "clue": {
+              "title": "古籍描述為瘴漫之地，象、犀牛等熱帶動…",
+              "content": "古籍描述為瘴漫之地，象、犀牛等熱帶動物棲息其中。"
+            }
+          },
+          {
+            "id": "scene_5_clue_3",
+            "label": "翻閱：春秋戰國時期，楚、吳、越三國利用水利…",
+            "x": 68,
+            "y": 55,
+            "clue": {
+              "title": "春秋戰國時期，楚、吳、越三國利用水利…",
+              "content": "春秋戰國時期，楚、吳、越三國利用水利工程，改造環境以適合農業發展。"
+            }
+          },
+          {
+            "id": "scene_5_clue_4",
+            "label": "翻閱：東漢開始，進入小冰河時期，氣溫下降，…",
+            "x": 38,
+            "y": 72,
+            "clue": {
+              "title": "東漢開始，進入小冰河時期，氣溫下降，…",
+              "content": "東漢開始，進入小冰河時期，氣溫下降，原本是熱帶的地區變成亞熱帶或溫帶氣候。"
+            }
+          },
+          {
+            "id": "scene_5_clue_5",
+            "label": "翻閱：江東、巴蜀地區因而得到一定的經營，但…",
+            "x": 78,
+            "y": 38,
+            "clue": {
+              "title": "江東、巴蜀地區因而得到一定的經營，但…",
+              "content": "江東、巴蜀地區因而得到一定的經營，但北方地區經濟的發展仍然是全國的重心。"
+            }
+          }
+        ],
+        "choices": [
+          {
+            "id": "scene_5_historical",
+            "label": "我依課程理解：江南地區的開發",
+            "type": "historical",
+            "nextSceneId": "scene_6",
+            "reveal": {
+              "verdict": "historical",
+              "historyNote": "這符合課本對「江南地區的開發」的記載。",
+              "consequence": "你把握了三國兩晉南北朝的分裂與融合脈絡。"
+            }
+          },
+          {
+            "id": "scene_5_divergent_a",
+            "label": "我忽略課本，自行臆測",
+            "type": "divergent",
+            "nextSceneId": "deviation_5",
+            "reveal": {
+              "verdict": "divergent",
+              "historyNote": "此舉並無史實依據。",
+              "consequence": "你選擇了史書未載之路——歷史在此拐彎。"
+            }
+          },
+          {
+            "id": "scene_5_divergent_b",
+            "label": "我提出與課本相反的說法",
+            "type": "divergent",
+            "nextSceneId": "deviation_5",
+            "reveal": {
+              "verdict": "divergent",
+              "historyNote": "與課程記載不符。",
+              "consequence": "你選擇了史書未載之路——歷史在此拐彎。"
+            }
+          }
+        ],
+        "narrativeAsReader": "你翻開課本，來到【江南地區的開發】。上古時期，長江流域屬於熱帶雨林氣候。",
+        "decisionPromptAsReader": "研讀「江南地區的開發」後，你會如何理解這段歷史？",
+        "imagePrompt": {
+          "prompt": "上古時期，長江流域屬於熱帶雨林氣候",
+          "expandedPrompt": "上古時期，長江流域屬於熱帶雨林氣候。風格：古風、歷史繪卷、細膩場景",
+          "moodKeywords": [
+            "古風",
+            "歷史繪卷",
+            "細膩場景"
+          ]
+        }
+      },
+      "deviation_5": {
+        "id": "deviation_5",
+        "route": "deviation",
+        "narrative": "你對「第二章：江南地區的開發」的理解偏離了課程記載的史實。歷史在此拐了彎——仍可選擇重返正史主線。",
+        "narrativeFirstPerson": "以{playerName}的視角，你對「第二章：江南地區的開發」的理解偏離了史實。",
+        "decisionPrompt": "你還來得及修正——",
+        "requiredClueCount": 0,
+        "resumeMainlineSceneId": "scene_6",
+        "choices": [
+          {
+            "id": "deviation_5_return",
+            "label": "我重新翻閱課本，修正理解",
+            "type": "return_to_history",
+            "nextSceneId": "scene_6",
+            "reveal": {
+              "verdict": "return",
+              "historyNote": "這符合課本對「江南地區的開發」的記載。",
+              "consequence": "你重返正史主線。"
+            }
+          },
+          {
+            "id": "deviation_5_persist",
+            "label": "我堅持錯誤理解，繼續偏離",
+            "type": "continue_divergence",
+            "nextSceneId": "failed",
+            "reveal": {
+              "verdict": "persist",
+              "historyNote": "若長期偏離「第二章：江南地區的開發」的史實，敘事將無從延續。",
+              "consequence": "偏離太遠，已無法返回原故事。"
+            }
+          }
+        ],
+        "narrativeAsReader": "你翻開課本，你發現自己對「江南地區的開發」的理解與史實不符。",
+        "decisionPromptAsReader": "翻閱課本後，你還來得及修正理解——",
+        "imagePrompt": {
+          "prompt": "你發現自己對「江南地區的開發」的理解與史實不符",
+          "expandedPrompt": "你發現自己對「江南地區的開發」的理解與史實不符。風格：暗色調、戲劇性、偏離史實",
+          "moodKeywords": [
+            "暗色調",
+            "戲劇性",
+            "偏離史實"
+          ]
+        }
+      },
+      "scene_6": {
+        "id": "scene_6",
+        "route": "mainline",
+        "narrative": "【第一章：士族的生活面貌】西漢漢武帝獨尊儒術後，通曉儒家經典的士人可出任官員，形成士人政府。",
+        "narrativeFirstPerson": "以{playerName}的視角，西漢漢武帝獨尊儒術後，通曉儒家經典的士人可出任官員，形成士人政府。",
+        "decisionPrompt": "研讀「士族的生活面貌」後，你會如何理解這段歷史？",
+        "requiredClueCount": 3,
+        "hotspots": [
+          {
+            "id": "scene_6_clue_1",
+            "label": "翻閱：西漢漢武帝獨尊儒術後，通曉儒家經典的…",
+            "x": 52,
+            "y": 42,
+            "clue": {
+              "title": "西漢漢武帝獨尊儒術後，通曉儒家經典的…",
+              "content": "西漢漢武帝獨尊儒術後，通曉儒家經典的士人可出任官員，形成士人政府。"
+            }
+          },
+          {
+            "id": "scene_6_clue_2",
+            "label": "翻閱：因印刷術未發明，典籍未能普及，士人對…",
+            "x": 28,
+            "y": 48,
+            "clue": {
+              "title": "因印刷術未發明，典籍未能普及，士人對…",
+              "content": "因印刷術未發明，典籍未能普及，士人對經學的知識成為家學。"
+            }
+          },
+          {
+            "id": "scene_6_clue_3",
+            "label": "翻閱：通經名儒之子弟因有較佳學習環境，故能…",
+            "x": 68,
+            "y": 55,
+            "clue": {
+              "title": "通經名儒之子弟因有較佳學習環境，故能…",
+              "content": "通經名儒之子弟因有較佳學習環境，故能累世以經學聞名。"
+            }
+          },
+          {
+            "id": "scene_6_clue_4",
+            "label": "翻閱：東漢後期出現憑藉家傳經學，得以長期出…",
+            "x": 38,
+            "y": 72,
+            "clue": {
+              "title": "東漢後期出現憑藉家傳經學，得以長期出…",
+              "content": "東漢後期出現憑藉家傳經學，得以長期出任公卿的家族，稱為士族。"
+            }
+          },
+          {
+            "id": "scene_6_clue_5",
+            "label": "翻閱：這些士族又可憑藉政治優勢，發展經濟力…",
+            "x": 78,
+            "y": 38,
+            "clue": {
+              "title": "這些士族又可憑藉政治優勢，發展經濟力…",
+              "content": "這些士族又可憑藉政治優勢，發展經濟力量，形成田連阡陌的大地主。"
+            }
+          }
+        ],
+        "choices": [
+          {
+            "id": "scene_6_historical",
+            "label": "我依課程理解：士族的生活面貌",
+            "type": "historical",
+            "nextSceneId": "scene_7",
+            "reveal": {
+              "verdict": "historical",
+              "historyNote": "這符合課本對「士族的生活面貌」的記載。",
+              "consequence": "你把握了三國兩晉南北朝的分裂與融合脈絡。"
+            }
+          },
+          {
+            "id": "scene_6_divergent_a",
+            "label": "我忽略課本，自行臆測",
+            "type": "divergent",
+            "nextSceneId": "deviation_6",
+            "reveal": {
+              "verdict": "divergent",
+              "historyNote": "此舉並無史實依據。",
+              "consequence": "你選擇了史書未載之路——歷史在此拐彎。"
+            }
+          },
+          {
+            "id": "scene_6_divergent_b",
+            "label": "我提出與課本相反的說法",
+            "type": "divergent",
+            "nextSceneId": "deviation_6",
+            "reveal": {
+              "verdict": "divergent",
+              "historyNote": "與課程記載不符。",
+              "consequence": "你選擇了史書未載之路——歷史在此拐彎。"
+            }
+          }
+        ],
+        "narrativeAsReader": "你翻開課本，來到【士族的生活面貌】。西漢漢武帝獨尊儒術後，通曉儒家經典的士人可出任官員，形成士人政府。",
+        "decisionPromptAsReader": "研讀「士族的生活面貌」後，你會如何理解這段歷史？",
+        "imagePrompt": {
+          "prompt": "西漢漢武帝獨尊儒術後，通曉儒家經典的士人可出任官員，形成士人政府",
+          "expandedPrompt": "西漢漢武帝獨尊儒術後，通曉儒家經典的士人可出任官員，形成士人政府。風格：古風、歷史繪卷、武帝朝堂",
+          "moodKeywords": [
+            "古風",
+            "歷史繪卷",
+            "武帝朝堂"
+          ]
+        }
+      },
+      "deviation_6": {
+        "id": "deviation_6",
+        "route": "deviation",
+        "narrative": "你對「第一章：士族的生活面貌」的理解偏離了課程記載的史實。歷史在此拐了彎——仍可選擇重返正史主線。",
+        "narrativeFirstPerson": "以{playerName}的視角，你對「第一章：士族的生活面貌」的理解偏離了史實。",
+        "decisionPrompt": "你還來得及修正——",
+        "requiredClueCount": 0,
+        "resumeMainlineSceneId": "scene_7",
+        "choices": [
+          {
+            "id": "deviation_6_return",
+            "label": "我重新翻閱課本，修正理解",
+            "type": "return_to_history",
+            "nextSceneId": "scene_7",
+            "reveal": {
+              "verdict": "return",
+              "historyNote": "這符合課本對「士族的生活面貌」的記載。",
+              "consequence": "你重返正史主線。"
+            }
+          },
+          {
+            "id": "deviation_6_persist",
+            "label": "我堅持錯誤理解，繼續偏離",
+            "type": "continue_divergence",
+            "nextSceneId": "failed",
+            "reveal": {
+              "verdict": "persist",
+              "historyNote": "若長期偏離「第一章：士族的生活面貌」的史實，敘事將無從延續。",
+              "consequence": "偏離太遠，已無法返回原故事。"
+            }
+          }
+        ],
+        "narrativeAsReader": "你翻開課本，你發現自己對「士族的生活面貌」的理解與史實不符。",
+        "decisionPromptAsReader": "翻閱課本後，你還來得及修正理解——",
+        "imagePrompt": {
+          "prompt": "你發現自己對「士族的生活面貌」的理解與史實不符",
+          "expandedPrompt": "你發現自己對「士族的生活面貌」的理解與史實不符。風格：暗色調、戲劇性、偏離史實",
+          "moodKeywords": [
+            "暗色調",
+            "戲劇性",
+            "偏離史實"
+          ]
+        }
+      },
+      "scene_7": {
+        "id": "scene_7",
+        "route": "mainline",
+        "narrative": "【第二章：石窟藝術與中外文化交流】石窟藝術的出現及藝術形式深受佛教的影響。",
+        "narrativeFirstPerson": "以{playerName}的視角，石窟藝術的出現及藝術形式深受佛教的影響。",
+        "decisionPrompt": "研讀「石窟藝術與中外文化交流」後，你會如何理解這段歷史？",
+        "requiredClueCount": 3,
+        "hotspots": [
+          {
+            "id": "scene_7_clue_1",
+            "label": "翻閱：石窟藝術的出現及藝術形式深受佛教的影響。",
+            "x": 52,
+            "y": 42,
+            "clue": {
+              "title": "石窟藝術的出現及藝術形式深受佛教的影響。",
+              "content": "石窟藝術的出現及藝術形式深受佛教的影響。"
+            }
+          },
+          {
+            "id": "scene_7_clue_2",
+            "label": "翻閱：西漢哀帝時，大月氏使者伊存對博士弟子…",
+            "x": 28,
+            "y": 48,
+            "clue": {
+              "title": "西漢哀帝時，大月氏使者伊存對博士弟子…",
+              "content": "西漢哀帝時，大月氏使者伊存對博士弟子員口授《浮屠經》，國人接觸佛法的開始。"
+            }
+          },
+          {
+            "id": "scene_7_clue_3",
+            "label": "翻閱：東漢明帝派蔡愔等人赴天竺求佛法，回來…",
+            "x": 68,
+            "y": 55,
+            "clue": {
+              "title": "東漢明帝派蔡愔等人赴天竺求佛法，回來…",
+              "content": "東漢明帝派蔡愔等人赴天竺求佛法，回來後建白馬寺，佛教開始在中國傳播。"
+            }
+          },
+          {
+            "id": "scene_7_clue_4",
+            "label": "翻閱：魏晉時期玄學興起，佛教中的般若學說，…",
+            "x": 38,
+            "y": 72,
+            "clue": {
+              "title": "魏晉時期玄學興起，佛教中的般若學說，…",
+              "content": "魏晉時期玄學興起，佛教中的般若學說，與玄理相通，傳播較快。"
+            }
+          },
+          {
+            "id": "scene_7_clue_5",
+            "label": "翻閱：五胡中一些君主，殺戮太多，懼怕報應，…",
+            "x": 78,
+            "y": 38,
+            "clue": {
+              "title": "五胡中一些君主，殺戮太多，懼怕報應，…",
+              "content": "五胡中一些君主，殺戮太多，懼怕報應，故皈依佛教。"
+            }
+          }
+        ],
+        "choices": [
+          {
+            "id": "scene_7_historical",
+            "label": "我依課程理解：石窟藝術與中外文化交流",
+            "type": "historical",
+            "nextSceneId": "scene_7_end",
+            "reveal": {
+              "verdict": "historical",
+              "historyNote": "這符合課本對「石窟藝術與中外文化交流」的記載。",
+              "consequence": "你把握了三國兩晉南北朝的分裂與融合脈絡。"
+            }
+          },
+          {
+            "id": "scene_7_divergent_a",
+            "label": "我忽略課本，自行臆測",
+            "type": "divergent",
+            "nextSceneId": "deviation_7",
+            "reveal": {
+              "verdict": "divergent",
+              "historyNote": "此舉並無史實依據。",
+              "consequence": "你選擇了史書未載之路——歷史在此拐彎。"
+            }
+          },
+          {
+            "id": "scene_7_divergent_b",
+            "label": "我提出與課本相反的說法",
+            "type": "divergent",
+            "nextSceneId": "deviation_7",
+            "reveal": {
+              "verdict": "divergent",
+              "historyNote": "與課程記載不符。",
+              "consequence": "你選擇了史書未載之路——歷史在此拐彎。"
+            }
+          }
+        ],
+        "narrativeAsReader": "你翻開課本，來到【石窟藝術與中外文化交流】。石窟藝術的出現及藝術形式深受佛教的影響。",
+        "decisionPromptAsReader": "研讀「石窟藝術與中外文化交流」後，你會如何理解這段歷史？",
+        "imagePrompt": {
+          "prompt": "石窟藝術的出現及藝術形式深受佛教的影響",
+          "expandedPrompt": "石窟藝術的出現及藝術形式深受佛教的影響。風格：古風、歷史繪卷、石窟士族",
+          "moodKeywords": [
+            "古風",
+            "歷史繪卷",
+            "石窟士族"
+          ]
+        }
+      },
+      "deviation_7": {
+        "id": "deviation_7",
+        "route": "deviation",
+        "narrative": "你對「第二章：石窟藝術與中外文化交流」的理解偏離了課程記載的史實。歷史在此拐了彎——仍可選擇重返正史主線。",
+        "narrativeFirstPerson": "以{playerName}的視角，你對「第二章：石窟藝術與中外文化交流」的理解偏離了史實。",
+        "decisionPrompt": "你還來得及修正——",
+        "requiredClueCount": 0,
+        "resumeMainlineSceneId": "scene_7_end",
+        "choices": [
+          {
+            "id": "deviation_7_return",
+            "label": "我重新翻閱課本，修正理解",
+            "type": "return_to_history",
+            "nextSceneId": "scene_7_end",
+            "reveal": {
+              "verdict": "return",
+              "historyNote": "這符合課本對「石窟藝術與中外文化交流」的記載。",
+              "consequence": "你重返正史主線。"
+            }
+          },
+          {
+            "id": "deviation_7_persist",
+            "label": "我堅持錯誤理解，繼續偏離",
+            "type": "continue_divergence",
+            "nextSceneId": "failed",
+            "reveal": {
+              "verdict": "persist",
+              "historyNote": "若長期偏離「第二章：石窟藝術與中外文化交流」的史實，敘事將無從延續。",
+              "consequence": "偏離太遠，已無法返回原故事。"
+            }
+          }
+        ],
+        "narrativeAsReader": "你翻開課本，你發現自己對「石窟藝術與中外文化交流」的理解與史實不符。",
+        "decisionPromptAsReader": "翻閱課本後，你還來得及修正理解——",
+        "imagePrompt": {
+          "prompt": "你發現自己對「石窟藝術與中外文化交流」的理解與史實不符",
+          "expandedPrompt": "你發現自己對「石窟藝術與中外文化交流」的理解與史實不符。風格：暗色調、戲劇性、偏離史實",
+          "moodKeywords": [
+            "暗色調",
+            "戲劇性",
+            "偏離史實"
+          ]
+        }
+      },
+      "scene_7_end": {
+        "id": "scene_7_end",
+        "route": "mainline",
+        "narrative": "你已完成「三國兩晉南北朝」沉浸式歷史之旅，沿正史主線走完了各個章節。",
+        "narrativeAsReader": "你合上課本，回望這段歷史旅程。從史料到抉擇，史書上的名字此刻有了溫度。",
+        "narrativeFirstPerson": "以{playerName}的視角，你完成了這段歷史之旅。每一章都是不同年代的故事——你透過課本把它們串連起來。",
+        "choices": [],
+        "imagePrompt": {
+          "prompt": "你合上課本，回望這段歷史旅程。從史料到抉擇，史書上的名字此刻有了溫度",
+          "expandedPrompt": "你合上課本，回望這段歷史旅程。從史料到抉擇，史書上的名字此刻有了溫度。風格：古風、歷史繪卷、史卷回顧",
+          "moodKeywords": [
+            "古風",
+            "歷史繪卷",
+            "史卷回顧"
+          ]
+        }
+      }
+    },
+    "periodId": "three_kingdoms",
+    "sourceUrl": "https://chistory.kanhan.com/tc/f1-reading-card"
+  }
+}

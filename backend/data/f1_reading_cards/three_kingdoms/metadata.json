@@ -1,0 +1,59 @@
+{
+  "id": "three_kingdoms",
+  "title": "三國兩晉南北朝",
+  "subtitle": "分裂政局、江南開發與社會文化發展",
+  "sourceUrl": "https://chistory.kanhan.com/tc/f1-reading-card",
+  "chapterCount": 7,
+  "chapters": [
+    {
+      "title": "第一章：三國鼎立局面的形成",
+      "filename": "F1P3T1CH1三國鼎立局面的形成.pdf",
+      "url": "https://chistory.kanhan.com/sites/default/files/course_pdf/f1/f1p3/F1P3T1CH1三國鼎立局面的形成.pdf",
+      "summary": "【第一章：三國鼎立局面的形成】黃巾之亂，雖被漢朝平定，但黃巾餘黨此起彼落。",
+      "textLength": 1320
+    },
+    {
+      "title": "第二章：兩晉南北朝政權的更替概況",
+      "filename": "F1P3T1CH2兩晉南北朝政權的更替概況.pdf",
+      "url": "https://chistory.kanhan.com/sites/default/files/course_pdf/f1/f1p3/F1P3T1CH2兩晉南北朝政權的更替概況.pdf",
+      "summary": "【第二章：兩晉南北朝政權的更替概況】三國以魏最強大，形勢上蜀漢與吳多合作抗魏。",
+      "textLength": 4872
+    },
+    {
+      "title": "第三章：武備的演進（延伸）",
+      "filename": "F1P3T1CH3武備的演進_延伸部分.pdf",
+      "url": "https://chistory.kanhan.com/sites/default/files/course_pdf/f1/f1p3/F1P3T1CH3武備的演進_延伸部分.pdf",
+      "summary": "【第三章：武備的演進（延伸）】魏晉南北朝時期，南方多江河湖泊，作戰重視水軍；北方多平原，軍隊擅長騎兵突擊。",
+      "textLength": 196
+    },
+    {
+      "title": "第一章：北方的政局與孝文帝漢化",
+      "filename": "F1P3T2CH1北方的政局與孝文帝漢化.pdf",
+      "url": "https://chistory.kanhan.com/sites/default/files/course_pdf/f1/f1p3/F1P3T2CH1北方的政局與孝文帝漢化.pdf",
+      "summary": "【第一章：北方的政局與孝文帝漢化】中原漢人把居住在長城以北的周邊民族統稱胡人。",
+      "textLength": 2216
+    },
+    {
+      "title": "第二章：江南地區的開發",
+      "filename": "F1P3T2CH2江南地區的開發.pdf",
+      "url": "https://chistory.kanhan.com/sites/default/files/course_pdf/f1/f1p3/F1P3T2CH2江南地區的開發.pdf",
+      "summary": "【第二章：江南地區的開發】古籍描述為瘴漫之地，象、犀牛等熱帶動物棲息其中。",
+      "textLength": 1059
+    },
+    {
+      "title": "第一章：士族的生活面貌",
+      "filename": "F1P3T3CH1士族的生活面貌.pdf",
+      "url": "https://chistory.kanhan.com/sites/default/files/course_pdf/f1/f1p3/F1P3T3CH1士族的生活面貌.pdf",
+      "summary": "【第一章：士族的生活面貌】西漢漢武帝獨尊儒術後，通曉儒家經典的士人可出任官員，形成士人政府。",
+      "textLength": 1413
+    },
+    {
+      "title": "第二章：石窟藝術與中外文化交流",
+      "filename": "F1P3T3CH2石窟藝術與中外文化交流.pdf",
+      "url": "https://chistory.kanhan.com/sites/default/files/course_pdf/f1/f1p3/F1P3T3CH2石窟藝術與中外文化交流.pdf",
+      "summary": "【第二章：石窟藝術與中外文化交流】石窟藝術的出現及藝術形式深受佛教的影響。",
+      "textLength": 1090
+    }
+  ],
+  "fullTextLength": 12344
+}

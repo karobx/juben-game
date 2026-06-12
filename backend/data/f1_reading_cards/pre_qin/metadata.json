@@ -1,0 +1,66 @@
+{
+  "id": "pre_qin",
+  "title": "史前至夏商周",
+  "subtitle": "中華民族起源、西周封建與春秋戰國變局",
+  "sourceUrl": "https://chistory.kanhan.com/tc/f1-reading-card",
+  "chapterCount": 8,
+  "chapters": [
+    {
+      "title": "第一章：中國多元一體文化的起源",
+      "filename": "F1P1T1CH1_中國多元一體文化的起源2.pdf",
+      "url": "https://chistory.kanhan.com/sites/default/files/course_pdf/f1/f1p1/F1P1T1CH1_中國多元一體文化的起源2.pdf",
+      "summary": "【第一章：中國多元一體文化的起源】公元前5000 年至公元前3000 年，出現於黃河流域，遺蹟於1921 年在河南仰韶村發現，因此命名仰韶文化。",
+      "textLength": 2982
+    },
+    {
+      "title": "第二章：中華民族的演進歷程",
+      "filename": "F1P1T1CH2中華民族的演進歷程2.pdf",
+      "url": "https://chistory.kanhan.com/sites/default/files/course_pdf/f1/f1p1/F1P1T1CH2中華民族的演進歷程2.pdf",
+      "summary": "【第二章：中華民族的演進歷程】口耳相傳，未有文字紀錄證明的時代，被稱為傳疑時代。",
+      "textLength": 823
+    },
+    {
+      "title": "第三章：夏、商、周三代的興替概況",
+      "filename": "F1P1T1CH3夏、商、周三代的興替概況2.pdf",
+      "url": "https://chistory.kanhan.com/sites/default/files/course_pdf/f1/f1p1/F1P1T1CH3夏、商、周三代的興替概況2.pdf",
+      "summary": "【第三章：夏、商、周三代的興替概況】夏朝是中國第一個世襲王朝，由禹的兒子「啟」建立。",
+      "textLength": 3979
+    },
+    {
+      "title": "第一章：西周的封建",
+      "filename": "F1P1T2CH1西周的封建.pdf",
+      "url": "https://chistory.kanhan.com/sites/default/files/course_pdf/f1/f1p1/F1P1T2CH1西周的封建.pdf",
+      "summary": "【第一章：西周的封建】周初實行了兩次大規模封建，詳細請參看課題一：中華民族與早期國家的起源之第三章：夏、商、周三代的興替概況之第三節。",
+      "textLength": 1510
+    },
+    {
+      "title": "第一章：春秋戰國時期的兼併戰爭",
+      "filename": "F1P1T3CH1春秋戰國時期的兼併戰爭.pdf",
+      "url": "https://chistory.kanhan.com/sites/default/files/course_pdf/f1/f1p1/F1P1T3CH1春秋戰國時期的兼併戰爭.pdf",
+      "summary": "【第一章：春秋戰國時期的兼併戰爭】幽王寵愛褒姒，廢申后及太子宜臼，改立褒姒為后，其子伯服為太子。",
+      "textLength": 5104
+    },
+    {
+      "title": "第二章：戰國時期的厲行變法",
+      "filename": "F1P1T3CH2戰國時期的厲行變法.pdf",
+      "url": "https://chistory.kanhan.com/sites/default/files/course_pdf/f1/f1p1/F1P1T3CH2戰國時期的厲行變法.pdf",
+      "summary": "【第二章：戰國時期的厲行變法】兼併時代，列國紛紛求變，以富國強兵為目標，魏國最先變法，而秦國變法最徹底。",
+      "textLength": 1139
+    },
+    {
+      "title": "第三章：百家爭鳴",
+      "filename": "F1P1T3CH3百家爭鳴.pdf",
+      "url": "https://chistory.kanhan.com/sites/default/files/course_pdf/f1/f1p1/F1P1T3CH3百家爭鳴.pdf",
+      "summary": "【第三章：百家爭鳴】春秋戰國時代，不同學術思想出現，學者紛紛講學著書。",
+      "textLength": 1808
+    },
+    {
+      "title": "第四章：人物個案研習",
+      "filename": "F1P1T3CH4_人物個案研習_延伸部分.pdf",
+      "url": "https://chistory.kanhan.com/sites/default/files/course_pdf/f1/f1p1/F1P1T3CH4_人物個案研習_延伸部分.pdf",
+      "summary": "【第四章：人物個案研習】儒家代表人物包括春秋末魯國的孔子，戰國中期鄒人的孟子，戰國末趙人的荀子。",
+      "textLength": 235
+    }
+  ],
+  "fullTextLength": 17775
+}

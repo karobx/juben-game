@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>第一章 · 插畫熱點示意</title>
+  <style>
+    :root {
+      --glow: #c9a227;
+      --glow-pulse: rgba(201, 162, 39, 0.55);
+      --collected: #2d6a4f;
+      --hidden: #8b4513;
+      --replay: #5c4d7a;
+      --ink: #2c2416;
+      --paper: #f4ead5;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: "PingFang TC", "Noto Serif TC", serif;
+      background: var(--paper);
+      color: var(--ink);
+      padding: 24px 16px 48px;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 1.35rem;
+      font-weight: 600;
+      margin: 0 0 8px;
+    }
+
+    .subtitle {
+      text-align: center;
+      font-size: 0.9rem;
+      opacity: 0.75;
+      margin: 0 0 24px;
+      line-height: 1.5;
+    }
+
+    .compare {
+      display: grid;
+      gap: 28px;
+      max-width: 920px;
+      margin: 0 auto;
+    }
+
+    @media (min-width: 800px) {
+      .compare { grid-template-columns: 1fr 1fr; }
+    }
+
+    .panel {
+      background: #fff8eb;
+      border: 2px solid #c4a574;
+      border-radius: 12px;
+      padding: 14px;
+      box-shadow: 0 4px 20px rgba(44, 36, 22, 0.08);
+    }
+
+    .panel h2 {
+      font-size: 0.95rem;
+      margin: 0 0 10px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .badge {
+      font-size: 0.7rem;
+      padding: 2px 8px;
+      border-radius: 999px;
+      background: #e8dcc8;
+    }
+
+    .badge.now { background: #ffd6d6; color: #8b2020; }
+    .badge.new { background: #d4edda; color: #1b5e20; }
+
+    /* 只裁切繪卷區域 */
+    .illustration-stage {
+      position: relative;
+      width: 100%;
+      aspect-ratio: 16 / 7;
+      border-radius: 8px;
+      overflow: hidden;
+      background: #1a1510;
+      cursor: crosshair;
+    }
+
+    .illustration-stage img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center 22%;
+      display: block;
+      user-select: none;
+      pointer-events: none;
+    }
+
+    .illustration-stage::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, transparent 55%, rgba(26, 21, 16, 0.35) 100%);
+      pointer-events: none;
+    }
+
+    .hotspot {
+      position: absolute;
+      transform: translate(-50%, -50%);
+      z-index: 2;
+      border: none;
+      background: none;
+      padding: 0;
+      cursor: pointer;
+    }
+
+    .hotspot-ring {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      border: 2px solid var(--glow);
+      background: radial-gradient(circle, var(--glow-pulse) 0%, transparent 70%);
+      animation: pulse 2s ease-in-out infinite;
+      display: grid;
+      place-items: center;
+      font-size: 18px;
+      transition: transform 0.2s, border-color 0.2s, background 0.2s;
+    }
+
+    .hotspot:hover .hotspot-ring,
+    .hotspot:focus-visible .hotspot-ring {
+      transform: scale(1.12);
+      outline: none;
+    }
+
+    .hotspot.collected .hotspot-ring {
+      border-color: var(--collected);
+      background: radial-gradient(circle, rgba(45, 106, 79, 0.45) 0%, transparent 70%);
+      animation: none;
+    }
+
+    .hotspot.hidden-clue .hotspot-ring {
+      border-color: var(--hidden);
+      opacity: 0;
+      animation: fadeIn 0.8s forwards 0.3s;
+    }
+
+    .hotspot.replay .hotspot-ring {
+      border-color: var(--replay);
+    }
+
+    .hotspot-label {
+      position: absolute;
+      left: 50%;
+      top: calc(100% + 6px);
+      transform: translateX(-50%);
+      white-space: nowrap;
+      font-size: 0.68rem;
+      background: rgba(44, 36, 22, 0.88);
+      color: #f8f0e0;
+      padding: 3px 8px;
+      border-radius: 4px;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.15s;
+    }
+
+    .hotspot:hover .hotspot-label,
+    .hotspot.active .hotspot-label { opacity: 1; }
+
+    @keyframes pulse {
+      0%, 100% { box-shadow: 0 0 0 0 var(--glow-pulse); }
+      50% { box-shadow: 0 0 0 12px transparent; }
+    }
+
+    @keyframes fadeIn {
+      to { opacity: 1; }
+    }
+
+    .clue-sheet {
+      margin-top: 12px;
+      padding: 12px 14px;
+      background: #fff;
+      border: 1px dashed #c4a574;
+      border-radius: 8px;
+      min-height: 72px;
+      font-size: 0.85rem;
+      line-height: 1.55;
+    }
+
+    .clue-sheet em { color: #6b5a3e; font-style: normal; font-size: 0.78rem; }
+
+    .legend {
+      margin-top: 28px;
+      max-width: 920px;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 16px;
+      background: #fff8eb;
+      border-radius: 10px;
+      border: 1px solid #d4c4a8;
+    }
+
+    .legend h3 { margin: 0 0 12px; font-size: 1rem; }
+
+    .legend-grid {
+      display: grid;
+      gap: 8px;
+      font-size: 0.82rem;
+    }
+
+    @media (min-width: 600px) {
+      .legend-grid { grid-template-columns: 1fr 1fr; }
+    }
+
+    .legend-item {
+      display: flex;
+      gap: 10px;
+      align-items: flex-start;
+    }
+
+    .dot {
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      flex-shrink: 0;
+      margin-top: 3px;
+    }
+
+    .dot.base { background: var(--glow); box-shadow: 0 0 8px var(--glow-pulse); }
+    .dot.secret { background: var(--hidden); }
+    .dot.replay { background: var(--replay); }
+
+    .coords {
+      font-family: ui-monospace, monospace;
+      font-size: 0.75rem;
+      color: #6b5a3e;
+    }
+
+    .toggle-row {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-top: 10px;
+    }
+
+    .toggle-row button {
+      font-size: 0.75rem;
+      padding: 6px 10px;
+      border-radius: 6px;
+      border: 1px solid #c4a574;
+      background: #fff;
+      cursor: pointer;
+    }
+
+    .toggle-row button.active {
+      background: var(--collected);
+      color: #fff;
+      border-color: var(--collected);
+    }
+  </style>
+</head>
+<body>
+  <h1>第一章 · 咸陽宮探索現場</h1>
+  <p class="subtitle">
+    左：現況（線索在繪卷下方按鈕）　→　右：改版（在繪卷上點<strong>脈動光點</strong>）<br />
+    點右邊光點可預覽線索卡滑出效果
+  </p>
+
+  <div class="compare">
+    <section class="panel">
+      <h2><span class="badge now">現況</span> 繪卷與線索分離</h2>
+      <div class="illustration-stage" aria-hidden="true">
+        <img src="scene1-screenshot.png" alt="現況：純插畫，無熱點" />
+      </div>
+      <div class="clue-sheet">
+        <em>探索現場</em><br />
+        玩家在下面撳 chip：<strong>展閱李斯奏章 · 查看六國輿圖 · …</strong><br />
+        插畫本身不可點，缺乏「在現場搜證」感。
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2><span class="badge new">改版</span> 繪卷熱點 + 底部線索卡</h2>
+      <div class="illustration-stage" id="stage">
+        <img src="scene1-screenshot.png" alt="咸陽宮插畫探索" />
+        <!-- 座標為繪卷區域內的 x/y 百分比，將寫入 qin_han.json -->
+        <button class="hotspot" style="left:48%;top:34%" data-id="lisi" data-icon="📜"
+          data-title="李斯奏章" data-speaker="李斯"
+          data-content="「書同文、車同軌、統一度量衡，政令方能從咸陽直達天下。」">
+          <span class="hotspot-ring">📜</span>
+          <span class="hotspot-label">展閱李斯奏章</span>
+        </button>
+        <button class="hotspot" style="left:72%;top:30%" data-id="map" data-icon="🗺️"
+          data-title="六國輿圖"
+          data-content="新繪天下全圖標示郡縣，舊六國界線以虛線保留——方便監察，也提醒仍未完全同化。">
+          <span class="hotspot-ring">🗺️</span>
+          <span class="hotspot-label">查看六國輿圖</span>
+        </button>
+        <button class="hotspot" style="left:24%;top:32%" data-id="post" data-icon="🏇"
+          data-title="驛站傳令錄" data-speaker="驛丞"
+          data-content="關中驛卒稟報：若各郡文字不同，轉抄文書常誤解軍令，延誤數日。">
+          <span class="hotspot-ring">🏇</span>
+          <span class="hotspot-label">調閱驛站傳令錄</span>
+        </button>
+        <button class="hotspot" style="left:50%;top:72%" data-id="corvee" data-icon="👷"
+          data-title="民夫口述" data-speaker="民夫代表"
+          data-content="「修馳道、建長城，車軌不一則轉運困難；若度量不同，糧餉分配常起爭端。」">
+          <span class="hotspot-ring">👷</span>
+          <span class="hotspot-label">聽取民夫口述</span>
+        </button>
+        <button class="hotspot hidden-clue" style="left:86%;top:20%" data-id="secret" data-icon="🔒"
+          data-title="李斯密奏補遺" data-speaker="李斯"
+          data-content="密奏末段：「統一之後，當命太史令記錄制度沿革，使後世知一統之由。」"
+          data-requires="展閱李斯奏章後出現">
+          <span class="hotspot-ring">🔒</span>
+          <span class="hotspot-label">密奏補遺（隱藏）</span>
+        </button>
+        <button class="hotspot replay" style="left:14%;top:48%" data-id="scholar" data-icon="👴"
+          data-title="老吏回憶" data-speaker="老吏"
+          data-content="「第二次入殿時，我才注意到柱上刻的統一年表——原來改革早已有完整時程。」">
+          <span class="hotspot-ring">👴</span>
+          <span class="hotspot-label">重訪 · 老吏回憶</span>
+        </button>
+        <button class="hotspot replay" style="left:84%;top:78%" data-id="carriage" data-icon="🛞"
+          data-title="車軌標記"
+          data-content="殿外馳道新刻標準軌距。再玩時才發現，這與奏章所述完全對應。">
+          <span class="hotspot-ring">🛞</span>
+          <span class="hotspot-label">重訪 · 車軌標記</span>
+        </button>
+      </div>
+      <div class="clue-sheet" id="sheet">
+        <em>點選繪卷上的光點</em>，線索卡會在這裡顯示（實作時改為底部滑出 sheet）
+      </div>
+      <div class="toggle-row">
+        <button type="button" id="btn-secret">模擬：已讀奏章 → 顯示密奏</button>
+        <button type="button" id="btn-replay">模擬：第二次重玩</button>
+      </div>
+    </section>
+  </div>
+
+  <section class="legend">
+    <h3>熱點座標一覽（寫入 JSON 的 x / y 百分比）</h3>
+    <div class="legend-grid">
+      <div class="legend-item"><span class="dot base"></span><div><strong>展閱李斯奏章</strong> <span class="coords">x:48 y:34</span> — 殿中議事</div></div>
+      <div class="legend-item"><span class="dot base"></span><div><strong>查看六國輿圖</strong> <span class="coords">x:72 y:30</span> — 右側展卷</div></div>
+      <div class="legend-item"><span class="dot base"></span><div><strong>調閱驛站傳令錄</strong> <span class="coords">x:24 y:32</span> — 左側廂房</div></div>
+      <div class="legend-item"><span class="dot base"></span><div><strong>聽取民夫口述</strong> <span class="coords">x:50 y:72</span> — 前景馳道</div></div>
+      <div class="legend-item"><span class="dot secret"></span><div><strong>密奏補遺</strong> <span class="coords">x:86 y:20</span> — 讀奏章後解鎖</div></div>
+      <div class="legend-item"><span class="dot replay"></span><div><strong>重訪 · 老吏</strong> <span class="coords">x:14 y:48</span> — 殿柱</div></div>
+      <div class="legend-item"><span class="dot replay"></span><div><strong>重訪 · 車軌</strong> <span class="coords">x:84 y:78</span> — 殿外馳道</div></div>
+    </div>
+  </section>
+
+  <script>
+    const sheet = document.getElementById('sheet');
+    const stage = document.getElementById('stage');
+    let secretUnlocked = false;
+    let replayMode = false;
+
+    stage.querySelectorAll('.hotspot').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const isSecret = btn.dataset.id === 'secret';
+        const isReplay = btn.classList.contains('replay');
+
+        if (isSecret && !secretUnlocked) {
+          sheet.innerHTML = '<em>🔒 尚未解鎖</em><br />需先點 <strong>展閱李斯奏章</strong>，密奏熱點才會在繪卷右上角出現。';
+          return;
+        }
+        if (isReplay && !replayMode) {
+          sheet.innerHTML = '<em>重玩專屬</em><br />第二次通關後，此光點才會出現，用於補完圖鑑。';
+          return;
+        }
+
+        stage.querySelectorAll('.hotspot').forEach((h) => h.classList.remove('active'));
+        btn.classList.add('active', 'collected');
+
+        const speaker = btn.dataset.speaker;
+        sheet.innerHTML =
+          (speaker ? `<em>${speaker}</em><br />` : '<em>線索</em><br />') +
+          `<strong>${btn.dataset.title}</strong><br />${btn.dataset.content}`;
+      });
+    });
+
+    document.getElementById('btn-secret').addEventListener('click', function () {
+      secretUnlocked = true;
+      this.classList.add('active');
+      sheet.innerHTML = '<em>密奏已解鎖</em><br />繪卷右上角出現淡入光點，可點閱密奏補遺。';
+    });
+
+    document.getElementById('btn-replay').addEventListener('click', function () {
+      replayMode = true;
+      this.classList.add('active');
+      sheet.innerHTML = '<em>重玩模式</em><br />紫色光點（老吏、車軌）已顯示在繪卷上。';
+    });
+  </script>
+</body>
+</html>
