@@ -62,7 +62,6 @@ Step 6 — 驗證
 4. Logs 分頁：應見 `Uvicorn running on http://0.0.0.0:3000`
 5. 若 healthcheck 一直 ExitCode 1（app 其實有跑）：Dockerfile 需裝 curl（Coolify 用 curl 探測）
 6. 仍 fail：Configuration → Healthchecks → **Disable** → Redeploy → 成功後再 Enable
-6. 唔好用 Start command 入面嘅 `cd`（平台會拆爛變 `d: command not found`）
 
 備註
 ----
