@@ -106,14 +106,14 @@ cd backend && source .venv/bin/activate && python -m pytest tests/test_image_ser
    pip install -r backend/requirements-deploy.txt
    ```
    或留空，用 repo 根目錄 `build.sh`。
-4. **Start command**：
+4. **Start command**（Docker 請留空；Python 請勿用 `cd`）：
    ```bash
-   cd backend && uvicorn main:app --host 0.0.0.0 --port ${PORT:-8080}
+   uvicorn main:app --host 0.0.0.0 --port 3000 --app-dir backend
    ```
-   或留空，用 `start.sh`。
+   或留空，用 `entrypoint.sh` / `Procfile`。
 5. 環境變數：`STORAGE_MODE=local`、`IMAGE_PROVIDER=auto`
 6. 自訂網域：`./scripts/godaddy-dns-instructions.sh <HostingGuru-CNAME>`
-7. 驗證：`./scripts/verify-deployment.sh https://game.ange1a.com`
+7. 驗證：`./scripts/verify-deployment.sh https://juben.ange1a.com`
 
 亦可改用 **Docker**（根目錄 `Dockerfile`，Build/Start command 可留空）。
 

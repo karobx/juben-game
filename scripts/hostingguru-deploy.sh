@@ -20,16 +20,15 @@ Step 2 — 連接 GitHub 並建立 Web Service
   → Connect GitHub → 選 repo: karobx/juben-game
   → 若自動偵測唔到，手動設定：
 
-     Runtime:     Docker（推薦，用 repo 根目錄 Dockerfile）
-     或 Python 3.12 + 以下 commands：
+     Runtime:     Docker（推薦）
+       → Build command / Start command **全部留空**（用 Dockerfile + entrypoint.sh）
+       → Health check: /api/health（平台會查 localhost:3000）
 
-     Build command（Python runtime 冇 npm；frontend/dist 已在 repo）:
+     或 Python 3.12：
+     Build command:
        pip install -r backend/requirements-deploy.txt
-       （或留空 → 平台會跑根目錄 build.sh）
-
-     Start command（HostingGuru 可能唔 inject \$PORT，要有預設 port）:
-       cd backend && uvicorn main:app --host 0.0.0.0 --port \${PORT:-8080}
-       （或留空 → 平台會跑 Procfile / start.sh）
+     Start command（唔好用 cd，HostingGuru 會拆爛變 d: command not found）:
+       uvicorn main:app --host 0.0.0.0 --port 3000 --app-dir backend
 
      若 build 失敗見 npm not found → 唔好用 npm build command，改用上面一行 pip。
      或改 Runtime 為 Docker（用根目錄 Dockerfile，唔使改 build command）。
@@ -45,14 +44,14 @@ Step 4 — Deploy
   等 build 完成，會有類似：
     https://juben-game.apps.hostingguru.io
 
-Step 5 — 自訂網域 game.ange1a.com
-  HostingGuru → 你的 service → Domains → Add game.ange1a.com
+Step 5 — 自訂網域 juben.ange1a.com
+  HostingGuru → 你的 service → Domains → Add juben.ange1a.com
   複製佢俾你嘅 CNAME target，然後：
 
   ./scripts/godaddy-dns-instructions.sh <cname-target>
 
 Step 6 — 驗證
-  ./scripts/verify-deployment.sh https://game.ange1a.com
+  ./scripts/verify-deployment.sh https://juben.ange1a.com
 
 若 /api/health 回 503「Service starting up」
 ------------------------------------------
