@@ -28,6 +28,6 @@ HostingGuru（方案 B，唔使信用卡）— 詳細步驟：
   ./scripts/hostingguru-deploy.sh
 
 Verify:
-  ./scripts/verify-deployment.sh https://game.ange1a.com
+  ./scripts/verify-deployment.sh https://juben.ange1a.com
 
 EOF
