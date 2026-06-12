@@ -54,6 +54,13 @@ Step 5 — 自訂網域 game.ange1a.com
 Step 6 — 驗證
   ./scripts/verify-deployment.sh https://game.ange1a.com
 
+若 /api/health 回 503「Service starting up」
+------------------------------------------
+1. HostingGuru → 該次 deploy → 開 **Build / Runtime logs**（多數係 build 失敗或 start 錯）
+2. 確認 Build 唔係 npm；Start 有 cd backend
+3. Health check 填 /api/health（唔好留空或填 /）
+4. 可試 Runtime 改 **Docker**（Dockerfile 已設定好）再 Redeploy
+
 備註
 ----
 - 免費 tier：1 個 service、唔 sleep（官方說明）

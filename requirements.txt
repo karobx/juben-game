@@ -1,0 +1,2 @@
+# PaaS 預設讀 repo 根目錄；實際依賴見 backend/requirements-deploy.txt
+-r backend/requirements-deploy.txt
