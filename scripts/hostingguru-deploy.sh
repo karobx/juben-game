@@ -23,11 +23,13 @@ Step 2 — 連接 GitHub 並建立 Web Service
      Runtime:     Docker（推薦，用 repo 根目錄 Dockerfile）
      或 Python 3.12 + 以下 commands：
 
-     Build command（Python runtime 冇 npm，用 repo 內已 build 好嘅 frontend/dist）:
+     Build command（Python runtime 冇 npm；frontend/dist 已在 repo）:
        pip install -r backend/requirements-deploy.txt
+       （或留空 → 平台會跑根目錄 build.sh）
 
      Start command:
        cd backend && uvicorn main:app --host 0.0.0.0 --port \$PORT
+       （或留空 → 平台會跑 start.sh）
 
      若 build 失敗見 npm not found → 唔好用 npm build command，改用上面一行 pip。
      或改 Runtime 為 Docker（用根目錄 Dockerfile，唔使改 build command）。

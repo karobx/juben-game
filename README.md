@@ -95,6 +95,28 @@ cd backend && source .venv/bin/activate && python -m pytest tests/test_image_ser
 - **路徑 B**：任一幕偏離 → 重返正史 → 繼續主線
 - **路徑 C**：偏離後堅持錯誤 → Game Over
 
+## 部署（HostingGuru，方案 B）
+
+單一 Web Service 同時 serve API 同 `frontend/dist`（唔使信用卡）。
+
+1. Push 到 GitHub：`./scripts/push-and-deploy.sh`
+2. 跟指引：`./scripts/hostingguru-deploy.sh`
+3. **Build command**（Python runtime）：
+   ```bash
+   pip install -r backend/requirements-deploy.txt
+   ```
+   或留空，用 repo 根目錄 `build.sh`。
+4. **Start command**：
+   ```bash
+   cd backend && uvicorn main:app --host 0.0.0.0 --port $PORT
+   ```
+   或留空，用 `start.sh`。
+5. 環境變數：`STORAGE_MODE=local`、`IMAGE_PROVIDER=auto`
+6. 自訂網域：`./scripts/godaddy-dns-instructions.sh <HostingGuru-CNAME>`
+7. 驗證：`./scripts/verify-deployment.sh https://game.ange1a.com`
+
+亦可改用 **Docker**（根目錄 `Dockerfile`，Build/Start command 可留空）。
+
 ## Figma
 
 設計檔：[Figma — 劇本遊戲 UI](https://www.figma.com/design/Hv3LRFc4OhrUspopNUbFhq)
