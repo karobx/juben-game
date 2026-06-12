@@ -56,10 +56,12 @@ Step 6 — 驗證
 
 若 /api/health 回 503「Service starting up」
 ------------------------------------------
-1. HostingGuru → 該次 deploy → 開 **Build / Runtime logs**（多數係 build 失敗或 start 錯）
-2. 確認 Build 唔係 npm；Start 有 cd backend
-3. Health check 填 /api/health（唔好留空或填 /）
-4. 可試 Runtime 改 **Docker**（Dockerfile 已設定好）再 Redeploy
+1. Settings → **Build command** 同 **Start command** 必須完全留空（Docker）
+2. **Ports exposes** = 3000；Health check = /api/health
+3. Build 分頁：最新 deploy 要 Success（Failed 會 rollback，對外永遠 503）
+4. Logs 分頁：應見 `Uvicorn running on http://0.0.0.0:3000`
+5. 若 healthcheck 一直 ExitCode 1：Configuration → Healthchecks → **Disable** → Redeploy → 成功後再 Enable
+6. 唔好用 Start command 入面嘅 `cd`（平台會拆爛變 `d: command not found`）
 
 備註
 ----

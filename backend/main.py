@@ -8,6 +8,7 @@ from pathlib import Path
 from dotenv import load_dotenv
 
 _BACKEND_DIR = Path(__file__).resolve().parent
+_DIST = _BACKEND_DIR.parent / "frontend" / "dist"
 load_dotenv(_BACKEND_DIR.parent / ".env")
 load_dotenv(_BACKEND_DIR / ".env")
 
@@ -66,7 +67,12 @@ def _run_analysis_task(task_id: str, path: Path) -> None:
 
 @app.get("/api/health")
 def health():
-    return {"status": "ok"}
+    return {"status": "ok", "dist": _DIST.exists()}
+
+
+@app.on_event("startup")
+def _log_startup() -> None:
+    print(f"[startup] serving SPA from {_DIST} (exists={_DIST.exists()})", flush=True)
 
 
 @app.post("/api/upload")
@@ -228,7 +234,6 @@ def api_chistory_period(period_id: str):
         raise HTTPException(status_code=503, detail=str(exc)) from exc
 
 
-_DIST = _BACKEND_DIR.parent / "frontend" / "dist"
 if _DIST.exists():
     app.mount("/", StaticFiles(directory=_DIST, html=True), name="spa")
 
