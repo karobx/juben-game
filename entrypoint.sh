@@ -1,4 +1,6 @@
 #!/bin/bash
 set -euo pipefail
+# HostingGuru healthcheck is always http://localhost:3000 — do not use $PORT
 cd "$(dirname "$0")/backend"
-exec uvicorn main:app --host 0.0.0.0 --port "${PORT:-3000}"
+echo "[entrypoint] starting uvicorn on 0.0.0.0:3000"
+exec python -m uvicorn main:app --host 0.0.0.0 --port 3000

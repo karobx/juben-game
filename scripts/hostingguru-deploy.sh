@@ -21,8 +21,9 @@ Step 2 — 連接 GitHub 並建立 Web Service
   → 若自動偵測唔到，手動設定：
 
      Runtime:     Docker（推薦）
-       → Build command / Start command **全部留空**（用 Dockerfile + entrypoint.sh）
-       → Health check: /api/health（平台會查 localhost:3000）
+       → Build command / Start command **必須全部留空**（用 Dockerfile CMD）
+       → 若 Start command 有字，會覆蓋 Dockerfile，healthcheck 會失敗
+       → Health check: /api/health（平台固定查 localhost:3000，app 必須聽 3000）
 
      或 Python 3.12：
      Build command:

@@ -14,8 +14,8 @@ COPY backend/ ./backend/
 COPY --from=frontend-build /app/frontend/dist ./frontend/dist
 WORKDIR /app/backend
 ENV PYTHONUNBUFFERED=1
-ENV PORT=3000
 EXPOSE 3000
-COPY entrypoint.sh /app/entrypoint.sh
-RUN chmod +x /app/entrypoint.sh
-CMD ["/app/entrypoint.sh"]
+HEALTHCHECK --interval=10s --timeout=5s --start-period=45s --retries=5 \
+  CMD python -c "import urllib.request; urllib.request.urlopen('http://127.0.0.1:3000/api/health')" || exit 1
+# Exec form — no bash/cd; HostingGuru probes localhost:3000
+CMD ["python", "-m", "uvicorn", "main:app", "--host", "0.0.0.0", "--port", "3000"]
