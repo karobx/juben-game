@@ -5,7 +5,7 @@ set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$ROOT"
 
-REPO="${GITHUB_REPO:-ange1a/juben-game}"
+REPO="${GITHUB_REPO:-karobx/juben-game}"
 
 if ! gh auth status >/dev/null 2>&1; then
   echo "GitHub CLI not logged in. Run:"
@@ -24,12 +24,14 @@ cat <<EOF
 
 GitHub push complete: https://github.com/${REPO}
 
-Render (free tier):
-1. https://dashboard.render.com → New → Blueprint
-2. Connect repo ${REPO} (render.yaml is in repo root)
-3. Environment → add OPENAI_API_KEY or POLLINATIONS_API_KEY
-4. After deploy, copy service URL (e.g. juben-game-xxxx.onrender.com)
-5. Settings → Custom Domains → add game.ange1a.com
+Render (free tier) — one-click Blueprint:
+  https://dashboard.render.com/blueprint/new?repo=https://github.com/${REPO}
+
+Then:
+1. Connect GitHub if prompted → Deploy Blueprint
+2. Environment → add OPENAI_API_KEY or POLLINATIONS_API_KEY
+3. After deploy, copy service URL (e.g. juben-game-xxxx.onrender.com)
+4. Settings → Custom Domains → add game.ange1a.com
 
 GoDaddy DNS:
   ./scripts/godaddy-dns-instructions.sh juben-game-xxxx.onrender.com
